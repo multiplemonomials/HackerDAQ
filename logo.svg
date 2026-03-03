@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.1865234"
+     inkscape:cx="-34.554734"
+     inkscape:cy="328.26997"
+     inkscape:window-width="2560"
+     inkscape:window-height="1417"
+     inkscape:window-x="-8"
+     inkscape:window-y="810"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="-78.069244"
+       y="-5.3635359"
+       width="439.80994"
+       height="244.33886"
+       id="rect8" />
+    <linearGradient
+       id="linearGradient4"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#3d5e4e;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+      <stop
+         style="stop-color:#93bba7;stop-opacity:1;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4"
+       id="linearGradient5"
+       x1="49.186138"
+       y1="450.60965"
+       x2="251.30756"
+       y2="257.22437"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.0149055,0,0,2.0149055,-77.978319,-427.59674)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect3"
+       style="fill:url(#linearGradient5);stroke-width:0.800002"
+       d="m 34.94926,96.285328 c 150.56565,-12.145565 300.30319,-11.869392 449.26784,0 20.51266,115.703772 22.69263,230.728552 0,344.832112 -150.53248,20.18981 -300.33611,21.42963 -449.26784,0 -20.629678,-125.25887 -14.351022,-237.06359 0,-344.832112 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffe240;stroke-width:7.6;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round"
+       d="m 21.128451,278.51761 c 0,0 246.275499,-27.67941 301.857479,20.28753 55.58198,47.96694 60.31237,109.07547 60.31237,109.07547 V 227.18326 c 0,0 24.35994,73.33527 71.54702,83.44931 14.48677,3.1051 44.55228,4.31593 44.55228,4.31593"
+       id="path7"
+       sodipodi:nodetypes="csccsc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:105.853px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#0bf2f2;fill-opacity:1;stroke:none;stroke-width:1.9;stroke-dasharray:none;stroke-opacity:1"
+       x="250.09392"
+       y="209.44279"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="250.09392"
+         y="209.44279"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print';stroke-width:1.9">Hacker</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:105.853px;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#0bf2f2;fill-opacity:1;stroke:none;stroke-width:1.9;stroke-dasharray:none;stroke-opacity:1"
+       x="179.25404"
+       y="385.95627"
+       id="text7-8"><tspan
+         sodipodi:role="line"
+         id="tspan7-2"
+         x="179.25404"
+         y="385.95627"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe Print';-inkscape-font-specification:'Segoe Print';stroke-width:1.9">DAQ</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect8);display:inline;fill:#0bf2f2;fill-opacity:1;stroke:none;stroke-width:1.9;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

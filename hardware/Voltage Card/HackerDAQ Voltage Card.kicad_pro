@@ -713,6 +713,10 @@
     [
       "fd74a83f-66e8-460e-b889-0885a11eca86",
       "B2B Connector Card Side"
+    ],
+    [
+      "2388c7f7-4514-41da-b315-2dcc3aa57748",
+      "SPI EEPROM"
     ]
   ],
   "text_variables": {}
