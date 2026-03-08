@@ -657,6 +657,22 @@
     [
       "3aa6cc73-4b82-4451-98a6-fa9c80108c23",
       "5V To 3.3V LDO"
+    ],
+    [
+      "647fa122-ba55-4257-82a5-33756e3f8461",
+      "Card Bus Connectors0"
+    ],
+    [
+      "a26c9c83-f4f8-48b6-a052-d2759c00eb1e",
+      "Card Bus Connectors1"
+    ],
+    [
+      "9f275358-f91d-4a0c-a7c6-dd286f9a4cb9",
+      "Card Bus Connectors2"
+    ],
+    [
+      "65abad2d-a04a-4486-8762-5ae3bd8749b5",
+      "Card Bus Connectors3"
     ]
   ],
   "text_variables": {}
