@@ -580,7 +580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad2bd2c-23d2-466e-a457-5149399a9a74")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -652,24 +652,24 @@
 			)
 		)
 		(pin "4"
-			(uuid "b08cf731-1c22-48d6-8025-75be0752382c")
+			(uuid "50b34e54-7fbd-45b3-86d1-1c6ee9ffd71e")
 		)
 		(pin "5"
-			(uuid "6b808e6b-71f1-43e8-be58-2f36a9317d20")
+			(uuid "5f54f23c-8daa-40d6-883f-dd4c2268ee73")
 		)
 		(pin "1"
-			(uuid "d452d710-4b12-4624-b8fd-109c4da3b381")
+			(uuid "379543c4-84a8-4d16-95d5-bb7df688f858")
 		)
 		(pin "3"
-			(uuid "e7dcf11f-cffb-4d5e-9ce7-eeb6baec1264")
+			(uuid "f9f2bfde-5d07-4b81-a13d-1247a9c63d1f")
 		)
 		(pin "2"
-			(uuid "fdc57bad-6f37-4ac3-bbe0-0dbcbbc9434d")
+			(uuid "140d7c21-2d63-4e5a-a838-afb02d60598e")
 		)
 		(instances
-			(project "HackerDAQ Voltage Card"
-				(path "/af2d881c-6553-449d-9093-6deb41497bdc/8683fa8f-1b23-40d2-8dab-5a640e39446f"
-					(reference "U3")
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -685,7 +685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e282407-8191-4904-bd7e-1735c928006e")
-		(property "Reference" "C14"
+		(property "Reference" "C2"
 			(at 90.17 54.6162 0)
 			(effects
 				(font
@@ -757,16 +757,25 @@
 				(hide yes)
 			)
 		)
+		(property "LibRef" "CL10B105MO8NNWC"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "dca3c5e2-cbd4-47cd-8acd-fc5f8fe0fdc4")
+			(uuid "8616a3d5-9034-4b51-a582-bfe1cbfe2d50")
 		)
 		(pin "2"
-			(uuid "2c4d47ca-a0d0-4ce4-8abb-166728447a19")
+			(uuid "8d17b667-27a4-4156-a9ff-13b23f0c7d00")
 		)
 		(instances
-			(project "HackerDAQ Voltage Card"
-				(path "/af2d881c-6553-449d-9093-6deb41497bdc/8683fa8f-1b23-40d2-8dab-5a640e39446f"
-					(reference "C14")
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -782,7 +791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d456fdec-9f43-49e9-88a2-d434c2531ed8")
-		(property "Reference" "C15"
+		(property "Reference" "C1"
 			(at 59.69 55.8862 0)
 			(effects
 				(font
@@ -854,16 +863,25 @@
 				(hide yes)
 			)
 		)
+		(property "LibRef" "ESD35C104K4T2A-24"
+			(at 57.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "58043abd-91f8-4813-8bb2-3520ab31d9a2")
+			(uuid "89dcbf10-c7b8-4b66-8ff4-7b6c3c9ae6a7")
 		)
 		(pin "2"
-			(uuid "3832654d-e76d-4541-ac83-8a7ca769a072")
+			(uuid "2ab761eb-72f2-4395-af3e-d7e6b4d90a58")
 		)
 		(instances
-			(project "HackerDAQ Voltage Card"
-				(path "/af2d881c-6553-449d-9093-6deb41497bdc/8683fa8f-1b23-40d2-8dab-5a640e39446f"
-					(reference "C15")
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+					(reference "C1")
 					(unit 1)
 				)
 			)

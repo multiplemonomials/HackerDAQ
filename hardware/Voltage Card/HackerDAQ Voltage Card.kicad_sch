@@ -4237,7 +4237,7 @@
 		)
 		(uuid "fedbec1c-938c-4f7e-938b-107c8f74a88c")
 	)
-	(label "CS2"
+	(label "CS1"
 		(at 189.23 97.79 0)
 		(effects
 			(font
@@ -4307,7 +4307,7 @@
 		)
 		(uuid "5c884c89-f7c6-4c33-81d4-9f2c3220c511")
 	)
-	(label "CS1"
+	(label "CS2"
 		(at 190.5 110.49 0)
 		(effects
 			(font
