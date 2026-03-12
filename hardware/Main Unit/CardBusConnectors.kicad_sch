@@ -4295,7 +4295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61801525123.pdf"
+		(property "Datasheet" "~"
 			(at 224.79 133.35 0)
 			(effects
 				(font
@@ -4901,7 +4901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61801525123.pdf"
+		(property "Datasheet" "~"
 			(at 224.79 66.04 0)
 			(effects
 				(font
@@ -5870,7 +5870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic Cap 100nF +-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 118.11 39.37 0)
 			(effects
 				(font

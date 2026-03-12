@@ -673,6 +673,10 @@
     [
       "65abad2d-a04a-4486-8762-5ae3bd8749b5",
       "Card Bus Connectors3"
+    ],
+    [
+      "171a326f-5e68-4f6e-be23-ff3df57281ba",
+      "MicroSDCard"
     ]
   ],
   "text_variables": {}

@@ -580,7 +580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad2bd2c-23d2-466e-a457-5149399a9a74")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -667,6 +667,12 @@
 			(uuid "fdc57bad-6f37-4ac3-bbe0-0dbcbbc9434d")
 		)
 		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/8683fa8f-1b23-40d2-8dab-5a640e39446f"
 					(reference "U3")
@@ -685,7 +691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e282407-8191-4904-bd7e-1735c928006e")
-		(property "Reference" "C14"
+		(property "Reference" "C2"
 			(at 90.17 54.6162 0)
 			(effects
 				(font
@@ -721,7 +727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic Cap 1µF +-20% 16V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -764,6 +770,12 @@
 			(uuid "2c4d47ca-a0d0-4ce4-8abb-166728447a19")
 		)
 		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/8683fa8f-1b23-40d2-8dab-5a640e39446f"
 					(reference "C14")
@@ -782,7 +794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d456fdec-9f43-49e9-88a2-d434c2531ed8")
-		(property "Reference" "C15"
+		(property "Reference" "C1"
 			(at 59.69 55.8862 0)
 			(effects
 				(font
@@ -818,7 +830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic Cap 100nF +-10% 50V X7R 0603"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 57.15 57.15 0)
 			(effects
 				(font
@@ -861,6 +873,12 @@
 			(uuid "3832654d-e76d-4541-ac83-8a7ca769a072")
 		)
 		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/8683fa8f-1b23-40d2-8dab-5a640e39446f"
 					(reference "C15")
