@@ -552,179 +552,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:BAT54W"
 			(pin_names
 				(offset 1.016)
@@ -18196,7 +18023,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 273.05) (xy 92.71 276.86)
+			(xy 92.71 271.78) (xy 92.71 276.86)
 		)
 		(stroke
 			(width 0)
@@ -19216,16 +19043,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 265.43) (xy 92.71 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fd8b146-4a1d-4aae-bd90-1c895aead149")
-	)
-	(wire
-		(pts
 			(xy 31.75 201.93) (xy 27.94 201.93)
 		)
 		(stroke
@@ -19406,7 +19223,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 255.27) (xy 83.82 259.08)
+			(xy 83.82 255.27) (xy 83.82 260.35)
 		)
 		(stroke
 			(width 0)
@@ -19493,6 +19310,16 @@
 			(type default)
 		)
 		(uuid "b3ae77cf-fbd3-4b44-ae61-7b34f3113edd")
+	)
+	(wire
+		(pts
+			(xy 92.71 262.89) (xy 92.71 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48e917f-3e6d-4fe2-bfa5-db6528c74fa1")
 	)
 	(wire
 		(pts
@@ -19596,7 +19423,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 250.19) (xy 83.82 252.73)
+			(xy 83.82 248.92) (xy 83.82 252.73)
 		)
 		(stroke
 			(width 0)
@@ -19846,7 +19673,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 238.76) (xy 83.82 242.57)
+			(xy 83.82 238.76) (xy 83.82 243.84)
 		)
 		(stroke
 			(width 0)
@@ -20276,7 +20103,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 266.7) (xy 83.82 270.51)
+			(xy 83.82 265.43) (xy 83.82 270.51)
 		)
 		(stroke
 			(width 0)
@@ -21529,100 +21356,6 @@
 		(uuid "f9a00589-822f-4bb9-82ef-7d6957df7cad")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 83.82 246.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06c8c888-803b-4fab-90f5-7c4eaba9dfc4")
-		(property "Reference" "R3"
-			(at 81.28 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 86.36 246.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 82.804 246.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 83.82 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 83.82 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ERJ-8ENF1002V"
-			(at 83.82 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "P10.0KFCT-ND"
-			(at 83.82 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "954eb3af-1474-4261-92a9-e8d800a7dd7f")
-		)
-		(pin "2"
-			(uuid "06ca9cd8-a029-490d-8512-7b32b6e6ce60")
-		)
-		(instances
-			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Project Library:MCXN547VKLT")
 		(at 375.92 478.79 0)
 		(unit 5)
@@ -22860,6 +22593,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 83.82 262.89 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "269817cb-b860-4ae0-ad5f-e19c5396dfbc")
+		(property "Reference" "R4"
+			(at 79.248 262.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 79.248 263.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k 1% 0.1W 0603"
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0KHRCT-ND"
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cb836b8-b284-4b31-9224-ec5a66476823")
+		)
+		(pin "1"
+			(uuid "a817f76a-1963-4413-8148-57977201a9c5")
+		)
+		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 63.5 118.11 0)
 		(unit 1)
@@ -23201,100 +23031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 82.55 180.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41048d39-768b-4db9-8cda-649af81da16f")
-		(property "Reference" "R15"
-			(at 80.01 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 85.09 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 81.534 180.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 82.55 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 82.55 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ERJ-8ENF1002V"
-			(at 82.55 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "P10.0KFCT-ND"
-			(at 82.55 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce047c04-e249-4230-bb39-5c825587bd1c")
-		)
-		(pin "2"
-			(uuid "56a88ab8-28fe-4b18-a683-d77e93df2a96")
-		)
-		(instances
-			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 71.12 0)
 		(unit 1)
@@ -23419,6 +23155,103 @@
 			(project "Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 83.82 246.38 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "458f5c5e-7de2-4d68-9a0f-5a01be94f08e")
+		(property "Reference" "R3"
+			(at 78.994 245.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 78.74 247.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k 1% 0.1W 0603"
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0KHRCT-ND"
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "662edefc-ae30-4e1c-8474-8ae69d67afa6")
+		)
+		(pin "1"
+			(uuid "b2537ee9-fd84-4b34-9268-06c494d9ee11")
+		)
+		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -23660,6 +23493,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 92.71 269.24 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52d7b75f-6445-4b88-8424-0970d5379020")
+		(property "Reference" "R2"
+			(at 88.138 268.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 88.138 270.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k 1% 0.1W 0603"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0KHRCT-ND"
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2451643b-71b9-4d9f-9e3b-c720f7a08600")
+		)
+		(pin "1"
+			(uuid "c92c3108-8e6a-4782-95d1-f983770319d2")
+		)
+		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 38.1 74.93 0)
 		(unit 1)
@@ -23760,100 +23690,6 @@
 			(project "Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 92.71 269.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a7084b6-c155-4ec4-b589-4c35a51a2672")
-		(property "Reference" "R2"
-			(at 90.17 269.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 95.25 269.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 91.694 268.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 92.71 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 92.71 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ERJ-8ENF1002V"
-			(at 92.71 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "P10.0KFCT-ND"
-			(at 92.71 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e1e14d9-3eaa-4b27-a976-39669b636a9d")
-		)
-		(pin "2"
-			(uuid "3aa6c565-2182-46f1-b825-dfd80cada1ac")
-		)
-		(instances
-			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -27268,100 +27104,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 83.82 262.89 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c17837db-6720-4e6a-9f05-307e1791dd72")
-		(property "Reference" "R4"
-			(at 81.28 262.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 86.36 262.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 82.804 262.636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 83.82 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 83.82 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ERJ-8ENF1002V"
-			(at 83.82 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "P10.0KFCT-ND"
-			(at 83.82 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7252de8-82c9-4c7f-8624-76a517c5db0c")
-		)
-		(pin "2"
-			(uuid "8ec7dc88-b747-4653-8cd6-c8e71e07dd23")
-		)
-		(instances
-			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Project Library:MCXN547VKLT")
 		(at 146.05 340.36 0)
 		(unit 6)
@@ -28615,6 +28357,103 @@
 			(project "Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 82.55 180.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e716589b-358b-48a9-8011-9f30f5ac2719")
+		(property "Reference" "R23"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 76.454 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10k 1% 0.1W 0603"
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0KHRCT-ND"
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cbf1fb6-ffa9-4a1c-84db-43d502ed5fe3")
+		)
+		(pin "1"
+			(uuid "96b5a634-011f-4d5c-8ded-338a9bba8587")
+		)
+		(instances
+			(project "Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R23")
 					(unit 1)
 				)
 			)

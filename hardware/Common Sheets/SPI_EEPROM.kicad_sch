@@ -1373,6 +1373,15 @@
 				(hide yes)
 			)
 		)
+		(property "LibRef" "ERJ-3EKF33R0V"
+			(at 111.76 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "23b3f245-2dd5-4028-a4fc-472a5f66cece")
 		)
@@ -1462,6 +1471,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 83.82 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "ESD35C104K4T2A-24"
 			(at 83.82 59.69 0)
 			(effects
 				(font
