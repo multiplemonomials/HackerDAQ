@@ -249,7 +249,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|812800|812800|62fc414b-d54a-4d1c-bcea-a867b8535d59|62fc414b-d54a-4d1c-bcea-a867b8535d59|/af2d881c-6553-449d-9093-6deb41497bdc/2944d1d3-5517-48b4-881c-bebeac929c1b|/af2d881c-6553-449d-9093-6deb41497bdc/2944d1d3-5517-48b4-881c-bebeac929c1b|/af2d881c-6553-449d-9093-6deb41497bdc/9a1d0f71-f2c1-4435-a367-a265d67719c8",
+        "pin_to_pin|812800|812800|62fc414b-d54a-4d1c-bcea-a867b8535d59|62fc414b-d54a-4d1c-bcea-a867b8535d59|||",
         "SPI MISO pins so they are tri-state when not selected"
       ]
     ],
@@ -677,44 +677,36 @@
       "Root"
     ],
     [
-      "772eab64-f33c-43b3-9c09-efe61d448582",
-      "DigitalIODriverA1"
+      "777ce27f-f0db-4b38-a663-f213b2d41686",
+      "IOProtection1"
     ],
     [
-      "9fdebdb9-d711-4e62-a410-4c6f10300c7a",
-      "DigitalIODriverA2"
+      "97e743ff-8a82-4285-b0f3-f0e89ab922fa",
+      "IOProtection2"
     ],
     [
-      "11f57bbf-21a2-4177-8d66-76e13193c541",
-      "DigitalIODriverA0"
+      "67eb63b8-4985-495d-ab9e-4c58fb498c7d",
+      "IOProtection3"
     ],
     [
-      "7240ae2f-f912-4534-9be1-e2a77920459b",
-      "DigitalIODriverA3"
+      "367befd8-87f7-4a27-a26f-a85b1cb947a6",
+      "LEDDriver1"
     ],
     [
-      "2d93f15c-7b4c-4015-8d87-c49c7ee71165",
-      "DigitalIODriverB0"
+      "455d3721-42aa-4f0e-b48f-29a642ac1f78",
+      "IOProtection0"
     ],
     [
-      "3fc6a3e9-7d00-43fd-a5ff-7f051ad79215",
-      "DigitalIODriverB1"
+      "86043100-9ecf-4922-ba85-a69132f1d586",
+      "LEDDriver2"
     ],
     [
-      "9e109159-74c4-4da0-8582-130c3fe65b4e",
-      "DigitalIODriverB2"
-    ],
-    [
-      "92a6fe6a-c683-4a1a-b8fc-e2665b56cd2d",
-      "DigitalIODriverB3"
-    ],
-    [
-      "2944d1d3-5517-48b4-881c-bebeac929c1b",
-      "IOExpanderB"
+      "74ac3964-50d1-4760-8013-20b90da47d63",
+      "LEDDriver0"
     ],
     [
       "9a1d0f71-f2c1-4435-a367-a265d67719c8",
-      "IOExpanderA"
+      "IOExpander"
     ],
     [
       "fd74a83f-66e8-460e-b889-0885a11eca86",
