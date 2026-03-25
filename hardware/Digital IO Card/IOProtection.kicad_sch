@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "8df1a77f-51c0-454e-b050-e6f2cccebf6a")
+	(uuid "67e45da9-e6bb-45e2-bdf0-7e81db18a168")
 	(paper "A5")
 	(title_block
 		(title "I/O Protection")
@@ -1402,7 +1402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2db154d1-72a1-4d57-9421-af65cf25e3ca")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 93.726 48.006 90)
 			(effects
 				(font
@@ -1492,19 +1492,19 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/455d3721-42aa-4f0e-b48f-29a642ac1f78"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/67eb63b8-4985-495d-ab9e-4c58fb498c7d"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/777ce27f-f0db-4b38-a663-f213b2d41686"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/97e743ff-8a82-4285-b0f3-f0e89ab922fa"
-					(reference "R10")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1520,7 +1520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30983a42-b54b-4749-ae26-d27966106cae")
-		(property "Reference" "R8"
+		(property "Reference" "R25"
 			(at 102.616 55.626 90)
 			(effects
 				(font
@@ -1610,19 +1610,19 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/455d3721-42aa-4f0e-b48f-29a642ac1f78"
-					(reference "R4")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/67eb63b8-4985-495d-ab9e-4c58fb498c7d"
-					(reference "R16")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/777ce27f-f0db-4b38-a663-f213b2d41686"
-					(reference "R8")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/97e743ff-8a82-4285-b0f3-f0e89ab922fa"
-					(reference "R12")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -1639,7 +1639,7 @@
 		(dnp no)
 		(uuid "9213b452-b3df-465f-9d6f-97bfbc1dda40")
 		(property "Reference" "R5"
-			(at 90.424 39.624 90)
+			(at 89.154 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 94.234 39.624 90)
+			(at 95.25 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1732,7 @@
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/67eb63b8-4985-495d-ab9e-4c58fb498c7d"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/777ce27f-f0db-4b38-a663-f213b2d41686"
@@ -1740,7 +1740,7 @@
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/97e743ff-8a82-4285-b0f3-f0e89ab922fa"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1756,7 +1756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2b8e15d-b703-42a0-aa18-95a733cdba7e")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 69.1581 63.5 0)
 			(effects
 				(font
@@ -1840,19 +1840,19 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/455d3721-42aa-4f0e-b48f-29a642ac1f78"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/67eb63b8-4985-495d-ab9e-4c58fb498c7d"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/777ce27f-f0db-4b38-a663-f213b2d41686"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/97e743ff-8a82-4285-b0f3-f0e89ab922fa"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1868,8 +1868,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d508bb4f-9544-425a-b28f-3a8be1623764")
-		(property "Reference" "R7"
-			(at 99.314 47.244 90)
+		(property "Reference" "R24"
+			(at 98.298 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1878,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 103.124 47.244 90)
+			(at 104.648 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,19 +1958,19 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/455d3721-42aa-4f0e-b48f-29a642ac1f78"
-					(reference "R3")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/67eb63b8-4985-495d-ab9e-4c58fb498c7d"
-					(reference "R15")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/777ce27f-f0db-4b38-a663-f213b2d41686"
-					(reference "R7")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/97e743ff-8a82-4285-b0f3-f0e89ab922fa"
-					(reference "R11")
+					(reference "R27")
 					(unit 1)
 				)
 			)

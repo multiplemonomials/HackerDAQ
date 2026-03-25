@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d764bdb7-cf02-48f5-a5fe-54050eb97a72")
+	(uuid "1e6612f2-3b22-4e5e-a236-82c9b51399ac")
 	(paper "A5")
 	(title_block
 		(title "LED Driver")
@@ -1427,7 +1427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d856fb4-99e9-475a-82f5-c1ee9e692ba7")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -1533,15 +1533,15 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/367befd8-87f7-4a27-a26f-a85b1cb947a6"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/74ac3964-50d1-4760-8013-20b90da47d63"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/86043100-9ecf-4922-ba85-a69132f1d586"
-					(reference "U9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
