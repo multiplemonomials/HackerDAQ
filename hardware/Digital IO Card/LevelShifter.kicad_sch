@@ -3256,7 +3256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2489e0e-47ee-4401-8f09-55c78250a04d")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 90.17 138.1126 90)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/5489c672-23f8-4c65-8a7e-45865ecb61e5"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
