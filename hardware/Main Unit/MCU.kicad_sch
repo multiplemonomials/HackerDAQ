@@ -1301,7 +1301,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+			(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 				(at -12.954 -132.842 0)
 				(effects
 					(font
@@ -16678,12 +16678,20 @@
 		(uuid "fff3b422-a0d0-418d-b3b0-9a608e05358b")
 	)
 	(no_connect
+		(at 168.91 426.72)
+		(uuid "4264766d-900e-41a7-807b-d1f72101be23")
+	)
+	(no_connect
 		(at 60.96 257.81)
 		(uuid "6a12ad58-60cd-4d2a-a350-43a4af843e25")
 	)
 	(no_connect
 		(at 48.26 262.89)
 		(uuid "8433d9b1-f837-42ab-ac95-566b93d7f7ce")
+	)
+	(no_connect
+		(at 168.91 424.18)
+		(uuid "ab457463-cadf-4e99-96b5-5c4e3e8aa5b2")
 	)
 	(no_connect
 		(at 127 223.52)
@@ -16707,6 +16715,15 @@
 		(uuid "05ca021d-dfa5-4383-bd04-9e0851f1787b")
 	)
 	(bus_entry
+		(at 306.07 506.73)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0800f648-f771-470a-a441-2dd9ab63a442")
+	)
+	(bus_entry
 		(at 241.3 111.76)
 		(size 2.54 -2.54)
 		(stroke
@@ -16723,6 +16740,15 @@
 			(type default)
 		)
 		(uuid "0fe7b419-1895-42c8-93c5-7ce102d20bb9")
+	)
+	(bus_entry
+		(at 306.07 510.54)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104851dc-a36d-48fd-bae3-1c6d13d11fa9")
 	)
 	(bus_entry
 		(at 299.72 339.09)
@@ -17471,6 +17497,16 @@
 		)
 		(uuid "2692d189-a1cb-43cc-aa27-ce03e5bf7ae3")
 	)
+	(bus
+		(pts
+			(xy 306.07 510.54) (xy 306.07 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292899e8-4fee-4446-aaa3-d3a8ab280a55")
+	)
 	(wire
 		(pts
 			(xy 316.23 313.69) (xy 353.06 313.69)
@@ -17880,6 +17916,16 @@
 			(type default)
 		)
 		(uuid "47af6649-82bf-4b1d-810e-d9cccaf0398a")
+	)
+	(bus
+		(pts
+			(xy 283.21 518.16) (xy 306.07 518.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4825f83f-076e-425c-b06f-4fbb1055025e")
 	)
 	(wire
 		(pts
@@ -18533,6 +18579,16 @@
 	)
 	(bus
 		(pts
+			(xy 306.07 506.73) (xy 306.07 510.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a31246e-6b73-4d8f-a5a5-699a37269cd4")
+	)
+	(bus
+		(pts
 			(xy 313.69 292.1) (xy 313.69 295.91)
 		)
 		(stroke
@@ -18833,6 +18889,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 504.19) (xy 349.25 504.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de695fd-7f00-44f3-97eb-17206badd8b8")
+	)
+	(wire
+		(pts
 			(xy 92.71 252.73) (xy 92.71 229.87)
 		)
 		(stroke
@@ -18860,6 +18926,16 @@
 			(type default)
 		)
 		(uuid "8fcf5883-b157-4c0d-aff3-3d5f8a0b5444")
+	)
+	(bus
+		(pts
+			(xy 306.07 502.92) (xy 306.07 506.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91efcbac-8f12-46df-aca7-060fbe29a8e3")
 	)
 	(bus
 		(pts
@@ -19273,6 +19349,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 529.59) (xy 349.25 529.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0882f31-174f-4716-adfe-9ab988e6bd81")
+	)
+	(wire
+		(pts
 			(xy 85.09 130.81) (xy 74.93 130.81)
 		)
 		(stroke
@@ -19490,6 +19576,16 @@
 			(type default)
 		)
 		(uuid "bb48641c-dc4c-475f-b5a7-8f1b8afc5bb3")
+	)
+	(wire
+		(pts
+			(xy 308.61 508) (xy 349.25 508)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcab2099-2204-45a3-8060-01deb233559e")
 	)
 	(wire
 		(pts
@@ -20090,6 +20186,16 @@
 			(type default)
 		)
 		(uuid "f5f56cd3-acab-4d26-91e6-eb4338b2b0cd")
+	)
+	(wire
+		(pts
+			(xy 323.85 533.4) (xy 349.25 533.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64b24f7-ba13-479e-a39a-f1a995356ee9")
 	)
 	(wire
 		(pts
@@ -21057,6 +21163,16 @@
 		)
 		(uuid "80af5fb1-e06a-4269-95b6-3da8b8235eed")
 	)
+	(label "DBG_UART.MCU_RX"
+		(at 347.98 504.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8250afb5-fd62-42a5-9d2e-38448f3079a7")
+	)
 	(label "CARD_SPI_FC8.~{CS}0"
 		(at 327.66 374.65 0)
 		(effects
@@ -21228,6 +21344,16 @@
 		)
 		(uuid "eea82df0-5b34-42a6-b89d-082c91efa0a5")
 	)
+	(label "DBG_UART.MCU_TX"
+		(at 347.98 508 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f16475bc-9603-4f32-8697-b71f888c698a")
+	)
 	(label "uSD_SPI_FC6.MISO"
 		(at 273.05 347.98 0)
 		(effects
@@ -21301,7 +21427,7 @@
 		(uuid "39cc0624-c53b-42a6-9175-ed0fed4a3d2c")
 	)
 	(hierarchical_label "~{RST}"
-		(shape output)
+		(shape bidirectional)
 		(at 72.39 189.23 180)
 		(effects
 			(font
@@ -21322,6 +21448,17 @@
 		)
 		(uuid "7d7e60de-b66c-43e6-a34c-63a0ed50eb5a")
 	)
+	(hierarchical_label "~{ETH_SPEED_LED}"
+		(shape output)
+		(at 323.85 529.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9951e1dd-32cb-4b6a-ab6a-f7eb02c6d9b2")
+	)
 	(hierarchical_label "CARD_SPI_FC7{MOSI MISO SCLK ~{CS}0 ~{CS}1 ~{CS}2 CARD_SEL ~{DRDY}}"
 		(shape bidirectional)
 		(at 368.3 400.05 0)
@@ -21333,6 +21470,17 @@
 		)
 		(uuid "abfb1207-69af-4b75-b2f4-ff0e9c12eeba")
 	)
+	(hierarchical_label "~{SD_CARD_EN}"
+		(shape output)
+		(at 323.85 533.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7646551-ee96-43ce-9839-ff6423de5356")
+	)
 	(hierarchical_label "CARD_SPI_FC4{MOSI MISO SCLK ~{CS}0 ~{CS}1 ~{CS}2 CARD_SEL ~{DRDY}}"
 		(shape bidirectional)
 		(at 293.37 154.94 0)
@@ -21343,6 +21491,17 @@
 			(justify left)
 		)
 		(uuid "d95bfe59-d6ff-43ed-a159-baf88bf986dd")
+	)
+	(hierarchical_label "DBG_UART{MCU_TX MCU_RX}"
+		(shape bidirectional)
+		(at 283.21 518.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5e805f7-0095-4653-a95c-4d3dce22a8e0")
 	)
 	(hierarchical_label "CARD_SPI_FC9{MOSI MISO SCLK ~{CS}0 ~{CS}1 ~{CS}2 CARD_SEL ~{DRDY}}"
 		(shape bidirectional)
@@ -21363,10 +21522,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "112d074d-d927-4d01-90ba-efddca24553e")
 		(property "Reference" "U1"
-			(at 439.42 505.1844 0)
+			(at 352.298 461.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21375,7 +21533,7 @@
 			)
 		)
 		(property "Value" "MCXN547VKLT"
-			(at 439.42 507.7244 0)
+			(at 352.298 464.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21383,7 +21541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 			(at 362.966 611.632 0)
 			(effects
 				(font
@@ -21749,7 +21907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 			(at 366.776 428.752 0)
 			(effects
 				(font
@@ -22638,7 +22796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 83.82 262.89 0)
 			(effects
 				(font
@@ -22666,6 +22824,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 83.82 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710KL"
 			(at 83.82 262.89 0)
 			(effects
 				(font
@@ -23206,7 +23373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 83.82 246.38 0)
 			(effects
 				(font
@@ -23234,6 +23401,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 83.82 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710KL"
 			(at 83.82 246.38 0)
 			(effects
 				(font
@@ -23538,7 +23714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 92.71 269.24 0)
 			(effects
 				(font
@@ -23566,6 +23742,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 92.71 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710KL"
 			(at 92.71 269.24 0)
 			(effects
 				(font
@@ -23918,7 +24103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProjectLibrary:3221-10-0300-00"
+		(property "Footprint" "Project Library:3221-10-0300-00"
 			(at 46.228 234.95 0)
 			(effects
 				(font
@@ -24362,7 +24547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 			(at 362.966 341.122 0)
 			(effects
 				(font
@@ -24793,7 +24978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 			(at 358.14 149.86 0)
 			(effects
 				(font
@@ -26203,7 +26388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 			(at 110.49 156.21 0)
 			(effects
 				(font
@@ -26699,7 +26884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
 			(at 143.51 335.28 0)
 			(effects
 				(font
@@ -27105,7 +27290,7 @@
 	)
 	(symbol
 		(lib_id "Project Library:MCXN547VKLT")
-		(at 146.05 340.36 0)
+		(at 195.58 415.29 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27113,7 +27298,7 @@
 		(dnp no)
 		(uuid "c34ceee3-30ce-4168-8400-0d7585f0b5a3")
 		(property "Reference" "U1"
-			(at 121.666 322.58 0)
+			(at 171.196 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27122,7 +27307,7 @@
 			)
 		)
 		(property "Value" "MCXN547VKLT"
-			(at 121.666 325.12 0)
+			(at 171.196 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27130,8 +27315,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm"
-			(at 133.096 473.202 0)
+		(property "Footprint" "Project Library:LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel"
+			(at 182.626 548.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27140,7 +27325,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/3/118/1/MCXNx4xDS.pdf"
-			(at 143.51 470.662 0)
+			(at 193.04 545.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27149,7 +27334,7 @@
 			)
 		)
 		(property "Description" "MCU ARM Cortex-M33 Dual Core, 150MHz, 512kiB RAM, 2MiB Flash"
-			(at 145.288 468.63 0)
+			(at 194.818 543.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28408,7 +28593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10k 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 82.55 180.34 0)
 			(effects
 				(font
@@ -28436,6 +28621,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 82.55 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710KL"
 			(at 82.55 180.34 0)
 			(effects
 				(font

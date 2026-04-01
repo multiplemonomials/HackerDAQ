@@ -559,7 +559,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -583,7 +583,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -661,10 +661,6 @@
       "MCU"
     ],
     [
-      "3aa6cc73-4b82-4451-98a6-fa9c80108c23",
-      "5V To 3.3V LDO"
-    ],
-    [
       "647fa122-ba55-4257-82a5-33756e3f8461",
       "Card Bus Connectors0"
     ],
@@ -681,8 +677,20 @@
       "Card Bus Connectors3"
     ],
     [
+      "435dc57d-0a8b-4ccd-93d5-e5334c096ca6",
+      "DebugUSBUART"
+    ],
+    [
       "171a326f-5e68-4f6e-be23-ff3df57281ba",
       "MicroSDCard"
+    ],
+    [
+      "f20a5acb-4894-4073-8c07-952a30c65f74",
+      "EthernetInterface"
+    ],
+    [
+      "6442a2f9-4c7d-4126-b24b-6ddb5831f5c5",
+      "SupplyTo3.3VRegulator"
     ]
   ],
   "text_variables": {}

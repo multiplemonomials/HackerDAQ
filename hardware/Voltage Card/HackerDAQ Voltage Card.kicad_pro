@@ -616,6 +616,12 @@
           "label": "Mating Connector",
           "name": "Mating Connector",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LibRef",
+          "name": "LibRef",
+          "show": false
         }
       ],
       "filter_string": "",
