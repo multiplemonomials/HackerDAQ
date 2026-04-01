@@ -17199,6 +17199,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 515.62) (xy 349.25 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0934b7cd-3fff-4544-b0c5-0ad7e13c3bc1")
+	)
+	(wire
+		(pts
 			(xy 95.25 232.41) (xy 127 232.41)
 		)
 		(stroke
@@ -17206,6 +17216,16 @@
 			(type default)
 		)
 		(uuid "0b96bc4c-e453-4dc8-af92-743e4d28f44c")
+	)
+	(wire
+		(pts
+			(xy 336.55 511.81) (xy 349.25 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d279ee1-af3c-4a70-ad7a-3b896be4ac25")
 	)
 	(bus
 		(pts
@@ -21470,6 +21490,17 @@
 		)
 		(uuid "abfb1207-69af-4b75-b2f4-ff0e9c12eeba")
 	)
+	(hierarchical_label "+5V_CUR_SENSE"
+		(shape input)
+		(at 336.55 515.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbf9e716-4f6c-4079-9298-f461d99a6f57")
+	)
 	(hierarchical_label "~{SD_CARD_EN}"
 		(shape output)
 		(at 323.85 533.4 180)
@@ -21480,6 +21511,17 @@
 			(justify right)
 		)
 		(uuid "c7646551-ee96-43ce-9839-ff6423de5356")
+	)
+	(hierarchical_label "+3.3V_CUR_SENSE"
+		(shape input)
+		(at 336.55 511.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce0a034e-0c6b-49e6-a7fb-fdaa0b865b20")
 	)
 	(hierarchical_label "CARD_SPI_FC4{MOSI MISO SCLK ~{CS}0 ~{CS}1 ~{CS}2 CARD_SEL ~{DRDY}}"
 		(shape bidirectional)

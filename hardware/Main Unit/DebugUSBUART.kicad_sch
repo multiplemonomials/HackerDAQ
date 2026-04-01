@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "a4f69ff1-de1f-4ede-ab23-ead14611de24")
+	(uuid "98ca3348-a278-4c4c-ab62-f029e8333396")
 	(paper "A4")
 	(title_block
 		(title "DebugUSBUART")

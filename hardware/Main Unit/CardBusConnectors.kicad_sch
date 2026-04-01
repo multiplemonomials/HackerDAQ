@@ -3983,7 +3983,7 @@
 		)
 		(uuid "526ee8ea-5e14-4725-bb97-f2caa5ceacb5")
 	)
-	(label "V_SUPPLY"
+	(label "V_{SUPPLY}"
 		(at 200.66 115.57 0)
 		(effects
 			(font
@@ -4133,7 +4133,7 @@
 		)
 		(uuid "b798ead9-ce68-4ab2-8eb6-1e96bb72c721")
 	)
-	(label "V_SUPPLY"
+	(label "V_{SUPPLY}"
 		(at 203.2 48.26 0)
 		(effects
 			(font
@@ -4225,7 +4225,7 @@
 		)
 		(uuid "36af2202-4d32-4607-b2df-5e50d82fc2a2")
 	)
-	(hierarchical_label "V_SUPPLY"
+	(hierarchical_label "V_{SUPPLY}"
 		(shape input)
 		(at 200.66 48.26 180)
 		(effects

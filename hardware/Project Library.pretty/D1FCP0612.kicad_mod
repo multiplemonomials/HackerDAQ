@@ -1,0 +1,110 @@
+(footprint "D1FCP0612"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4 Terminal Current Sense Resistor D1FCP Series 0612 Size")
+	(property "Reference" "REF**"
+		(at -2.5 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4173ee0-dca4-4d12-ad6f-e8a90696d94b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "D1FCP0612"
+		(at 12.5 -4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23546239-3c94-4222-80ec-7f8e88ed92a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "476bbf59-7311-4fe3-bd79-423576b29026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "4 Terminal Current Sense Resistor D1FCP Series 0612 Size"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8d7c073-1527-49ae-a5d6-3337fd73010e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 13 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37a0b3ca-7c70-4ad7-b1d8-a778dc4fd742")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.885 1.905)
+		(size 1.01 2.29)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "41908df9-2243-4cc9-a304-30061874d095")
+	)
+	(pad "2" smd roundrect
+		(at 0.885 0)
+		(size 1.01 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "bf3e1ba0-56b4-445a-a4c0-a3a61c12ac5f")
+	)
+	(pad "3" smd roundrect
+		(at -0.885 0)
+		(size 1.01 0.76)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e3a0c001-5505-49a0-893c-4cd3faf7a622")
+	)
+	(pad "4" smd roundrect
+		(at -0.885 1.905)
+		(size 1.01 2.29)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "630a10c4-8ea4-4ad3-be1a-a0bb7ebeb356")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Project Library.pretty/User Library-R0612__ERJB2__By-Panasonic.STEP"
+		(offset
+			(xyz 0 -1.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
