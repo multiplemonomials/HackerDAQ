@@ -327,7 +327,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Maximum current: 150mA"
+	(text "Maximum current: 150mA\nMaximum input voltage: 5.5V"
 		(exclude_from_sim no)
 		(at 76.708 41.402 0)
 		(effects
@@ -336,6 +336,26 @@
 			)
 		)
 		(uuid "bf0dc2a4-8576-4c3e-98e4-331e182d1a9e")
+	)
+	(text_box "Bring EN above 0.9V to enable the regulator. May jumper to +5V_IN."
+		(exclude_from_sim no)
+		(at 25.4 54.61 0)
+		(size 22.86 12.7)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "346195a3-d89e-4e0e-992c-846b6fb02281")
 	)
 	(text_box "Datasheet recommends using at least 0.1uF input and output capacitors. Figure 9 seems to recommend a 1uF output cap for best PSRR performance."
 		(exclude_from_sim no)
@@ -364,12 +384,6 @@
 		(uuid "479ac80e-bb76-40fc-925f-e6e7ea94e4b9")
 	)
 	(junction
-		(at 64.77 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ba2f1ca-a5e1-4406-bd5f-b415d4098a57")
-	)
-	(junction
 		(at 57.15 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -389,7 +403,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 50.8) (xy 57.15 54.61)
+			(xy 57.15 50.8) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -399,23 +413,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 67.31 50.8)
+			(xy 57.15 50.8) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0da551f8-465e-4f69-82ab-7f9002d5a269")
-	)
-	(wire
-		(pts
-			(xy 67.31 53.34) (xy 64.77 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18bb5271-8324-4346-862c-dde10c986984")
 	)
 	(wire
 		(pts
@@ -439,7 +443,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 59.69) (xy 57.15 63.5)
+			(xy 57.15 62.23) (xy 57.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -469,23 +473,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 53.34) (xy 64.77 50.8)
+			(xy 52.07 53.34) (xy 67.31 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "796aa7a1-6769-4a16-8c40-9eaf13abd3b9")
-	)
-	(wire
-		(pts
-			(xy 57.15 50.8) (xy 64.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f1b63d-54c7-4ffd-be41-afe99ad966e4")
+		(uuid "8d1b7d83-2307-4e78-b6d2-6b5a28ddc611")
 	)
 	(wire
 		(pts
@@ -537,6 +531,17 @@
 		)
 		(uuid "f1f226c8-b4ef-4bd4-b819-f40f7e302a16")
 	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 52.07 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c03b5d1-1a58-40f1-b4f9-4fa4b821110d")
+	)
 	(hierarchical_label "+5V_IN"
 		(shape input)
 		(at 52.07 50.8 180)
@@ -580,7 +585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad2bd2c-23d2-466e-a457-5149399a9a74")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -668,7 +673,7 @@
 		)
 		(instances
 			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/e7d4db02-ae45-49ee-8383-9be3f30124de"
 					(reference "U2")
 					(unit 1)
 				)
@@ -691,7 +696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e282407-8191-4904-bd7e-1735c928006e")
-		(property "Reference" "C14"
+		(property "Reference" "C2"
 			(at 90.17 54.6162 0)
 			(effects
 				(font
@@ -771,7 +776,7 @@
 		)
 		(instances
 			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/e7d4db02-ae45-49ee-8383-9be3f30124de"
 					(reference "C2")
 					(unit 1)
 				)
@@ -786,7 +791,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 57.15 57.15 0)
+		(at 57.15 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -794,16 +799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d456fdec-9f43-49e9-88a2-d434c2531ed8")
-		(property "Reference" "C15"
-			(at 59.69 55.8862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
+		(property "Reference" "C1"
 			(at 59.69 58.4262 0)
 			(effects
 				(font
@@ -812,8 +808,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100nF"
+			(at 59.69 60.9662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 57.15 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +836,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 57.15 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +845,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 57.15 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +854,7 @@
 			)
 		)
 		(property "SKU" "399-C0603C104K5RACTUCT-ND"
-			(at 57.15 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,7 +863,7 @@
 			)
 		)
 		(property "Mating Connector" ""
-			(at 57.15 57.15 0)
+			(at 57.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +879,7 @@
 		)
 		(instances
 			(project "Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/3aa6cc73-4b82-4451-98a6-fa9c80108c23"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/e7d4db02-ae45-49ee-8383-9be3f30124de"
 					(reference "C1")
 					(unit 1)
 				)
