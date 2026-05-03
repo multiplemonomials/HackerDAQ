@@ -1,0 +1,324 @@
+(footprint "Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-02A2, example for new mpn: 39-30-0020, 1 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex Mini-Fit_Jr horizontalplastic_peg")
+	(property "Reference" "REF**"
+		(at 0 -15.1 0)
+		(layer "F.SilkS")
+		(uuid "66e8a5a6-a9b5-497d-b4ed-b04628354b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
+		(at 0 8.55 0)
+		(layer "F.Fab")
+		(uuid "194f10e6-3544-44eb-a832-87424d791fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c46a422-c7bf-4294-822e-fb39da135739")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "949281cd-9eef-4e97-8db4-e9ee01d0adcc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.81 -14.01)
+		(end 0 -14.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05b4e592-763c-4d8c-b137-f2924e5aa173")
+	)
+	(fp_line
+		(start -2.81 -0.99)
+		(end -2.81 -14.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62fec79a-c655-4557-91ca-378725d3b7c1")
+	)
+	(fp_line
+		(start -2.6 -0.3)
+		(end -2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "370988ff-81c4-4f48-bd53-aed67ab64712")
+	)
+	(fp_line
+		(start -2.6 0.3)
+		(end -2.6 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01d86e02-b024-417c-9f42-bc2d516fbb0c")
+	)
+	(fp_line
+		(start -2 -0.99)
+		(end -2.81 -0.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa227cfb-e9f8-465a-b631-409b6600f71e")
+	)
+	(fp_line
+		(start -2 0)
+		(end -2.6 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b1b90e6-7ca0-41ee-b9e3-fd10e3900544")
+	)
+	(fp_line
+		(start -0.3 2.11)
+		(end -0.3 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2957ba0a-375e-4633-a687-4aad1a9f61aa")
+	)
+	(fp_line
+		(start 0.3 2.11)
+		(end 0.3 3.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b18df09-c657-43ba-9ff5-ecc1fafea166")
+	)
+	(fp_line
+		(start 2 -0.99)
+		(end 2.81 -0.99)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7809ebba-a6b5-4f5b-ab45-87d1c623eb26")
+	)
+	(fp_line
+		(start 2.81 -14.01)
+		(end 0 -14.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd25e61d-3824-460d-add3-919388c4e11d")
+	)
+	(fp_line
+		(start 2.81 -0.99)
+		(end 2.81 -14.01)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "039a6dda-6581-4ac4-88fb-257d06261d61")
+	)
+	(fp_line
+		(start -3.2 -14.4)
+		(end -3.2 7.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "243cd116-b580-45a6-bd9c-59c4eb325f9d")
+	)
+	(fp_line
+		(start -3.2 7.85)
+		(end 3.2 7.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96dd818b-b5d3-4dc0-b623-7394aaad1e04")
+	)
+	(fp_line
+		(start 3.2 -14.4)
+		(end -3.2 -14.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54132853-1f69-4634-855c-38548507e011")
+	)
+	(fp_line
+		(start 3.2 7.85)
+		(end 3.2 -14.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b34883fd-78ed-48f8-b015-641e3292a229")
+	)
+	(fp_line
+		(start -2.7 -13.9)
+		(end -2.7 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c7c70f8-403c-4190-9069-09de92e56476")
+	)
+	(fp_line
+		(start -2.7 -1.1)
+		(end 2.7 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b48904e-7d7c-47b8-878f-ed32fb0fd256")
+	)
+	(fp_line
+		(start -1 -1.1)
+		(end 0 -2.514214)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ceb27b0-71cd-46d5-8370-3f6b75f2e03c")
+	)
+	(fp_line
+		(start 0 -2.514214)
+		(end 1 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8964bc41-2275-4ead-9163-a9cc8de47034")
+	)
+	(fp_line
+		(start 2.7 -13.9)
+		(end -2.7 -13.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b8bd532-547b-4afe-ac77-3d48d0db0f76")
+	)
+	(fp_line
+		(start 2.7 -1.1)
+		(end 2.7 -13.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc3f823a-2222-4c5f-acd2-8816cf394625")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -13.2 0)
+		(layer "F.Fab")
+		(uuid "6b0aac64-f09b-43f9-83c9-ebc109cc8b89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -7.3)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "015e6c28-5096-4975-ac75-184f13e5f53b")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.7 3.7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.092593)
+		(uuid "a3017bb1-da3f-4b92-80c6-986160213f2f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 5.5)
+		(size 2.7 3.7)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d030fe9c-1cff-4007-867c-8102c5b2c33b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Project Library.pretty/0039300020.stp"
+		(offset
+			(xyz 0 13.85 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+	(model "${KIPRJMOD}/../Project Library.pretty/0039013025.stp"
+		(opacity 0.6000)
+		(offset
+			(xyz 0 14 0.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -19356,6 +19356,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 519.43) (xy 349.25 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46866529-79f8-4156-a9a5-1f2a9b842cf2")
+	)
+	(wire
+		(pts
 			(xy 316.23 309.88) (xy 353.06 309.88)
 		)
 		(stroke
@@ -23020,6 +23030,17 @@
 			(justify left bottom)
 		)
 		(uuid "ffe2356c-3afb-4dce-8cfd-bd50041d1f62")
+	)
+	(hierarchical_label "V_{SUPPLY}_CUR_SENSE"
+		(shape input)
+		(at 336.55 519.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15a2e4c2-e8f3-47e1-9f32-071dbf78e31b")
 	)
 	(hierarchical_label "uSD_SPI_FC6{MOSI MISO SCLK ~{CS}}"
 		(shape bidirectional)
