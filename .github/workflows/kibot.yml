@@ -21,6 +21,7 @@ jobs:
       matrix:
         board_name:
           - "Voltage Card"
+          - "Main Unit"
     steps:
       - uses: actions/checkout@v5
       - name: run kibot
