@@ -1,0 +1,17 @@
+References,Description,Part,Value,Supplier,SKU,Footprint,LibRef,Qty
+C1 C2 C3 C4 C5 C6 C7 C8,"Unpolarized capacitor, small symbol",C_Small,1nF,Digi-Key,490-1451-1-ND,C_0603_1608Metric,CL10B102KC8WPNC,8
+C10 C15 C17 C18 C19 C20 C23 C24 C27 C29 C31,"Unpolarized capacitor, small symbol",C_Small,100nF,Digi-Key,399-C0603C104K5RACTUCT-ND,C_0603_1608Metric,ESD35C104K4T2A-24,11
+C9 C11 C12 C13 C14 C16 C21 C22 C25 C26 C28 C30,"Unpolarized capacitor, small symbol",C_Small,1µF,Digi-Key,1276-6524-1-ND,C_0603_1608Metric,CL10B105MO8NNWC,12
+D1 D2 D3 D4 D5 D6 D7 D8,"200W unidirectional Transil Transient Voltage Suppressor, 11Vrwm, SMF",SMF11A,SMF11A,Digi-Key,F5746CT-ND,D_SMF,,8
+J1 J2 J3 J4 J5 J6 J7 J8,"Mini-Fit 2x2 Jack, Right-Angle",MiniFit_Jr_5569_04A2,0039301040,Digi-Key,WM1352-ND,Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal,,8
+J9,"15-pin D-SUB connector, socket (female) (low-density/2 columns), Mounting Hole",DA15_Socket_MountingHoles,LD15S33E4GX00LF,Digi-Key,LD15S33E4GX00LF-ND,Amphenol_LD15S33E4GX00LF,,1
+R24 R25 R26,"Resistor, small US symbol",R_Small_US,33,Digi-Key,P33.0HCT-ND,R_0603_1608Metric,ERJ-3EKF33R0V,3
+R1 R3 R5 R7 R9 R11 R13 R15,"Resistor, small US symbol",R_Small_US,3.4k,Digi-Key,YAG1653CT-ND,R_0603_1608Metric,RT0603BRD073K4L,8
+R19 R20 R21 R22 R23,"Resistor, small US symbol",R_Small_US,10k,Digi-Key,311-10.0KHRCT-ND,R_0603_1608Metric,RC0603FR-0710KL,5
+R2 R4 R6 R8 R10 R12 R14 R16,"Resistor, small US symbol",R_Small_US,10.2k,Digi-Key,YAG1502CT-ND,R_0603_1608Metric,RT0603BRD0710K2L,8
+R18,"Resistor, small US symbol",R_Small_US,44.2k,Digi-Key,YAG1662CT-ND,R_0603_1608Metric,RT0603BRD0744K2L,1
+R17,"Resistor, small US symbol",R_Small_US,162k,Digi-Key,YAG1541CT-ND,R_0603_1608Metric,RT0603BRD07162KL,1
+U3,"8-Channel, 24-bit, Simultaneous Sampling ADC, WQFN-64 (LFCSP-64)",AD7770,AD7770,Digi-Key,505-AD7770ACPZ-ND,LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm_LeadsExtended,,1
+U4,"SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8",M95256-WMN6P,M95320-RMN6,Digi-Key,497-15178-1-ND,SOIC-8_3.9x4.9mm_P1.27mm,,1
+U1,"High output current, Rail-to-Rail Input/Output, 3MHz GBW, Operational Amplifiers, integrated RFI/EMI filter, 1.5V to 5.5V supply, SOT-23-5",OPA310xDBV,OPA310xDBV,Digi-Key,296-OPA310IDBVRCT-ND,SOT-23-5,,1
+U2,"150mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5",TLV71333PDBV,TLV71333PDBV,Digi-Key,296-35591-1-ND,SOT-23-5,,1

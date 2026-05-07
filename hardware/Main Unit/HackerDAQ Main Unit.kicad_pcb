@@ -144,6 +144,8 @@
 			(outputdirectory "")
 		)
 	)
+	(property "date" "2026-05-06")
+	(property "version" "ea2d205")
 	(net 0 "")
 	(net 1 "+5V")
 	(net 2 "GND")
@@ -25034,7 +25036,7 @@
 		(descr "QFN, 24 Pin (http://www.cypress.com/file/46236/download), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U7"
-			(at 0 -3.32 90)
+			(at 3 -2.9125 180)
 			(layer "F.SilkS")
 			(uuid "f460dfc0-636a-44d5-991b-94c15f003158")
 			(effects
@@ -47265,7 +47267,7 @@
 	)
 	(gr_poly
 		(pts
-			(xy 122.5 40.75) (xy 123.25 41.25) (xy 122.5 41.75)
+			(xy 26.75 46.75) (xy 26 46.25) (xy 26.75 45.75)
 		)
 		(stroke
 			(width 0.1)
@@ -47273,7 +47275,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "0e9da348-4901-4d26-9800-9ca4862a72ad")
+		(uuid "691c9929-803e-4062-8d73-ae0c1395efe2")
 	)
 	(gr_poly
 		(pts
@@ -47289,18 +47291,6 @@
 	)
 	(gr_poly
 		(pts
-			(xy 26.75 46.75) (xy 26 46.25) (xy 26.75 45.75)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "691c9929-803e-4062-8d73-ae0c1395efe2")
-	)
-	(gr_poly
-		(pts
 			(xy 103.449981 42.629219) (xy 104.199981 43.129219) (xy 103.449981 43.629219)
 		)
 		(stroke
@@ -47310,6 +47300,18 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "89b689c3-0f2a-44be-b3b3-e36865f90431")
+	)
+	(gr_poly
+		(pts
+			(xy 122.5 40.75) (xy 123.25 41.25) (xy 122.5 41.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "0e9da348-4901-4d26-9800-9ca4862a72ad")
 	)
 	(gr_poly
 		(pts
@@ -47334,6 +47336,186 @@
 		(layer "Edge.Cuts")
 		(uuid "4b692a85-ca53-491b-b191-aecf0dc41e2b")
 	)
+	(gr_text "MCU UART USB"
+		(at 103.2 42.5 180)
+		(layer "F.SilkS")
+		(uuid "c9501067-093d-4470-a566-c099a9dd58b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MCU\nInternal\nUSB"
+		(at 122.25 39 180)
+		(layer "F.SilkS")
+		(uuid "5717bc92-a2bf-4896-b6d0-2aa88857cb8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V_{SUPPLY}\nInputs\n+9-24Vdc\nCenter\nPositive"
+		(at 30 47.75 180)
+		(layer "F.SilkS")
+		(uuid "ac181288-2f18-4a3d-b0cb-0c861a01aef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "Rx"
+		(at 94.45 41 180)
+		(layer "F.SilkS")
+		(uuid "ba64a689-9daf-4d61-aa4c-19769541f290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Tx"
+		(at 100.2 41 180)
+		(layer "F.SilkS")
+		(uuid "3bfa397b-3c0e-41a6-9749-80015409ba84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Mating Connector P/N:\n0039013025"
+		(at 41.5 38.5 270)
+		(layer "F.SilkS")
+		(uuid "3020b4c6-0285-4c49-887b-251fd58f9484")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Expansion Header (Direct\nConnection to MCU Pins)"
+		(at 154.25 127.5 0)
+		(layer "F.SilkS")
+		(uuid "b067f5e8-6cb6-4cda-bc7b-47054d2a580d")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.15625)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "+3.3VA"
+		(at 122.75 120.25 0)
+		(layer "F.SilkS")
+		(uuid "a0477346-a646-4793-9d3e-e28f93fbb691")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "SWD"
+		(at 134 121.25 0)
+		(layer "F.SilkS")
+		(uuid "39cec82a-e199-4794-b95c-9dd942f83352")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Reset"
+		(at 148.75 120 0)
+		(layer "F.SilkS")
+		(uuid "3d06d485-1ea5-4037-8bf2-7e8ebe5433e8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "V_{CORE}"
+		(at 156.5 98.25 0)
+		(layer "F.SilkS")
+		(uuid "dc5f2a8c-7b76-4c81-9aef-14c04a614423")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "P0_21"
+		(at 158 124 90)
+		(layer "F.SilkS")
+		(uuid "e09921ef-b8c2-4a83-807c-95e8ad665590")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "P0_20"
+		(at 160.75 124 90)
+		(layer "F.SilkS")
+		(uuid "621c8508-e8d4-4489-ac59-0e7e2808e4f4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "P0_19"
+		(at 163.25 124 90)
+		(layer "F.SilkS")
+		(uuid "667f9191-e527-491c-b237-efcbb5494fdb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "P0_18"
+		(at 165.75 124 90)
+		(layer "F.SilkS")
+		(uuid "37971473-2c81-434e-af18-b64ab847ea65")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "P0_17"
 		(at 168.25 124 90)
 		(layer "F.SilkS")
@@ -47344,6 +47526,54 @@
 				(thickness 0.1875)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "P0_16"
+		(at 170.75 124 90)
+		(layer "F.SilkS")
+		(uuid "650f6e94-d375-471a-982c-180aad66267c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "P0_5"
+		(at 173.25 124 90)
+		(layer "F.SilkS")
+		(uuid "c7efece4-8f9c-4927-bdf4-7f459e62dbc5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "P0_4"
+		(at 175.75 124 90)
+		(layer "F.SilkS")
+		(uuid "a8e3a4c6-cd3c-4a52-80a8-4a50a810ffe5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "ISP Mode"
+		(at 127.25 55.75 180)
+		(layer "F.SilkS")
+		(uuid "9a0865a3-23ac-4156-b8a3-5e65cbf0c8bf")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify bottom)
 		)
 	)
 	(gr_text "-"
@@ -47359,10 +47589,23 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Port 1.1"
-		(at 100 70.5 0)
+	(gr_text "+"
+		(at 40 58.75 0)
 		(layer "F.SilkS")
-		(uuid "116c47b4-eeea-40e8-af27-fb1ee10e9e97")
+		(uuid "af3f6ecb-6f00-402b-8301-e20d045ac185")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Port 0.0"
+		(at 25 70.5 0)
+		(layer "F.SilkS")
+		(uuid "a11a2e13-506c-4166-aacd-7a583846d7d8")
 		(effects
 			(font
 				(size 2 2)
@@ -47375,6 +47618,54 @@
 		(at 50 70.5 0)
 		(layer "F.SilkS")
 		(uuid "14a0dbdc-160c-4ed5-a756-1494a39669b8")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Port 1.0"
+		(at 75 70.5 0)
+		(layer "F.SilkS")
+		(uuid "4388ee1d-4886-4543-81f7-d7a1bdefe613")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Port 1.1"
+		(at 100 70.5 0)
+		(layer "F.SilkS")
+		(uuid "116c47b4-eeea-40e8-af27-fb1ee10e9e97")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Port 2.0"
+		(at 170 70.75 0)
+		(layer "F.SilkS")
+		(uuid "68373547-9009-4f7d-8962-68b3f7cd6e68")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Port 2.1"
+		(at 195 70.75 0)
+		(layer "F.SilkS")
+		(uuid "d56cccec-6e64-46e0-b7b0-2b8d2611f255")
 		(effects
 			(font
 				(size 2 2)
@@ -47405,295 +47696,6 @@
 				(thickness 0.3)
 			)
 			(justify bottom)
-		)
-	)
-	(gr_text "Mating Connector P/N:\n0039013025"
-		(at 41.5 38.5 270)
-		(layer "F.SilkS")
-		(uuid "3020b4c6-0285-4c49-887b-251fd58f9484")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "P0_18"
-		(at 165.75 124 90)
-		(layer "F.SilkS")
-		(uuid "37971473-2c81-434e-af18-b64ab847ea65")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "SWD"
-		(at 134 121.25 0)
-		(layer "F.SilkS")
-		(uuid "39cec82a-e199-4794-b95c-9dd942f83352")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "Tx"
-		(at 100.2 41 180)
-		(layer "F.SilkS")
-		(uuid "3bfa397b-3c0e-41a6-9749-80015409ba84")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "Reset"
-		(at 148.75 120 0)
-		(layer "F.SilkS")
-		(uuid "3d06d485-1ea5-4037-8bf2-7e8ebe5433e8")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "Port 1.0"
-		(at 75 70.5 0)
-		(layer "F.SilkS")
-		(uuid "4388ee1d-4886-4543-81f7-d7a1bdefe613")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "MCU\nInternal\nUSB"
-		(at 122.25 39 180)
-		(layer "F.SilkS")
-		(uuid "5717bc92-a2bf-4896-b6d0-2aa88857cb8f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "P0_20"
-		(at 160.75 124 90)
-		(layer "F.SilkS")
-		(uuid "621c8508-e8d4-4489-ac59-0e7e2808e4f4")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "P0_16"
-		(at 170.75 124 90)
-		(layer "F.SilkS")
-		(uuid "650f6e94-d375-471a-982c-180aad66267c")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "P0_19"
-		(at 163.25 124 90)
-		(layer "F.SilkS")
-		(uuid "667f9191-e527-491c-b237-efcbb5494fdb")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "Port 2.0"
-		(at 170 70.75 0)
-		(layer "F.SilkS")
-		(uuid "68373547-9009-4f7d-8962-68b3f7cd6e68")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "ISP Mode"
-		(at 127.25 55.75 180)
-		(layer "F.SilkS")
-		(uuid "9a0865a3-23ac-4156-b8a3-5e65cbf0c8bf")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "+3.3VA"
-		(at 122.75 120.25 0)
-		(layer "F.SilkS")
-		(uuid "a0477346-a646-4793-9d3e-e28f93fbb691")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "Port 0.0"
-		(at 25 70.5 0)
-		(layer "F.SilkS")
-		(uuid "a11a2e13-506c-4166-aacd-7a583846d7d8")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "P0_4"
-		(at 175.75 124 90)
-		(layer "F.SilkS")
-		(uuid "a8e3a4c6-cd3c-4a52-80a8-4a50a810ffe5")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "V_{SUPPLY}\nInputs\n+9-24Vdc\nCenter\nPositive"
-		(at 30 47.75 180)
-		(layer "F.SilkS")
-		(uuid "ac181288-2f18-4a3d-b0cb-0c861a01aef5")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify top)
-		)
-	)
-	(gr_text "+"
-		(at 40 58.75 0)
-		(layer "F.SilkS")
-		(uuid "af3f6ecb-6f00-402b-8301-e20d045ac185")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Expansion Header (Direct\nConnection to MCU Pins)"
-		(at 154.25 127.5 0)
-		(layer "F.SilkS")
-		(uuid "b067f5e8-6cb6-4cda-bc7b-47054d2a580d")
-		(effects
-			(font
-				(size 1.25 1.25)
-				(thickness 0.15625)
-			)
-			(justify right bottom)
-		)
-	)
-	(gr_text "Rx"
-		(at 94.45 41 180)
-		(layer "F.SilkS")
-		(uuid "ba64a689-9daf-4d61-aa4c-19769541f290")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "P0_5"
-		(at 173.25 124 90)
-		(layer "F.SilkS")
-		(uuid "c7efece4-8f9c-4927-bdf4-7f459e62dbc5")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
-		)
-	)
-	(gr_text "MCU UART USB"
-		(at 103.2 42.5 180)
-		(layer "F.SilkS")
-		(uuid "c9501067-093d-4470-a566-c099a9dd58b4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.125)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Port 2.1"
-		(at 195 70.75 0)
-		(layer "F.SilkS")
-		(uuid "d56cccec-6e64-46e0-b7b0-2b8d2611f255")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "V_{CORE}"
-		(at 156.5 98.25 0)
-		(layer "F.SilkS")
-		(uuid "dc5f2a8c-7b76-4c81-9aef-14c04a614423")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "P0_21"
-		(at 158 124 90)
-		(layer "F.SilkS")
-		(uuid "e09921ef-b8c2-4a83-807c-95e8ad665590")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.1875)
-			)
-			(justify left)
 		)
 	)
 	(segment
