@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v5
       - name: run kibot
         run: | 
-          cd "hardware/${{matrix.board_name}}""
+          cd "hardware/${{matrix.board_name}}"
           mkdir out
           kibot -c kibot.yml -e "HackerDAQ ${{matrix.board_name}}.kicad_sch" -b "HackerDAQ ${{matrix.board_name}}.kicad_pcb" -d out -v
       - uses: actions/upload-artifact@v4
