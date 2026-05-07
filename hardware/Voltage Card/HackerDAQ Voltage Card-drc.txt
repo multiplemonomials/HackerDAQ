@@ -1,0 +1,80 @@
+** Drc report for HackerDAQ Voltage Card.kicad_pcb **
+** Created on 2026-05-06T20:08:43-0700 **
+
+** Found 23 DRC violations **
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(89.887598 mm, 96.897269 mm): Footprint NT1
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(97.3 mm, 101.8 mm): Footprint NT8
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(104.59 mm, 129.019669 mm): Footprint J9
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(89.737286 mm, 101.728912 mm): Footprint NT4
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(65.31 mm, 64.8 mm): Footprint J2
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(87.34 mm, 64.8 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'SOIC-8_3.9x4.9mm_P1.27mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(64.5 mm, 130.0 mm): Footprint U4
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(120.385 mm, 64.8 mm): Footprint J7
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(131.4 mm, 64.8 mm): Footprint J8
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(58.153432 mm, 116.672387 mm): Footprint LG1
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(97.3 mm, 100.8 mm): Footprint NT7
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(76.325 mm, 64.8 mm): Footprint J3
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(97.4 mm, 97.8 mm): Footprint NT6
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(118.5 mm, 93.5 mm): Footprint U3
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(98.355 mm, 64.8 mm): Footprint J5
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(54.295 mm, 64.8 mm): Footprint J1
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(97.2 mm, 96.8 mm): Footprint NT5
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(89.732295 mm, 100.749112 mm): Footprint NT3
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(93.5 mm, 100.5 mm): Footprint U1
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(109.37 mm, 64.8 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(56.5 mm, 91.0 mm): Footprint U2
+[lib_footprint_issues]: The footprint library 'Project Library' was not found at 'J:/HackerDAQ/hardware/Project Library.pretty'.
+    ; warning
+    @(89.771045 mm, 97.77242 mm): Footprint NT2
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    ; warning (excluded)
+    @(50.0 mm, 50.0 mm): Rectangle on Edge.Cuts
+    @(114.555 mm, 127.159669 mm): Segment of J9 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

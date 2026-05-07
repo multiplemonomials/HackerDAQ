@@ -1,0 +1,38 @@
+# Github Actions CI job for KiBot builds of all PCBs
+name: KiBot
+
+on:
+  # Allow running manually
+  workflow_dispatch: {}
+
+  # Run whenever any hardware files change.
+  push:
+    paths:
+    - "hardware/**"
+
+jobs:
+  compile-and-gen-design-files:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/inti-cmnb/kicad9_auto:latest
+    strategy:
+      fail-fast: false
+      matrix:
+        board_name:
+          - "Voltage Card"
+    steps:
+      - uses: actions/checkout@v5
+      - name: run kibot
+        run: | 
+          cd hardware/${{matrix.board_name}}
+          mkdir out
+          kibot -c kibot.yml -e "HackerDAQ ${{matrix.board_name}}.kicad_sch" -b "HackerDAQ ${{matrix.board_name}}.kicad_pcb" -d out -v
+      - uses: actions/upload-artifact@v4
+        if: ${{success()}}
+        with:
+          name: "${{github.event.repository.name}} ${{matrix.board_name}} Design Files"
+          if-no-files-found: error
+          path: |
+            hardware/${{matrix.board_name}}/out/**
+            !hardware/${{matrix.board_name}}/out/**/*.ogv
+            !hardware/${{matrix.board_name}}/out/**/*.log

@@ -1621,6 +1621,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mating Connector" "Molex Part #39013045"
+				(at -0.762 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
@@ -3215,6 +3224,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 100.33) (xy 133.35 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667182bb-70d1-47c9-8936-bba6ade8bcd6")
+	)
+	(wire
+		(pts
 			(xy 82.55 22.86) (xy 96.52 22.86)
 		)
 		(stroke
@@ -3602,6 +3621,16 @@
 			(type default)
 		)
 		(uuid "9e315f30-5217-4ef9-9b20-525b4e8d496e")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 139.7 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e489479-0d9f-48fc-9c12-0dca1dfe03d8")
 	)
 	(wire
 		(pts
@@ -4756,7 +4785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 73.66 0)
 			(effects
 				(font
@@ -5122,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d22902-6293-4bc9-bedd-17593435a7d7")
-		(property "Reference" "NT4"
+		(property "Reference" "NT7"
 			(at 124.46 36.83 0)
 			(effects
 				(font
@@ -5185,7 +5214,72 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "NT4")
+					(reference "NT7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 133.35 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "386fd6ba-57ae-4f3c-a383-ad8d549405b0")
+		(property "Reference" "#PWR048"
+			(at 133.35 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599ecced-cb78-491a-aaa5-b9c99058445e")
+		)
+		(instances
+			(project "HackerDAQ Voltage Card"
+				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5327,7 +5421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 52.07 0)
 			(effects
 				(font
@@ -5493,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 30.48 0)
 			(effects
 				(font
@@ -5594,7 +5688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 184.15 0)
 			(effects
 				(font
@@ -5762,7 +5856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d628a66-cb4c-469c-afcf-4772a04fea61")
-		(property "Reference" "NT7"
+		(property "Reference" "NT6"
 			(at 124.46 44.45 0)
 			(effects
 				(font
@@ -5825,7 +5919,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "NT7")
+					(reference "NT6")
 					(unit 1)
 				)
 			)
@@ -6036,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce6e7ae-763b-418a-816a-235ebca35828")
-		(property "Reference" "NT6"
+		(property "Reference" "NT4"
 			(at 124.46 41.91 0)
 			(effects
 				(font
@@ -6099,7 +6193,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "NT6")
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -6115,7 +6209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f6e8476-df19-45d1-8003-c06cc8a8a468")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 157.48 149.86 0)
 			(effects
 				(font
@@ -6151,7 +6245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 44.2k 0.1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 152.4 151.13 0)
 			(effects
 				(font
@@ -6196,7 +6290,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -6291,7 +6385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80173ca2-49c8-44cb-9b42-88cbb635c754")
-		(property "Reference" "TP4"
+		(property "Reference" "TP1"
 			(at 110.49 153.1619 0)
 			(effects
 				(font
@@ -6351,7 +6445,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "TP4")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6638,7 +6732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 116.84 0)
 			(effects
 				(font
@@ -6875,7 +6969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cad2607-0995-4322-8207-adf27f4e01bd")
-		(property "Reference" "NT2"
+		(property "Reference" "NT3"
 			(at 124.46 31.75 0)
 			(effects
 				(font
@@ -6938,7 +7032,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "NT2")
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -6954,7 +7048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35ae40e-e3ea-4acd-8ff3-38767ae17ee8")
-		(property "Reference" "NT3"
+		(property "Reference" "NT5"
 			(at 124.46 34.29 0)
 			(effects
 				(font
@@ -7017,7 +7111,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "NT3")
+					(reference "NT5")
 					(unit 1)
 				)
 			)
@@ -7033,7 +7127,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afbfcb33-2fa9-4bcd-aea2-050da0ac16ea")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 223.52 141.4779 0)
 			(effects
 				(font
@@ -7093,7 +7187,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 160.02 0)
 			(effects
 				(font
@@ -7336,7 +7430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 138.43 0)
 			(effects
 				(font
@@ -7700,7 +7794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mating Connector" ""
+		(property "Mating Connector" "Molex Part #39013045"
 			(at 30.48 95.25 0)
 			(effects
 				(font
@@ -7806,7 +7900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e22a8d70-3236-49ec-b547-c7b7188068b4")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 157.226 141.986 0)
 			(effects
 				(font
@@ -7842,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 162k 0.1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 152.4 143.51 0)
 			(effects
 				(font
@@ -7887,7 +7981,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7904,7 +7998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8dfee0e-22af-4774-a77a-e2afabf5a182")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 121.92 143.4398 0)
 			(effects
 				(font
@@ -7939,7 +8033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Opamp, 1.5-5.5V supply, +-150mA current, +-0.25mV offset voltage"
+		(property "Description" "High output current, Rail-to-Rail Input/Output, 3MHz GBW, Operational Amplifiers, integrated RFI/EMI filter, 1.5V to 5.5V supply, SOT-23-5"
 			(at 134.62 149.86 0)
 			(effects
 				(font
@@ -7993,7 +8087,7 @@
 		(instances
 			(project ""
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8074,7 +8168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efc1e769-9839-4995-bb7a-26694cbae4b5")
-		(property "Reference" "NT5"
+		(property "Reference" "NT2"
 			(at 124.46 39.37 0)
 			(effects
 				(font
@@ -8137,7 +8231,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "NT5")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -8733,6 +8827,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "V_{CC}" input
+			(at 139.7 102.87 180)
+			(uuid "3d4ce41b-5e90-4633-9b0b-c0f00c0798a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

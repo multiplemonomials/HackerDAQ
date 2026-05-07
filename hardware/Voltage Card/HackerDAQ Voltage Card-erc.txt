@@ -1,0 +1,230 @@
+ERC report (2026-05-06T20:02:47-0700, Encoding UTF8)
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 0.2413 mm): Symbol #PWR017 [+8V]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 0.3048 mm): Symbol J1 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 0.3048 mm): Symbol J1 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 0.4572 mm): Symbol #PWR018 [+8V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 0.3302 mm): Symbol #PWR015 [GND]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 0.5207 mm): Symbol J2 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 0.5207 mm): Symbol J2 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 0.5461 mm): Symbol #PWR019 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 0.6731 mm): Symbol #PWR020 [+8V]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 0.7366 mm): Symbol J3 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 0.7366 mm): Symbol J3 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 0.762 mm): Symbol #PWR021 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 0.889 mm): Symbol #PWR022 [+8V]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 0.9525 mm): Symbol J4 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 0.9525 mm): Symbol J4 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 0.9779 mm): Symbol #PWR023 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 1.1049 mm): Symbol #PWR024 [+8V]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 1.1684 mm): Symbol J5 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 1.1684 mm): Symbol J5 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 1.1938 mm): Symbol #PWR025 [GND]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.3429 mm): Symbol NT1 [NetTie_2]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.3683 mm): Symbol NT2 [NetTie_2]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.3937 mm): Symbol NT3 [NetTie_2]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.4191 mm): Symbol NT4 [NetTie_2]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.4445 mm): Symbol NT5 [NetTie_2]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.4699 mm): Symbol NT6 [NetTie_2]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 1.3208 mm): Symbol #PWR026 [+8V]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.4953 mm): Symbol NT7 [NetTie_2]
+[footprint_link_issues]: Footprint 'NetTie-2_SMD_Pad0.2mm' not found in library 'Project Library'.
+    ; warning
+    @(1.2446 mm, 0.5207 mm): Symbol NT8 [NetTie_2]
+[lib_symbol_mismatch]: Symbol 'HT' doesn't match copy in library 'power'
+    ; warning
+    @(1.2319 mm, 0.6223 mm): Symbol #PWR038 [HT]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 1.3843 mm): Symbol J6 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 1.3843 mm): Symbol J6 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 1.4097 mm): Symbol #PWR027 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 1.5367 mm): Symbol #PWR028 [+8V]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 1.6002 mm): Symbol J7 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 1.6002 mm): Symbol J7 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 1.6256 mm): Symbol #PWR031 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(0.1905 mm, 1.778 mm): Symbol #PWR030 [+8V]
+[lib_symbol_mismatch]: Symbol '-5V' doesn't match copy in library 'power'
+    ; warning
+    @(1.8034 mm, 0.1651 mm): Symbol #PWR016 [-5V]
+[footprint_link_issues]: Footprint 'Molex_Mini-Fit_Jr_5569-04A2_2x02_P4.20mm_Horizontal' not found in library 'Project Library'.
+    ; warning
+    @(0.3048 mm, 1.8415 mm): Symbol J8 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'MiniFit_Jr_5569_04A2' doesn't match copy in library 'Project Library'
+    ; warning
+    @(0.3048 mm, 1.8415 mm): Symbol J8 [MiniFit_Jr_5569_04A2]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.3937 mm, 1.8669 mm): Symbol #PWR029 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1.8161 mm, 0.5969 mm): Symbol #PWR014 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(1.905 mm, 0.1651 mm): Symbol #PWR037 [+8V]
+[lib_symbol_mismatch]: Symbol '-5V' doesn't match copy in library 'power'
+    ; warning
+    @(1.3716 mm, 1.397 mm): Symbol #PWR011 [-5V]
+[lib_symbol_issues]: Symbol 'OPA310xDBV' not found in symbol library 'Amplifier_Operational'
+    ; warning
+    @(1.3462 mm, 1.4986 mm): Symbol U2 [OPA310xDBV]
+[lib_symbol_mismatch]: Symbol 'HT' doesn't match copy in library 'power'
+    ; warning
+    @(1.524 mm, 1.3843 mm): Symbol #PWR010 [HT]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1.3716 mm, 1.6002 mm): Symbol #PWR08 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1.524 mm, 1.5621 mm): Symbol #PWR09 [GND]
+[footprint_link_issues]: Footprint 'HackerDAQ Logo' not found in library 'Project Library'.
+    ; warning
+    @(1.8415 mm, 1.7018 mm): Symbol LG1 [HackerDAQ_Logo]
+[lib_symbol_mismatch]: Symbol '-5V' doesn't match copy in library 'power'
+    ; warning
+    @(2.1336 mm, 1.397 mm): Symbol #PWR012 [-5V]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(2.5527 mm, 0.508 mm): Symbol #PWR034 [+8V]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(2.5908 mm, 0.5461 mm): Symbol #PWR035 [+8V]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(2.6289 mm, 0.5842 mm): Symbol #PWR036 [+8V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2.286 mm, 1.5748 mm): Symbol #PWR013 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(2.6924 mm, 0.8763 mm): Symbol #PWR039 [GND]
+[lib_symbol_mismatch]: Symbol '+8V' doesn't match copy in library 'power'
+    ; warning
+    @(2.54 mm, 1.397 mm): Symbol #PWR032 [+8V]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.6858 mm, 0.5334 mm): Symbol #PWR047 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1.1303 mm, 0.635 mm): Symbol #PWR07 [GND]
+[footprint_link_issues]: Footprint 'LFCSP-64-1EP_9x9mm_P0.5mm_EP5.21x5.21mm_LeadsExtended' not found in library 'Project Library'.
+    ; warning
+    @(2.0955 mm, 1.4224 mm): Symbol U1 [AD7770]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.8382 mm, 0.6477 mm): Symbol #PWR049 [GND]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(0.9398 mm, 0.8636 mm): Symbol #PWR050 [GND]
+[footprint_link_issues]: Footprint 'Amphenol_LD15S33E4GX00LF' not found in library 'Project Library'.
+    ; warning
+    @(1.27 mm, 0.5969 mm): Symbol J6 [DA15_Socket_MountingHoles]
+[lib_symbol_issues]: Symbol 'DA15_Socket_MountingHoles' not found in symbol library 'Connector'
+    ; warning
+    @(1.27 mm, 0.5969 mm): Symbol J6 [DA15_Socket_MountingHoles]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(1.27 mm, 0.8636 mm): Symbol #PWR033 [GND]
+
+***** Sheet /AD7770 ADC/
+
+***** Sheet /Voltage Signal Conditioning0/
+
+***** Sheet /Voltage Signal Conditioning1/
+
+***** Sheet /Voltage Signal Conditioning2/
+
+***** Sheet /Voltage Signal Conditioning3/
+
+***** Sheet /Voltage Signal Conditioning4/
+
+***** Sheet /Voltage Signal Conditioning5/
+
+***** Sheet /Voltage Signal Conditioning6/
+
+***** Sheet /Voltage Signal Conditioning7/
+
+***** Sheet /5V To 3.3V LDO/
+
+***** Sheet /B2B Connector Card Side/
+
+***** Sheet /SPI EEPROM/
+[hier_label_mismatch]: Hierarchical label V_{CC} has no matching sheet pin in the parent sheet
+    ; error
+    @(0.7239 mm, 0.508 mm): Hierarchical Label 'V_{CC}'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(0.9398 mm, 0.6731 mm): Symbol U9 Pin 8 [VCC, Power input, Line]
+
+ ** ERC messages: 67  Errors 2  Warnings 65

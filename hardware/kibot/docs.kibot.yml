@@ -1,0 +1,49 @@
+outputs:
+  # For more information: https://github.com/INTI-CMNB/KiBoM
+  - name: 'Sch PDF'
+    comment: "PDF print of schematic"
+    type: pdf_sch_print
+    dir: docs
+    options:
+      output: '%f-%i.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=schematic %x=pdf). Affected by global options.
+
+  - name: 'PCB Top PDF'
+    comment: "PDF print of circuit board top side"
+    type: 'pcb_print'
+    dir: 'docs'
+    options:
+      output: '%f-board_top.%x'
+      pages:
+        - 
+          # Layers to plot.  Order is important -- last entry in the list will be plotted on top.
+          # By default it seems to choose colors randomly, so override the colors to be the same as the schematic editor.
+          layers:
+          - layer: 'B.Cu'
+            color: "#2E5384"
+          - layer: 'F.Cu'
+            color: "#C83434"
+          - layer: 'F.SilkS'
+            color: "#F2EDA1"
+          - layer: 'Edge.Cuts'
+            color: "#D0D2CD"
+
+  - name: 'PCB Bottom PDF'
+    comment: "PDF print of circuit board bottom side"
+    type: 'pcb_print'
+    dir: 'docs'
+    options:
+      output: '%f-board_bottom.%x'
+      pages:
+        - 
+          mirror: true
+          # Layers to plot.  Order is important -- last entry in the list will be plotted on top.
+          # By default it seems to choose colors randomly, so override the colors to be the same as the schematic editor.
+          layers:
+          - layer: 'F.Cu'
+            color: "#C83434"
+          - layer: 'B.Cu'
+            color: "#2E5384"
+          - layer: 'B.SilkS'
+            color: "#E8B2A7"
+          - layer: 'Edge.Cuts'
+            color: "#D0D2CD"
