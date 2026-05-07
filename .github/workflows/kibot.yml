@@ -5,10 +5,11 @@ on:
   # Allow running manually
   workflow_dispatch: {}
 
-  # Run whenever any hardware files change.
+  # Run whenever any hardware files change, or this workflow
   push:
     paths:
     - "hardware/**"
+    - ".github/workflows/kibot.yml"
 
 jobs:
   compile-and-gen-design-files:
