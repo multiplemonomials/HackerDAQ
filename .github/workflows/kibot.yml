@@ -27,7 +27,7 @@ jobs:
         run: | 
           cd "hardware/${{matrix.board_name}}"
           mkdir out
-          kibot -c kibot.yml -e "HackerDAQ ${{matrix.board_name}}.kicad_sch" -b "HackerDAQ ${{matrix.board_name}}.kicad_pcb" -d out -v
+          kibot -c kibot.yaml -e "HackerDAQ ${{matrix.board_name}}.kicad_sch" -b "HackerDAQ ${{matrix.board_name}}.kicad_pcb" -d out -v
       - uses: actions/upload-artifact@v4
         if: ${{success()}}
         with:

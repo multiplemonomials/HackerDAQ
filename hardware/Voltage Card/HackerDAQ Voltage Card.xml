@@ -2,10 +2,10 @@
 <export version="E">
   <design>
     <source>/mnt/j/HackerDAQ/hardware/Voltage Card/HackerDAQ Voltage Card.kicad_sch</source>
-    <date>2026-05-06T21:22:43-0700</date>
+    <date>2026-05-06T21:38:22-0700</date>
     <tool>Eeschema 9.0.7-9.0.7~ubuntu24.04.1</tool>
-    <textvar name="date">2026-05-02</textvar>
-    <textvar name="version">2a2f42f</textvar>
+    <textvar name="date">2026-05-06</textvar>
+    <textvar name="version">1fb7d86</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
