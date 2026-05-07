@@ -1758,6 +1758,21 @@
 		)
 		(uuid "0d2e4705-63ce-4c02-8993-2f07a82c5dc9")
 	)
+	(text "HackerDAQ Main Unit"
+		(exclude_from_sim no)
+		(at 27.432 32.512 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 6 6)
+				(thickness 0.8)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c9f1e05-8dfb-4736-992d-bad2f59b6787")
+	)
 	(text "Main 3.3V Supply"
 		(exclude_from_sim no)
 		(at 239.776 31.242 0)
@@ -4314,7 +4329,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "8")
 				)
@@ -4366,7 +4381,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "8")
 				)
@@ -4448,7 +4463,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "10")
 				)
@@ -4540,7 +4555,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "4")
 				)
@@ -4632,7 +4647,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "7")
 				)
@@ -4694,7 +4709,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "12")
 				)
@@ -4786,7 +4801,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "6")
 				)
@@ -4878,7 +4893,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "5")
 				)
@@ -4960,7 +4975,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "11")
 				)
@@ -5034,7 +5049,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "9")
 				)
@@ -5236,7 +5251,7 @@
 			)
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "2")
 				)

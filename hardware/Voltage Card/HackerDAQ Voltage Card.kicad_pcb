@@ -116,6 +116,8 @@
 			(outputdirectory "")
 		)
 	)
+	(property "date" "2026-05-02")
+	(property "version" "2a2f42f")
 	(net 0 "")
 	(net 1 "/AD7770 ADC/AIN+0")
 	(net 2 "/AD7770 ADC/AIN+1")
@@ -25080,8 +25082,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "0-10V\nAnalog Card"
-		(at 66 120 0)
+	(gr_text "0-10V\nVoltage Card\nRev 1rc1"
+		(at 65.75 121.75 0)
 		(layer "F.SilkS")
 		(uuid "21c2ce99-04b2-44d1-b4a7-d6396b99a519")
 		(effects

@@ -739,5 +739,8 @@
       "V_{SUPPLY} Input"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "date": "2026-05-06",
+    "version": "ea2d205"
+  }
 }

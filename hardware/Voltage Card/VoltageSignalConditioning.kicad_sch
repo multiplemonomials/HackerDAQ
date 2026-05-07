@@ -1199,6 +1199,15 @@
 				(hide yes)
 			)
 		)
+		(property "LibRef" "RT0603BRD073K4L"
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31bd42c8-40cd-440b-80e0-910801029ed5")
 		)
@@ -1512,6 +1521,15 @@
 				(hide yes)
 			)
 		)
+		(property "LibRef" "RT0603BRD0710K2L"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b0f62a8-175e-400a-b17c-80e12645782b")
 		)
@@ -1754,6 +1772,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "CL10B102KC8WPNC"
 			(at 113.03 58.42 0)
 			(effects
 				(font

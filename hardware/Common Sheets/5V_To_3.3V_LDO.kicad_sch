@@ -768,6 +768,15 @@
 				(hide yes)
 			)
 		)
+		(property "LibRef" "CL10B105MO8NNWC"
+			(at 87.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dca3c5e2-cbd4-47cd-8acd-fc5f8fe0fdc4")
 		)
@@ -863,6 +872,15 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 57.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "ESD35C104K4T2A-24"
 			(at 57.15 59.69 0)
 			(effects
 				(font
