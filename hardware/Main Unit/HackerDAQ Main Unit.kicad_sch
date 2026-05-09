@@ -1902,6 +1902,12 @@
 		(uuid "0d403e8d-2b40-4dd8-b70d-cc36102c88c8")
 	)
 	(junction
+		(at 297.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4517a397-225f-4b9f-8c9f-f0221f19635e")
+	)
+	(junction
 		(at 125.73 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1918,6 +1924,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cbcb610-6c30-44c5-8ba3-fbfcbb1742b1")
+	)
+	(junction
+		(at 356.87 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b6ad2c-ea20-4652-8fde-22dd6da0d238")
 	)
 	(junction
 		(at 125.73 181.61)
@@ -1980,6 +1992,12 @@
 		(uuid "f9212107-af25-4269-9c0e-d9e803b75a9e")
 	)
 	(junction
+		(at 218.44 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f95ffe0c-9777-41ae-b8bf-5f95a91b6cd7")
+	)
+	(junction
 		(at 397.51 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2040,6 +2058,16 @@
 			(type default)
 		)
 		(uuid "0d1230f6-f222-43c3-bd88-bf9511da4321")
+	)
+	(wire
+		(pts
+			(xy 218.44 73.66) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4ad45d-b43d-4824-9664-81a64b4fde48")
 	)
 	(wire
 		(pts
@@ -2143,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 80.01) (xy 356.87 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2930ed1b-83d4-4285-841c-4ebf43dbf878")
+	)
+	(wire
+		(pts
 			(xy 93.98 181.61) (xy 125.73 181.61)
 		)
 		(stroke
@@ -2243,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 52.07) (xy 356.87 151.13)
+			(xy 356.87 52.07) (xy 356.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2280,6 +2318,16 @@
 			(type default)
 		)
 		(uuid "471aa87f-4286-4953-9621-f69f3640930a")
+	)
+	(wire
+		(pts
+			(xy 297.18 72.39) (xy 299.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea68bf7-5808-4151-93ee-b8970ce6f6cb")
 	)
 	(wire
 		(pts
@@ -2320,6 +2368,16 @@
 			(type default)
 		)
 		(uuid "539be395-8cb3-4958-ab37-01fbe6e47819")
+	)
+	(wire
+		(pts
+			(xy 297.18 72.39) (xy 297.18 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54dbfa91-7b74-43b7-afbc-ac53b3b61177")
 	)
 	(wire
 		(pts
@@ -2423,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 142.24) (xy 337.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71541f61-2656-4a51-be86-584a8a49ada1")
+	)
+	(wire
+		(pts
 			(xy 125.73 128.27) (xy 93.98 128.27)
 		)
 		(stroke
@@ -2430,6 +2498,16 @@
 			(type default)
 		)
 		(uuid "72c9e4c7-a76e-4e15-9067-dcde4fd9ede8")
+	)
+	(wire
+		(pts
+			(xy 218.44 40.64) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751cab98-2720-4c2c-9c2b-ae770e9bcf1b")
 	)
 	(wire
 		(pts
@@ -2500,6 +2578,16 @@
 			(type default)
 		)
 		(uuid "819e12ae-8d7a-4fa0-8a57-9fa57c1cb731")
+	)
+	(wire
+		(pts
+			(xy 288.29 80.01) (xy 356.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841847be-d6b2-40e3-831c-f677b4ed403a")
 	)
 	(wire
 		(pts
@@ -2673,6 +2761,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 73.66) (xy 218.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b8e7c1-ca19-42a8-a4c7-0680d23735ad")
+	)
+	(wire
+		(pts
 			(xy 100.33 247.65) (xy 120.65 247.65)
 		)
 		(stroke
@@ -2710,6 +2808,16 @@
 			(type default)
 		)
 		(uuid "ae47a6f7-4f83-49f5-9bdf-3e6e696424b0")
+	)
+	(wire
+		(pts
+			(xy 337.82 76.2) (xy 288.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220f582-c3b1-452e-a843-d59dcc91e341")
 	)
 	(wire
 		(pts
@@ -2813,7 +2921,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 40.64) (xy 232.41 40.64)
+			(xy 210.82 40.64) (xy 218.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2840,6 +2948,26 @@
 			(type default)
 		)
 		(uuid "d192913a-a2b3-4804-9833-ec907cef89f6")
+	)
+	(wire
+		(pts
+			(xy 288.29 72.39) (xy 297.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a7cf95-011b-48f1-aa6c-b6e99c756b93")
+	)
+	(wire
+		(pts
+			(xy 337.82 142.24) (xy 337.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f819a8-0b9b-4192-9122-140936a412d7")
 	)
 	(bus
 		(pts
@@ -3208,7 +3336,7 @@
 			(uuid "35bf1785-c656-480f-b122-1dcaa72a6cae")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0141")
 					(unit 1)
@@ -3273,7 +3401,7 @@
 			(uuid "620a954f-e253-49fd-a651-de882aff784b")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0132")
 					(unit 1)
@@ -3338,7 +3466,7 @@
 			(uuid "ce9a31e1-a155-45f9-84a4-8a9e63839923")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0136")
 					(unit 1)
@@ -3403,7 +3531,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "LG1")
 					(unit 1)
@@ -3468,7 +3596,7 @@
 			(uuid "01d74c4f-1b61-4316-9ba1-bcf4d12d23c1")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0138")
 					(unit 1)
@@ -3533,7 +3661,7 @@
 			(uuid "bfa83d92-2a4c-462c-b61e-0b055b9d57dc")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0139")
 					(unit 1)
@@ -3598,9 +3726,74 @@
 			(uuid "98f75caf-fc2f-40d2-b13a-7602472fb2f5")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 297.18 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "597c1cef-ef51-4769-90c1-2904cc1a3996")
+		(property "Reference" "#PWR0158"
+			(at 297.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 297.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 297.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6c6f83e-c6f6-44a9-87a0-1da542282089")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -3663,7 +3856,7 @@
 			(uuid "6e1b6490-27b0-4e6b-89b5-f62fa3287dec")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0140")
 					(unit 1)
@@ -3728,7 +3921,7 @@
 			(uuid "0dd044a8-cce7-40d6-bc93-8327e9f7d717")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0135")
 					(unit 1)
@@ -3801,7 +3994,7 @@
 			(uuid "c742e128-92c9-4bad-ab54-ed82478d3a51")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "TP2")
 					(unit 1)
@@ -3866,7 +4059,7 @@
 			(uuid "86d047fd-642a-465e-b8ed-451864332fc6")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0137")
 					(unit 1)
@@ -3908,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-2520MVLC.pdf"
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
 			(at 85.725 244.475 0)
 			(effects
 				(font
@@ -3966,7 +4159,7 @@
 			(uuid "836b78c4-6c79-44d1-93a7-0138ed9157f5")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "X2")
 					(unit 1)
@@ -4039,9 +4232,82 @@
 			(uuid "ac01a8c7-fb14-462a-a2b3-176f4b25cfd7")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 299.72 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba0cde7c-7d57-4cb8-9c0e-30b159a5022c")
+		(property "Reference" "TP4"
+			(at 306.324 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 307.086 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 299.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 299.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 299.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3245bde-18f5-4ed3-9e94-a10862a3b191")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4104,7 +4370,7 @@
 			(uuid "6f084bc5-ccb4-4f63-a573-77e27f6e61b4")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0134")
 					(unit 1)
@@ -4201,7 +4467,7 @@
 			(uuid "b7ace88d-a762-4b12-ac1d-a4dcc4f31562")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "C52")
 					(unit 1)
@@ -4266,7 +4532,7 @@
 			(uuid "1c7e347d-357d-4cf5-aa23-604c73cf0cde")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0131")
 					(unit 1)
@@ -4384,6 +4650,88 @@
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 67.31)
+		(size 46.99 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "567a7564-8dee-43d4-a4d8-4eecc94aa849")
+		(property "Sheetname" "SupplyTo5VRegulator"
+			(at 241.3 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SupplyTo5VRegulator.kicad_sch"
+			(at 241.3 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" output
+			(at 288.29 72.39 0)
+			(uuid "1c7afcd6-a467-4365-b53f-104a961555bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_CUR_SENSE" output
+			(at 288.29 76.2 0)
+			(uuid "437b0e0c-6e2f-4a6e-8cdc-276b386b9b8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG" output
+			(at 288.29 80.01 0)
+			(uuid "5904b2f7-7b49-4208-aa21-f1c610d7fecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{SUPPLY}" input
+			(at 241.3 73.66 180)
+			(uuid "496b1ba1-8a56-4ce1-b706-e7929ab7a903")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(page "13")
 				)
 			)
 		)

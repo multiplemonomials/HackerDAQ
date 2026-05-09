@@ -5,6 +5,378 @@
 	(uuid "d849e455-3440-47c4-8c17-94291a0c23d6")
 	(paper "A1")
 	(lib_symbols
+		(symbol "ColorLEDs:AA3528QBS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AA3528QBS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ColorLEDs:AA3528"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528QBS-D.pdf"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Blue LED 150mcd 20mA Vf=3.3V"
+				(at 2.54 14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "754-1533-1-ND"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AA3528QBS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AA3528QBS_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 146 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 146 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ColorLEDs:AA3528SURSK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AA3528SURSK"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "ColorLEDs:AA3528"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528SURSK.pdf"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Red LED 100mcd 20mA Vf=1.95V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU" "754-1537-1-ND"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AA3528SURSK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AA3528SURSK_1_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1712,6 +2084,404 @@
 				)
 				(pin passive line
 					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:ASMB-MTB0-0A3A2"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ASMB-MTB0-0A3A2"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4186EN"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tricolor Black Surface LED, Common Anode Pin 1, PLCC-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "led rgb diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Avago*PLCC4*3.2x2.8mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ASMB-MTB0-0A3A2_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "ASMB-MTB0-0A3A2_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -8.89)
+					(end 2.54 8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ASMB-MTB0-0A3A2_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -17759,6 +18529,17 @@
 		)
 		(uuid "5fc62ad6-d5b8-445c-9f24-2c45fcd9c6aa")
 	)
+	(text "Expansion\nHeader"
+		(exclude_from_sim no)
+		(at 301.498 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a9e4bae-1cdc-49d8-a0a5-e619bebd60f8")
+	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 46.736 257.048 0)
@@ -17874,6 +18655,26 @@
 		)
 		(uuid "78f0d3cc-c394-4072-9ad6-5f4f3573b60b")
 	)
+	(text_box "Using the remaining 5 free GPIOs for indicator LEDs"
+		(exclude_from_sim no)
+		(at 240.03 467.36 0)
+		(size 57.15 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "811917d9-89d9-4365-9725-254ea6988caa")
+	)
 	(text_box "Per datasheet VDD_P4 and VDD_ANA must be powered by the same supply."
 		(exclude_from_sim no)
 		(at 15.24 114.3 0)
@@ -17914,6 +18715,26 @@
 		)
 		(uuid "88e12180-093c-464a-a0bb-c27fb752d91d")
 	)
+	(text_box "This tricolor LED specifies V_{F} = 2.1V (red) and 3.1V (green and blue) @ 20mA. Making a ballpark assumption that the forward voltage decreases by 0.1V if we reduce the forward current to 10mA."
+		(exclude_from_sim no)
+		(at 196.85 500.38 0)
+		(size 38.1 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8f33fcde-b9cf-4888-ac8b-f2ad2731f593")
+	)
 	(text_box "ISP mode circuit. Button can be pressed to force the MCU to boot into ISP (recovery) mode."
 		(exclude_from_sim no)
 		(at 123.19 279.4 0)
@@ -17939,12 +18760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00cdbae9-0e9b-49ee-922e-3f87cf412a74")
-	)
-	(junction
-		(at 44.45 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01146a4e-98cb-451d-b8f8-90e865925c17")
 	)
 	(junction
 		(at 91.44 99.06)
@@ -18091,6 +18906,18 @@
 		(uuid "6b421a54-47f2-4190-be94-941cdfc9e2ac")
 	)
 	(junction
+		(at 44.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72684726-c968-4c92-8ec9-a5cfefd68c76")
+	)
+	(junction
+		(at 62.23 323.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "728bf9d6-4d65-4883-bbf5-a7b63420d92a")
+	)
+	(junction
 		(at 38.1 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18199,6 +19026,12 @@
 		(uuid "b7f608ea-1665-4315-8aff-1c1e9130c174")
 	)
 	(junction
+		(at 283.21 492.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd428fab-6457-4ba1-84de-1ce6e278be69")
+	)
+	(junction
 		(at 88.9 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -18263,12 +19096,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1f07288-5e4d-4318-abcc-7a8ffe270eec")
-	)
-	(junction
-		(at 44.45 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e76c5852-1791-4642-997e-8a2f809c4ead")
 	)
 	(junction
 		(at 87.63 153.67)
@@ -18338,15 +19165,6 @@
 		(uuid "05ca021d-dfa5-4383-bd04-9e0851f1787b")
 	)
 	(bus_entry
-		(at 306.07 506.73)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0800f648-f771-470a-a441-2dd9ab63a442")
-	)
-	(bus_entry
 		(at 241.3 111.76)
 		(size 2.54 -2.54)
 		(stroke
@@ -18363,15 +19181,6 @@
 			(type default)
 		)
 		(uuid "0fe7b419-1895-42c8-93c5-7ce102d20bb9")
-	)
-	(bus_entry
-		(at 306.07 510.54)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104851dc-a36d-48fd-bae3-1c6d13d11fa9")
 	)
 	(bus_entry
 		(at 299.72 339.09)
@@ -18408,6 +19217,15 @@
 			(type default)
 		)
 		(uuid "244113de-9dc5-4b0d-b558-49871d96b75d")
+	)
+	(bus_entry
+		(at 308.61 504.19)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3014fd79-ca73-43c7-8680-0138dc15fb51")
 	)
 	(bus_entry
 		(at 313.69 307.34)
@@ -18552,6 +19370,15 @@
 			(type default)
 		)
 		(uuid "7a10ee41-6c6e-4e26-85e6-eb7216034f5b")
+	)
+	(bus_entry
+		(at 308.61 508)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b879ce4-bf50-4c4c-8a3a-ca999670307d")
 	)
 	(bus_entry
 		(at 325.12 384.81)
@@ -18872,16 +19699,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 515.62) (xy 349.25 515.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0934b7cd-3fff-4544-b0c5-0ad7e13c3bc1")
-	)
-	(wire
-		(pts
 			(xy 95.25 232.41) (xy 127 232.41)
 		)
 		(stroke
@@ -18899,16 +19716,6 @@
 			(type default)
 		)
 		(uuid "0c47a38e-65b8-461c-b087-74d068df211a")
-	)
-	(wire
-		(pts
-			(xy 336.55 511.81) (xy 349.25 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d279ee1-af3c-4a70-ad7a-3b896be4ac25")
 	)
 	(bus
 		(pts
@@ -19012,6 +19819,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 511.81) (xy 349.25 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13961abe-92fb-42ea-9c73-8164c58deeff")
+	)
+	(wire
+		(pts
 			(xy 273.05 328.93) (xy 353.06 328.93)
 		)
 		(stroke
@@ -19039,6 +19856,16 @@
 			(type default)
 		)
 		(uuid "14352ff7-8684-484c-9489-dc377d8e50c2")
+	)
+	(wire
+		(pts
+			(xy 242.57 519.43) (xy 349.25 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146e689f-18df-4a4d-83cb-fd12605c1ef4")
 	)
 	(bus
 		(pts
@@ -19142,7 +19969,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 323.85) (xy 86.36 323.85)
+			(xy 58.42 323.85) (xy 62.23 323.85)
 		)
 		(stroke
 			(width 0)
@@ -19199,6 +20026,16 @@
 			(type default)
 		)
 		(uuid "1fb5e9fc-5d8e-4a38-8d83-ab5ade2174ac")
+	)
+	(wire
+		(pts
+			(xy 289.56 488.95) (xy 283.21 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200d47c5-37a8-4d39-8f5d-77ea46edcd1d")
 	)
 	(wire
 		(pts
@@ -19262,7 +20099,7 @@
 	)
 	(bus
 		(pts
-			(xy 306.07 510.54) (xy 306.07 518.16)
+			(xy 306.07 499.11) (xy 306.07 501.65)
 		)
 		(stroke
 			(width 0)
@@ -19299,6 +20136,26 @@
 			(type default)
 		)
 		(uuid "2998dd93-3d99-464e-9aee-cc28d199fa9f")
+	)
+	(wire
+		(pts
+			(xy 247.65 477.52) (xy 247.65 482.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8033ed-7377-4f21-8249-45d53d321bb5")
+	)
+	(wire
+		(pts
+			(xy 297.18 492.76) (xy 303.53 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbf5893-dede-4c2f-99fa-5b4cd1c89d92")
 	)
 	(wire
 		(pts
@@ -19359,6 +20216,16 @@
 			(type default)
 		)
 		(uuid "2f9bbd4b-2dcd-4ac2-9195-e9309ccde435")
+	)
+	(wire
+		(pts
+			(xy 336.55 477.52) (xy 349.25 477.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3051649b-cc58-4150-a07a-dad76e6222e6")
 	)
 	(bus
 		(pts
@@ -19742,16 +20609,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 519.43) (xy 349.25 519.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46866529-79f8-4156-a9a5-1f2a9b842cf2")
-	)
-	(wire
-		(pts
 			(xy 316.23 309.88) (xy 353.06 309.88)
 		)
 		(stroke
@@ -19772,7 +20629,7 @@
 	)
 	(bus
 		(pts
-			(xy 283.21 518.16) (xy 306.07 518.16)
+			(xy 293.37 499.11) (xy 306.07 499.11)
 		)
 		(stroke
 			(width 0)
@@ -19822,6 +20679,16 @@
 	)
 	(bus
 		(pts
+			(xy 306.07 501.65) (xy 306.07 505.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb0df96-d77f-4525-a64b-a0221825ed29")
+	)
+	(bus
+		(pts
 			(xy 281.94 72.39) (xy 281.94 76.2)
 		)
 		(stroke
@@ -19849,6 +20716,16 @@
 			(type default)
 		)
 		(uuid "4cf27d77-1f96-49d1-b61e-492bb7755bdf")
+	)
+	(wire
+		(pts
+			(xy 242.57 492.76) (xy 242.57 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d41d224-7cfc-4675-8b72-90a938ba2740")
 	)
 	(wire
 		(pts
@@ -19962,6 +20839,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 500.38) (xy 252.73 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563883b4-fb69-425d-ad22-de702da082e9")
+	)
+	(wire
+		(pts
 			(xy 92.71 271.78) (xy 92.71 276.86)
 		)
 		(stroke
@@ -19982,6 +20869,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 492.76) (xy 247.65 501.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5701a029-e00d-4e7d-a735-ae93689157c9")
+	)
+	(wire
+		(pts
 			(xy 58.42 328.93) (xy 62.23 328.93)
 		)
 		(stroke
@@ -19989,6 +20886,16 @@
 			(type default)
 		)
 		(uuid "57bcea53-4462-4227-bc85-958989241011")
+	)
+	(wire
+		(pts
+			(xy 252.73 492.76) (xy 252.73 495.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583e1e5b-6cc0-43af-8aa5-537999ce44f3")
 	)
 	(wire
 		(pts
@@ -20159,6 +21066,16 @@
 			(type default)
 		)
 		(uuid "618cc196-0ed5-43d5-8380-ca95fce0e61a")
+	)
+	(wire
+		(pts
+			(xy 44.45 114.3) (xy 44.45 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6308566a-c6a3-40ad-bd36-c8d24a5656b8")
 	)
 	(wire
 		(pts
@@ -20540,16 +21457,6 @@
 		)
 		(uuid "79fd342c-10b7-463e-a3ec-bdde0d6b1c21")
 	)
-	(bus
-		(pts
-			(xy 306.07 506.73) (xy 306.07 510.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a31246e-6b73-4d8f-a5a5-699a37269cd4")
-	)
 	(wire
 		(pts
 			(xy 115.57 334.01) (xy 100.33 334.01)
@@ -20632,6 +21539,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 492.76) (xy 289.56 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e537ec5-6a38-41ec-838f-4e118d0a4a45")
+	)
+	(wire
+		(pts
 			(xy 63.5 82.55) (xy 59.69 82.55)
 		)
 		(stroke
@@ -20639,6 +21556,16 @@
 			(type default)
 		)
 		(uuid "7e88d4c5-65b9-4373-85b2-90adf591cb73")
+	)
+	(wire
+		(pts
+			(xy 308.61 492.76) (xy 349.25 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eff9bd5-12dd-4b12-8943-1da7a89f2023")
 	)
 	(wire
 		(pts
@@ -20952,6 +21879,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 500.38) (xy 242.57 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90221f90-837a-47c4-ab7f-7fbc10c52545")
+	)
+	(wire
+		(pts
 			(xy 67.31 328.93) (xy 74.93 328.93)
 		)
 		(stroke
@@ -20959,16 +21896,6 @@
 			(type default)
 		)
 		(uuid "90f82a02-a0b5-4ca5-ba3f-6c1459efd53a")
-	)
-	(bus
-		(pts
-			(xy 306.07 502.92) (xy 306.07 506.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91efcbac-8f12-46df-aca7-060fbe29a8e3")
 	)
 	(bus
 		(pts
@@ -21012,6 +21939,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 485.14) (xy 349.25 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "941a864d-a076-4b82-843d-a9faab97ac13")
+	)
+	(wire
+		(pts
 			(xy 63.5 140.97) (xy 63.5 143.51)
 		)
 		(stroke
@@ -21052,6 +21989,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 488.95) (xy 349.25 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9706fd1d-f686-41d6-a199-c4b4f5d57624")
+	)
+	(wire
+		(pts
 			(xy 50.8 128.27) (xy 57.15 128.27)
 		)
 		(stroke
@@ -21069,6 +22016,16 @@
 			(type default)
 		)
 		(uuid "9782efe4-7a2f-4940-a2a0-c028b83d613e")
+	)
+	(wire
+		(pts
+			(xy 247.65 515.62) (xy 349.25 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991e16f2-361c-4613-b105-4842bd62629c")
 	)
 	(wire
 		(pts
@@ -21199,6 +22156,16 @@
 			(type default)
 		)
 		(uuid "a24ee3cf-20fc-49d9-9d3a-63b65870b017")
+	)
+	(wire
+		(pts
+			(xy 297.18 488.95) (xy 303.53 488.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3510c3b-287c-440a-b3eb-26b3a7513403")
 	)
 	(wire
 		(pts
@@ -21662,6 +22629,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 494.03) (xy 283.21 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd31564d-fcc1-455b-87d8-af61f2f28a4a")
+	)
+	(wire
+		(pts
 			(xy 92.71 262.89) (xy 96.52 262.89)
 		)
 		(stroke
@@ -21679,6 +22656,16 @@
 			(type default)
 		)
 		(uuid "bf9992cc-ac55-4440-8adb-465de523f789")
+	)
+	(wire
+		(pts
+			(xy 336.55 481.33) (xy 349.25 481.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0264ca7-07e8-4fa6-89e0-ca5a2842e49a")
 	)
 	(wire
 		(pts
@@ -21739,16 +22726,6 @@
 			(type default)
 		)
 		(uuid "c33dbccc-5e27-4e7e-ba04-600e73d16270")
-	)
-	(wire
-		(pts
-			(xy 44.45 114.3) (xy 44.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3e96c6c-ec67-40fb-b242-ec54c7309960")
 	)
 	(wire
 		(pts
@@ -21972,6 +22949,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 506.73) (xy 247.65 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db032dc2-a9d0-4b67-a851-dc08ff3f302b")
+	)
+	(wire
+		(pts
 			(xy 87.63 151.13) (xy 87.63 153.67)
 		)
 		(stroke
@@ -22169,6 +23156,16 @@
 			(type default)
 		)
 		(uuid "e9e5dd77-e019-420a-b53e-c6a3b18420b0")
+	)
+	(wire
+		(pts
+			(xy 283.21 488.95) (xy 283.21 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafef19d-c92e-46de-aa51-f80d720818fd")
 	)
 	(wire
 		(pts
@@ -22480,16 +23477,6 @@
 		)
 		(uuid "fe128c12-e022-4117-84bf-c0bc45570bb7")
 	)
-	(wire
-		(pts
-			(xy 44.45 121.92) (xy 44.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5d6819-2003-4d37-b669-f9ca68c005c1")
-	)
 	(bus
 		(pts
 			(xy 368.3 406.4) (xy 270.51 406.4)
@@ -22499,6 +23486,16 @@
 			(type default)
 		)
 		(uuid "ff9a40ab-f6fa-471f-8205-6be098d9a991")
+	)
+	(wire
+		(pts
+			(xy 62.23 323.85) (xy 86.36 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffbb6aa7-3535-4c91-a54f-de6f51867566")
 	)
 	(image
 		(at 168.148 106.934)
@@ -23266,6 +24263,16 @@
 		)
 		(uuid "70c8577c-233b-4419-8d0d-c935534516b0")
 	)
+	(label "RGB_LED_~{B}"
+		(at 264.16 519.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "720548ee-1c47-45ef-a955-436c991d4fca")
+	)
 	(label "ETH_RMII.MDIO"
 		(at 243.84 93.98 0)
 		(effects
@@ -23437,7 +24444,7 @@
 		(uuid "a2a8f19c-adb5-4a5b-8540-3f62444be51b")
 	)
 	(label "USBMCU_VBUS"
-		(at 60.96 323.85 0)
+		(at 66.04 323.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23567,6 +24574,16 @@
 		)
 		(uuid "e4293417-d770-4906-be49-116e4010a009")
 	)
+	(label "RGB_LED_~{R}"
+		(at 264.16 511.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5bf4799-3582-4b60-9ef8-36624b24a606")
+	)
 	(label "MCU_P0_18"
 		(at 328.93 54.61 0)
 		(effects
@@ -23617,6 +24634,36 @@
 		)
 		(uuid "f85fd306-057e-478b-8dfd-a999c4166694")
 	)
+	(label "ERROR_LED"
+		(at 312.42 492.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f958828c-af33-4399-8cd7-e3f2a13219d8")
+	)
+	(label "STATUS_LED"
+		(at 312.42 488.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faf3572f-13ea-4505-8bad-64ef3cff04dc")
+	)
+	(label "RGB_LED_~{G}"
+		(at 264.16 515.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc4031bd-9de2-44f6-969e-7fdf6f292e64")
+	)
 	(label "CARD_SPI_FC9.~{CS}1"
 		(at 317.5 290.83 0)
 		(effects
@@ -23649,14 +24696,25 @@
 	)
 	(hierarchical_label "V_{SUPPLY}_CUR_SENSE"
 		(shape input)
-		(at 336.55 519.43 180)
+		(at 336.55 485.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "15a2e4c2-e8f3-47e1-9f32-071dbf78e31b")
+		(uuid "1f193373-7363-4fef-b071-697330afe85c")
+	)
+	(hierarchical_label "+3.3V_CUR_SENSE"
+		(shape input)
+		(at 336.55 477.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "348bd59b-9efc-460f-8d88-fd403cc1a658")
 	)
 	(hierarchical_label "uSD_SPI_FC6{MOSI MISO SCLK ~{CS}}"
 		(shape bidirectional)
@@ -23690,6 +24748,17 @@
 			(justify right)
 		)
 		(uuid "6c512054-52c4-499b-8d47-13a0dc2e4f34")
+	)
+	(hierarchical_label "+5V_CUR_SENSE"
+		(shape input)
+		(at 336.55 481.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "719b5325-bc1c-48e6-95d0-5b859bb4cf6b")
 	)
 	(hierarchical_label "ETH_RMII{MDC MDIO RMII_CLK TX_EN TXD0 TXD1 RX_ER CRS_DV RXD0 RXD1}"
 		(shape bidirectional)
@@ -23746,17 +24815,6 @@
 		)
 		(uuid "aebd8798-f41a-4eda-8af8-fb5a64f48675")
 	)
-	(hierarchical_label "+5V_CUR_SENSE"
-		(shape input)
-		(at 336.55 515.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbf9e716-4f6c-4079-9298-f461d99a6f57")
-	)
 	(hierarchical_label "~{SD_CARD_EN}"
 		(shape output)
 		(at 323.85 533.4 180)
@@ -23767,17 +24825,6 @@
 			(justify right)
 		)
 		(uuid "c7646551-ee96-43ce-9839-ff6423de5356")
-	)
-	(hierarchical_label "+3.3V_CUR_SENSE"
-		(shape input)
-		(at 336.55 511.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce0a034e-0c6b-49e6-a7fb-fdaa0b865b20")
 	)
 	(hierarchical_label "CARD_SPI_FC4{MOSI MISO SCLK ~{CS}0 ~{CS}1 ~{CS}2 CARD_SEL ~{DRDY}}"
 		(shape bidirectional)
@@ -23792,7 +24839,7 @@
 	)
 	(hierarchical_label "DBG_UART{MCU_TX MCU_RX}"
 		(shape bidirectional)
-		(at 283.21 518.16 180)
+		(at 293.37 499.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23811,6 +24858,276 @@
 			(justify left)
 		)
 		(uuid "f9a00589-822f-4bb9-82ef-7d6957df7cad")
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 252.73 497.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02efe22a-dfe0-4ff0-ab1a-8b00c5910b10")
+		(property "Reference" "R55"
+			(at 257.556 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30"
+			(at 256.54 498.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 252.73 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 252.73 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 252.73 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-30.0HRCT-ND"
+			(at 252.73 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0730RL"
+			(at 252.73 497.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac3fe217-c8ea-46a9-bfe1-ca37e61cb726")
+		)
+		(pin "1"
+			(uuid "ba1f87ab-9eff-46f9-96cb-a18d04801b4b")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 247.65 504.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e5bca0-7c51-44d0-a140-467c6fd1c6fc")
+		(property "Reference" "R56"
+			(at 252.984 503.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30"
+			(at 251.714 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 247.65 504.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 504.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 247.65 504.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 247.65 504.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-30.0HRCT-ND"
+			(at 247.65 504.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0730RL"
+			(at 247.65 504.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a2864ef-c8b0-40b4-982e-a76caf277b9b")
+		)
+		(pin "1"
+			(uuid "3e3b23fd-b4db-481b-92c0-7bcd461f8db2")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:ASMB-MTB0-0A3A2")
+		(at 247.65 487.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d23206a-09ad-496d-a4c8-9f7b62a33128")
+		(property "Reference" "D9"
+			(at 237.49 486.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ASMB-MTB0-0A3A2"
+			(at 237.49 488.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 234.95 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-4186EN"
+			(at 259.08 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tricolor Black Surface LED, Common Anode Pin 1, PLCC-4"
+			(at 247.65 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "23ee0422-a15f-47f2-bae4-917a8b4bc65e")
+		)
+		(pin "3"
+			(uuid "a0146517-b889-447b-8ac5-6931aaa32f67")
+		)
+		(pin "2"
+			(uuid "4f9c19e6-b36b-4515-b629-b4a5bdcb6f5d")
+		)
+		(pin "1"
+			(uuid "2b41553f-1808-4332-bc80-b1c81d1fa2df")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Project Library:MCXN547VKLT")
@@ -24170,7 +25487,7 @@
 			(uuid "64201557-19d4-48b5-b4f2-ade0fd634392")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 5)
@@ -24536,10 +25853,107 @@
 			(uuid "b5f3fcc4-ee05-4069-a9b8-4d3db99a8490")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 306.07 492.76 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17aa7f36-7c4e-47db-a38b-cdb4608bbba9")
+		(property "Reference" "R59"
+			(at 305.562 495.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "140"
+			(at 310.134 494.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 306.07 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 306.07 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 306.07 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-140HRCT-ND"
+			(at 306.07 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-07140RL"
+			(at 306.07 492.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6780ac1c-92b5-411d-b352-bcef987b4686")
+		)
+		(pin "1"
+			(uuid "b7741706-0213-44d8-bfdf-6340313485e8")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R59")
+					(unit 1)
 				)
 			)
 		)
@@ -24601,7 +26015,7 @@
 			(uuid "5b82044d-d893-4bed-b0e5-d43eff3ee8c6")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR028")
 					(unit 1)
@@ -24707,7 +26121,7 @@
 			(uuid "5c5b9c25-641d-47b9-b3a9-af8a35760fb9")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C8")
 					(unit 1)
@@ -24813,7 +26227,7 @@
 			(uuid "74bacd58-b95d-4a06-bcdd-a17c07456816")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C4")
 					(unit 1)
@@ -24910,7 +26324,7 @@
 			(uuid "fec9f90e-e6f2-43e3-bb52-bd03ce9b30fc")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C13")
 					(unit 1)
@@ -24975,7 +26389,7 @@
 			(uuid "cfbd9a91-d880-4d7e-99ed-3a18126c2ab8")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR023")
 					(unit 1)
@@ -25040,7 +26454,7 @@
 			(uuid "d47d23da-6642-48d0-a2f2-a158a75ad3df")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR029")
 					(unit 1)
@@ -25146,9 +26560,106 @@
 			(uuid "a817f76a-1963-4413-8148-57977201a9c5")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 242.57 497.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2cb9e514-5d75-43ef-a21f-4d5578038721")
+		(property "Reference" "R57"
+			(at 241.3 497.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "140"
+			(at 241.046 499.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 242.57 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 242.57 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 242.57 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-140HRCT-ND"
+			(at 242.57 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-07140RL"
+			(at 242.57 497.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cad30a04-a7a6-4e35-81e5-e913667ad104")
+		)
+		(pin "1"
+			(uuid "67b874f7-25a8-40fc-91c6-1ac178f8c5d8")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -25252,7 +26763,7 @@
 			(uuid "3b5c709e-1033-4f0c-85ac-370a00deb990")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C6")
 					(unit 1)
@@ -25357,7 +26868,7 @@
 			(uuid "abe2daaf-794e-4117-99ab-b7d15d972400")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C24")
 					(unit 1)
@@ -25422,7 +26933,7 @@
 			(uuid "2f9b0c87-b372-4827-9c76-f2a591c4fc93")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR024")
 					(unit 1)
@@ -25487,7 +26998,7 @@
 			(uuid "e2d595ac-60d4-4774-adc4-2ce86019abd2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR0142")
 					(unit 1)
@@ -25552,7 +27063,7 @@
 			(uuid "72ded8c5-139c-46cd-a049-c299887748f7")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR01")
 					(unit 1)
@@ -25617,9 +27128,74 @@
 			(uuid "d51beb63-f890-4183-8426-2a54c4791d84")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 62.23 323.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "420e45d9-932c-4c77-979e-906313607503")
+		(property "Reference" "#FLG08"
+			(at 62.23 321.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 319.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 62.23 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6026ccca-63fd-4124-920f-a4e631ad0f60")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -25682,7 +27258,7 @@
 			(uuid "3c895064-0717-4584-8085-4843060e6f7d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR019")
 					(unit 1)
@@ -25788,7 +27364,7 @@
 			(uuid "b2537ee9-fd84-4b34-9268-06c494d9ee11")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R3")
 					(unit 1)
@@ -25853,7 +27429,7 @@
 			(uuid "c3f0a60f-345a-4e87-9333-223238296f61")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR025")
 					(unit 1)
@@ -25918,7 +27494,7 @@
 			(uuid "84562659-c990-413b-a345-ef6913065e9f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR02")
 					(unit 1)
@@ -25983,7 +27559,7 @@
 			(uuid "3ca82f33-1f5a-4c93-9a18-c9bb2a69b06d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR0144")
 					(unit 1)
@@ -26088,7 +27664,7 @@
 			(uuid "1e452cb7-82ac-46b9-8946-482858f8191d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C9")
 					(unit 1)
@@ -26194,9 +27770,106 @@
 			(uuid "c92c3108-8e6a-4782-95d1-f983770319d2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 306.07 488.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5441bfd4-7d7d-4b9b-a939-15993035aac1")
+		(property "Reference" "R58"
+			(at 302.006 486.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30"
+			(at 307.34 486.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 306.07 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 306.07 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 306.07 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-30.0HRCT-ND"
+			(at 306.07 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0730RL"
+			(at 306.07 488.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c95c304-5b74-424f-ae4c-8ed8071562eb")
+		)
+		(pin "1"
+			(uuid "b5cd25a9-0e40-4a9a-9792-52e1d65a4e42")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -26300,7 +27973,7 @@
 			(uuid "a15b9f6b-1750-4f33-ba5b-383cca47782e")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C12")
 					(unit 1)
@@ -26406,7 +28079,7 @@
 			(uuid "09f4ada3-5b4d-426f-b41b-279aa62d6e56")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C5")
 					(unit 1)
@@ -26497,7 +28170,7 @@
 			(uuid "a729d193-3ca3-41b0-9cea-350d283058d2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "D1")
 					(unit 1)
@@ -26607,7 +28280,7 @@
 			(uuid "8c206892-b3c1-472d-9f18-d007a0dc0f4c")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "J1")
 					(unit 1)
@@ -26704,7 +28377,7 @@
 			(uuid "16a081be-c556-498d-aa4e-4f823692ec01")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C21")
 					(unit 1)
@@ -26810,7 +28483,7 @@
 			(uuid "58a4ccb4-650d-4e43-89ce-a2f60d87c493")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C3")
 					(unit 1)
@@ -26907,7 +28580,7 @@
 			(uuid "666f1296-89f3-441b-86fa-9455ef43f6c2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R41")
 					(unit 1)
@@ -26972,7 +28645,7 @@
 			(uuid "49869600-bb9a-4d29-98d9-acbcb8dc5cda")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR014")
 					(unit 1)
@@ -27037,9 +28710,87 @@
 			(uuid "74ddb1d1-2df6-46d2-a1c5-b5de7b083fd6")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ColorLEDs:AA3528QBS")
+		(at 293.37 488.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7745aea7-346a-4c23-90f8-c747c21b2b68")
+		(property "Reference" "D11"
+			(at 291.7825 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AA3528QBS"
+			(at 293.37 482.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ColorLEDs:AA3528"
+			(at 293.37 485.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528QBS-D.pdf"
+			(at 294.64 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Blue LED 150mcd 20mA Vf=3.3V"
+			(at 295.91 474.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "754-1533-1-ND"
+			(at 293.37 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb98d9f5-3317-4230-8e46-a11809513869")
+		)
+		(pin "2"
+			(uuid "b8140f56-df8d-4f2b-be81-9a49be16c215")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -27403,7 +29154,7 @@
 			(uuid "74e469f7-6bbf-4092-ae28-382e6057217c")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 7)
@@ -27468,7 +29219,7 @@
 			(uuid "47326dbf-61f4-4fe1-8d77-e90bf464bcb7")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR026")
 					(unit 1)
@@ -27834,7 +29585,7 @@
 			(uuid "5b720278-c203-4904-9ec7-6d9b14eb2fd3")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 3)
@@ -27900,7 +29651,7 @@
 			(uuid "820a822a-7aeb-4c0b-bacf-ae678d738fb7")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#FLG01")
 					(unit 1)
@@ -28006,7 +29757,7 @@
 			(uuid "13e8e1ff-fd44-4bbb-b3f5-ca9f7a086bff")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C17")
 					(unit 1)
@@ -28114,7 +29865,7 @@
 			(uuid "74e4e3ef-eabe-4fe9-b24f-94bc082a3a4f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U13")
 					(unit 1)
@@ -28202,7 +29953,7 @@
 			(uuid "d2e74861-f417-4216-8443-d1fd4c083632")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C16")
 					(unit 1)
@@ -28299,7 +30050,7 @@
 			(uuid "760d6c8f-4ab4-46d5-91ef-5ed4a115c015")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C18")
 					(unit 1)
@@ -28364,7 +30115,7 @@
 			(uuid "d2f9828c-8ddf-4134-9a5e-47800dad84c2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR04")
 					(unit 1)
@@ -28429,7 +30180,7 @@
 			(uuid "43444203-6d1b-4041-a9e4-1052603e07c4")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR010")
 					(unit 1)
@@ -28534,7 +30285,7 @@
 			(uuid "996f4cdf-5510-4ac7-87d7-5a8a69b5d34a")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C10")
 					(unit 1)
@@ -28599,9 +30350,139 @@
 			(uuid "5f4cf11e-876d-426a-a0c4-05feeac5ec6a")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 283.21 494.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f9dc7ea-b3f6-4858-bdc5-16d07ca5f29f")
+		(property "Reference" "#PWR0160"
+			(at 283.21 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.654 494.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 494.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09880a37-36d2-4ec6-908d-ef4b955052d6")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+8V")
+		(at 247.65 477.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92265b3b-6c7a-4fbf-af40-068818ebf10a")
+		(property "Reference" "#PWR0159"
+			(at 247.65 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.206 476.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+8V\""
+			(at 247.65 477.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1debc2f9-ed0a-4ba2-9747-927444a9cee0")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -28704,7 +30585,7 @@
 			(uuid "6376a7d2-283a-4515-9532-a6a3337577ff")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C7")
 					(unit 1)
@@ -28845,7 +30726,7 @@
 			(uuid "49fb8c11-376b-48e6-b3d9-e50e18bb6310")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "J12")
 					(unit 1)
@@ -28951,7 +30832,7 @@
 			(uuid "604cdb78-0285-4bc8-8f39-9015bf454b66")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C19")
 					(unit 1)
@@ -29056,7 +30937,7 @@
 			(uuid "5f65086f-a8b8-4962-af81-0534ca0a6ddf")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C14")
 					(unit 1)
@@ -29121,7 +31002,7 @@
 			(uuid "768124d1-b682-4cc8-ae2f-ebaade1a4aa0")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR015")
 					(unit 1)
@@ -29186,7 +31067,7 @@
 			(uuid "38a07a28-aac2-403a-bc16-28a4d23f96ac")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR0143")
 					(unit 1)
@@ -29251,7 +31132,7 @@
 			(uuid "8529ea28-71bc-4c21-a807-dae05508c83c")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR022")
 					(unit 1)
@@ -29324,7 +31205,7 @@
 			(uuid "24fd145a-a29e-4663-a34d-9e5a0ebb09e2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "TP1")
 					(unit 1)
@@ -29689,7 +31570,7 @@
 			(uuid "daf44cee-0a98-402f-a42f-5a2c819c5d35")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 1)
@@ -29754,7 +31635,7 @@
 			(uuid "9977ab6e-4e86-4759-b082-6d54a7231241")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR017")
 					(unit 1)
@@ -29819,7 +31700,7 @@
 			(uuid "84f89d97-6896-4e93-ace0-8ee5153ae969")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR011")
 					(unit 1)
@@ -30185,7 +32066,7 @@
 			(uuid "25c881ec-72b8-492d-96a3-9c0f98fa7edf")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 2)
@@ -30250,7 +32131,7 @@
 			(uuid "05d76c4c-012a-47be-8fd9-25f91e735cdc")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR027")
 					(unit 1)
@@ -30616,7 +32497,7 @@
 			(uuid "49947fc1-15c4-424d-96cb-cc60e8eb02c3")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "U1")
 					(unit 6)
@@ -30681,7 +32562,7 @@
 			(uuid "b1844cf4-103d-4cde-a3ff-be88612e7b4d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR021")
 					(unit 1)
@@ -30746,7 +32627,7 @@
 			(uuid "b8a3ddf2-95d5-4011-878e-81db639ceacc")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR08")
 					(unit 1)
@@ -30841,7 +32722,7 @@
 			(uuid "3098da4b-412d-4067-ab8b-cf6978bab24b")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "L1")
 					(unit 1)
@@ -30947,7 +32828,7 @@
 			(uuid "28487297-7efa-43c1-a094-08d51ee829ea")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C20")
 					(unit 1)
@@ -31038,7 +32919,7 @@
 			(uuid "8b195d6f-acdc-4a46-a3c1-7f3e6f9ecc65")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "D2")
 					(unit 1)
@@ -31080,7 +32961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-2520.pdf"
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
 			(at 42.545 215.265 0)
 			(effects
 				(font
@@ -31089,7 +32970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HCMOS Crystal Temperature-Compensated Oscillator, 2.5x2.0 mm SMD"
+		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -31138,7 +33019,7 @@
 			(uuid "9b8baff4-6106-4060-b2a4-ef21c07592cd")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "X1")
 					(unit 1)
@@ -31250,7 +33131,7 @@
 			(uuid "a3078861-136a-4aeb-9346-0da3c67e0ab3")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "J16")
 					(unit 1)
@@ -31315,7 +33196,7 @@
 			(uuid "76b74177-b051-4a2a-9ba4-135bf8e3c0c0")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR012")
 					(unit 1)
@@ -31412,7 +33293,7 @@
 			(uuid "53d4ed86-3ca3-4382-9f0f-8991339af110")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R42")
 					(unit 1)
@@ -31477,7 +33358,7 @@
 			(uuid "0342408e-a0b9-4cd1-99a9-9a8bb8487434")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR020")
 					(unit 1)
@@ -31565,7 +33446,7 @@
 			(uuid "ee83882f-b8e2-4b9b-bee9-f8d836a02517")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "SW1")
 					(unit 1)
@@ -31653,9 +33534,86 @@
 			(uuid "74f4971a-94f8-47d4-90d4-b9060bb548e6")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ColorLEDs:AA3528SURSK")
+		(at 293.37 492.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3ad9f93-8975-4eff-b126-d8b08318952d")
+		(property "Reference" "D10"
+			(at 296.672 494.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AA3528SURSK"
+			(at 293.37 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ColorLEDs:AA3528"
+			(at 293.37 488.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528SURSK.pdf"
+			(at 294.64 483.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Red LED 100mcd 20mA Vf=1.95V"
+			(at 293.37 492.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "754-1537-1-ND"
+			(at 293.37 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28de31a0-ad70-4d70-b365-013732e4348c")
+		)
+		(pin "1"
+			(uuid "17e49047-b3f5-4e5f-9b83-38ecfb9bf3b6")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -31718,7 +33676,7 @@
 			(uuid "a7d64d39-dd4b-48e4-a5ca-fb1f8de539a2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR09")
 					(unit 1)
@@ -31824,7 +33782,7 @@
 			(uuid "96b5a634-011f-4d5c-8ded-338a9bba8587")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R23")
 					(unit 1)
@@ -31889,7 +33847,7 @@
 			(uuid "4508abc9-b9cb-4772-93f7-8ce07cc5ac71")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR06")
 					(unit 1)
@@ -31977,7 +33935,7 @@
 			(uuid "5f007824-3abf-4356-b34c-3f85aaac7eeb")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "R1")
 					(unit 1)
@@ -32082,7 +34040,7 @@
 			(uuid "3b8293a5-3a29-477d-91f2-feb249f82ef0")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C27")
 					(unit 1)
@@ -32170,7 +34128,7 @@
 			(uuid "8d576a62-78a6-4297-9eda-010927e50150")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "SW2")
 					(unit 1)
@@ -32258,7 +34216,7 @@
 			(uuid "c4b51dbd-4ee4-4012-a9af-a298a14424d0")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C15")
 					(unit 1)
@@ -32364,7 +34322,7 @@
 			(uuid "8dcde9f0-ccf4-4e9f-b35b-710cd03a0c2b")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "C11")
 					(unit 1)
@@ -32429,7 +34387,7 @@
 			(uuid "7a9afb1a-a272-4859-b108-8b8943d5e4cf")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR05")
 					(unit 1)
@@ -32494,7 +34452,7 @@
 			(uuid "32ada07b-6bc0-44ab-8717-5303ff2e9254")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
 					(reference "#PWR07")
 					(unit 1)

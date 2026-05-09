@@ -3989,7 +3989,7 @@
 			(uuid "69760322-d78d-48a0-81a8-7f244f5eb7c0")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "U14")
 					(unit 1)
@@ -4097,7 +4097,7 @@
 			(uuid "beb3a072-4de3-4324-bb3b-c7a635c959b1")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "U10")
 					(unit 1)
@@ -4203,7 +4203,7 @@
 			(uuid "f2a1fdbf-9260-44c5-88fd-89c07b72161c")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "R22")
 					(unit 1)
@@ -4268,7 +4268,7 @@
 			(uuid "e3c60ce3-b29d-4cce-821d-c45cab9f51ad")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0107")
 					(unit 1)
@@ -4333,7 +4333,7 @@
 			(uuid "ba40def4-3889-4cc4-b2e5-45e4bb3517c3")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0106")
 					(unit 1)
@@ -4398,7 +4398,7 @@
 			(uuid "67d5bedd-e3fd-45db-875e-9d3327f6612f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR013")
 					(unit 1)
@@ -4463,7 +4463,7 @@
 			(uuid "32527318-ee49-469c-9ddc-4ddd345199eb")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0105")
 					(unit 1)
@@ -4560,7 +4560,7 @@
 			(uuid "1134d132-0c70-453b-8582-995ab01a379d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "R20")
 					(unit 1)
@@ -4625,7 +4625,7 @@
 			(uuid "87fd39c8-7f5a-4b56-a917-66486ddf7fd9")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR03")
 					(unit 1)
@@ -4690,7 +4690,7 @@
 			(uuid "015ff365-c878-4f15-9e8c-7771bd270fbd")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0110")
 					(unit 1)
@@ -4744,7 +4744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 4.7 kOhm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 88.9 62.23 0)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 			(uuid "f0315893-293a-43f4-8da8-782092662b8b")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "R24")
 					(unit 1)
@@ -4884,7 +4884,7 @@
 			(uuid "ebbf8d20-89b3-4133-b6d9-c2b232f2a8be")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "C34")
 					(unit 1)
@@ -4981,7 +4981,7 @@
 			(uuid "159f681b-3d11-4889-aea8-6a31404523d9")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "R21")
 					(unit 1)
@@ -5046,7 +5046,7 @@
 			(uuid "33e78154-30f0-40ec-830f-6d48659bbdd3")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0108")
 					(unit 1)
@@ -5151,7 +5151,7 @@
 			(uuid "e09b425a-477c-4f05-bf98-bba306072940")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "C54")
 					(unit 1)
@@ -5228,7 +5228,7 @@
 			(uuid "cc932151-5254-468e-b5ae-be5ab1a0f517")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "D3")
 					(unit 1)
@@ -5369,7 +5369,7 @@
 			(uuid "b392f075-78a0-4d11-b0d7-edf8d8e82d25")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "J11")
 					(unit 1)
@@ -5466,7 +5466,7 @@
 			(uuid "2a0cb972-54a4-4491-8ddc-b4e6504f6679")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "R15")
 					(unit 1)
@@ -5543,7 +5543,7 @@
 			(uuid "4fdfd0bb-6678-4d4a-9ae5-7a1b6b0bc72e")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "D4")
 					(unit 1)
@@ -5608,7 +5608,7 @@
 			(uuid "47a3553a-6f84-410c-8160-5c8f8d673c72")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0103")
 					(unit 1)
@@ -5705,7 +5705,7 @@
 			(uuid "30222e4c-ded1-4625-8650-4635c282134e")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "C53")
 					(unit 1)
@@ -5770,7 +5770,7 @@
 			(uuid "f889bbc8-4553-4afa-abd2-6f53d45b2377")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0109")
 					(unit 1)
@@ -5867,7 +5867,7 @@
 			(uuid "11d848d0-56ef-48d9-9591-12e8618b3c6f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "R19")
 					(unit 1)
@@ -5932,7 +5932,7 @@
 			(uuid "66b19f03-d0f5-442f-b6d2-2dec0ffb6c58")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR032")
 					(unit 1)
@@ -5997,7 +5997,7 @@
 			(uuid "ccc9150c-cb8c-47c7-ba3d-bf82c37f7b6a")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/435dc57d-0a8b-4ccd-93d5-e5334c096ca6"
 					(reference "#PWR0104")
 					(unit 1)

@@ -5130,7 +5130,7 @@
 			(uuid "4391c78b-ec2e-4cd0-be91-29eeefe71bd6")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0145")
 					(unit 1)
@@ -5196,7 +5196,7 @@
 			(uuid "9fdc1674-ef64-4db9-accb-e9efea3575aa")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#FLG02")
 					(unit 1)
@@ -5250,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 33 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 81.28 69.85 0)
 			(effects
 				(font
@@ -5293,7 +5293,7 @@
 			(uuid "5c377c0a-9ef2-460d-9c45-129bcd07b569")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R13")
 					(unit 1)
@@ -5358,7 +5358,7 @@
 			(uuid "5cef5fc4-1404-4f43-b2cb-2c9be9a5b479")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR089")
 					(unit 1)
@@ -5412,7 +5412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22uF 16V X7R 1210"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 127 38.1 0)
 			(effects
 				(font
@@ -5455,7 +5455,7 @@
 			(uuid "7b828174-bf66-4cf5-ad77-2368aa432ba2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C39")
 					(unit 1)
@@ -5561,7 +5561,7 @@
 			(uuid "789b1507-c8bd-44cc-8488-2dc8f7ce5779")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C38")
 					(unit 1)
@@ -5615,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22uF 16V X7R 1210"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -5658,7 +5658,7 @@
 			(uuid "f52b4db2-2a08-4956-a52a-bf4487bfdf1a")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C42")
 					(unit 1)
@@ -5712,7 +5712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 6.49 kOhm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -5755,7 +5755,7 @@
 			(uuid "5b9a83f9-0744-475f-977e-4aa6e5f67e86")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R30")
 					(unit 1)
@@ -5861,7 +5861,7 @@
 			(uuid "4842e366-0bb7-4ecf-ba5e-b3a3038b22ee")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C37")
 					(unit 1)
@@ -5926,7 +5926,7 @@
 			(uuid "f9491418-a215-4e12-9216-381255efbc78")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0118")
 					(unit 1)
@@ -5961,7 +5961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project Library:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm-LengthenedPads"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -6082,7 +6082,7 @@
 			(uuid "6b62bdcc-0931-40d7-8989-b744ea0ef5b6")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "U7")
 					(unit 1)
@@ -6188,7 +6188,7 @@
 			(uuid "dc1a1625-d546-4785-b086-0d6fbff3c27f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C40")
 					(unit 1)
@@ -6253,7 +6253,7 @@
 			(uuid "c41b1241-2628-4bd8-9900-8ce0aee0eb0d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0116")
 					(unit 1)
@@ -6318,7 +6318,7 @@
 			(uuid "af88f08d-2795-4f38-a651-c4a14bd85241")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR088")
 					(unit 1)
@@ -6412,7 +6412,7 @@
 			(uuid "6731e66c-ae84-4c6a-9399-16cdee78c606")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "FB1")
 					(unit 1)
@@ -6518,7 +6518,7 @@
 			(uuid "61a880a1-f894-46cd-a2ee-42ca372a2ac2")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C35")
 					(unit 1)
@@ -6616,7 +6616,7 @@
 			(uuid "17c19cce-4da8-4fcd-b81a-c16438a1e37c")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "D6")
 					(unit 1)
@@ -6722,7 +6722,7 @@
 			(uuid "c6d9c0d2-830a-4599-b50c-52877df9885f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C41")
 					(unit 1)
@@ -6787,7 +6787,7 @@
 			(uuid "b3ac3f11-1bfa-45e0-9dbe-11983dcb2b66")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0114")
 					(unit 1)
@@ -6841,7 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 33 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 81.28 74.93 0)
 			(effects
 				(font
@@ -6884,7 +6884,7 @@
 			(uuid "e87df95b-0281-4974-9f9f-fc4126f071c6")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R16")
 					(unit 1)
@@ -6938,7 +6938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 33 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 72.39 80.01 0)
 			(effects
 				(font
@@ -6981,7 +6981,7 @@
 			(uuid "4828297b-9321-4dbf-9e32-ac9fda771e94")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R17")
 					(unit 1)
@@ -7048,7 +7048,7 @@
 			(uuid "a5d3f21e-59e0-46a5-a67d-811c03a7bb6b")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#FLG03")
 					(unit 1)
@@ -7113,7 +7113,7 @@
 			(uuid "afe1af44-48e6-4151-b281-1d5c46723371")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0112")
 					(unit 1)
@@ -7166,7 +7166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 270 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 247.65 55.88 0)
 			(effects
 				(font
@@ -7209,7 +7209,7 @@
 			(uuid "6a626d1a-b740-4bc3-9437-deefbd9ffda1")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R26")
 					(unit 1)
@@ -7274,7 +7274,7 @@
 			(uuid "0ed4e1a7-dccd-4fda-8f11-26487f7e03e8")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0120")
 					(unit 1)
@@ -7328,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 33 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 72.39 72.39 0)
 			(effects
 				(font
@@ -7371,7 +7371,7 @@
 			(uuid "196ba72c-0760-4ea8-837e-bf6d5e68f3fc")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R14")
 					(unit 1)
@@ -7477,7 +7477,7 @@
 			(uuid "f5499388-8b00-44b6-b068-d4d71487bb6a")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R28")
 					(unit 1)
@@ -7542,7 +7542,7 @@
 			(uuid "4520db83-60bf-4810-8758-5b3882726327")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0115")
 					(unit 1)
@@ -7636,7 +7636,7 @@
 			(uuid "30403f40-c250-4189-90ec-0e3c640d6652")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "FB6")
 					(unit 1)
@@ -7701,7 +7701,7 @@
 			(uuid "b83e09f4-fce4-43c0-b865-49c8be562c0a")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0119")
 					(unit 1)
@@ -7766,7 +7766,7 @@
 			(uuid "39872c41-8e91-416b-8c6d-d2553bb3946f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0113")
 					(unit 1)
@@ -7872,7 +7872,7 @@
 			(uuid "84bce35e-63cf-42ad-b030-f76fb9438beb")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R29")
 					(unit 1)
@@ -7906,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:RJ45_HALO_HFJ11-x2450E-LxxRL_Horizontal-Fixed3DModel"
+		(property "Footprint" "Connector_RJ:RJ45_HALO_HFJ11-x2450E-LxxRL_Horizontal"
 			(at 210.82 56.515 0)
 			(effects
 				(font
@@ -7991,7 +7991,7 @@
 			(uuid "82c6665e-71d6-42da-8124-c1eb867023c0")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "J13")
 					(unit 1)
@@ -8045,7 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 270 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 252.73 55.88 0)
 			(effects
 				(font
@@ -8088,7 +8088,7 @@
 			(uuid "f89d9edb-41d9-4804-a34e-562b7b969a40")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R27")
 					(unit 1)
@@ -8153,7 +8153,7 @@
 			(uuid "44572157-dc06-46c4-8233-36b147eb6234")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0111")
 					(unit 1)
@@ -8207,7 +8207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 4.7 kOhm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -8250,7 +8250,7 @@
 			(uuid "5f5b514e-28dd-4b85-aaa6-8b466c7781f1")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "R25")
 					(unit 1)
@@ -8315,7 +8315,7 @@
 			(uuid "b0ff267d-f087-4893-b3e6-11712216f3fd")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0117")
 					(unit 1)
@@ -8421,7 +8421,7 @@
 			(uuid "d709e44a-ea17-4041-a4c9-e68517c0d1cd")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "C36")
 					(unit 1)
@@ -8486,7 +8486,7 @@
 			(uuid "07c46d9d-d44b-452c-9c56-82fd7e81c30f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74"
 					(reference "#PWR0121")
 					(unit 1)

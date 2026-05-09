@@ -1436,16 +1436,16 @@
 		(uuid "5263cecb-7d31-49d9-8a0a-4a2e95550e98")
 	)
 	(junction
-		(at 111.76 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35c579c9-e7ed-43c8-8882-8a9c7c0bbdc9")
-	)
-	(junction
 		(at 116.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f7cbd5e-1266-4844-9fa1-0d941f4e7ef8")
+	)
+	(junction
+		(at 111.76 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "432f5e6d-3297-4428-8ba0-036c8a8c6ef2")
 	)
 	(junction
 		(at 147.32 101.6)
@@ -1464,6 +1464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a04d5972-0bc7-4beb-8662-88a8c2a2668f")
+	)
+	(junction
+		(at 154.94 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0b4bf7a-0473-4f3e-bef8-821effdb0ab7")
 	)
 	(junction
 		(at 105.41 96.52)
@@ -1532,16 +1538,6 @@
 			(type default)
 		)
 		(uuid "2bee9c7a-f62f-45fe-9745-9fb70fdca4ab")
-	)
-	(wire
-		(pts
-			(xy 116.84 73.66) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3f92e2-3ff0-4aff-adba-548e76cc7aa9")
 	)
 	(wire
 		(pts
@@ -1665,6 +1661,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 96.52) (xy 105.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d5ae61-d668-4617-8bf2-2744c8d73da0")
+	)
+	(wire
+		(pts
 			(xy 137.16 101.6) (xy 137.16 91.44)
 		)
 		(stroke
@@ -1725,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 105.41 73.66)
+			(xy 105.41 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1752,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "c52b7580-afe7-471c-a32c-b6b837d23965")
+	)
+	(wire
+		(pts
+			(xy 154.94 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1257c91-0653-48c8-9265-674917d9fb8c")
 	)
 	(wire
 		(pts
@@ -1795,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 157.48 73.66)
+			(xy 147.32 73.66) (xy 154.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 96.52) (xy 105.41 96.52)
+			(xy 116.84 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +1957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -1984,7 +2000,7 @@
 			(uuid "528385da-e28a-4ee1-92e0-fe0536286a92")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "R45")
 					(unit 1)
@@ -2049,7 +2065,7 @@
 			(uuid "0c8f5ccf-a217-477c-bd8d-d18373519c32")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "#PWR0148")
 					(unit 1)
@@ -2114,7 +2130,7 @@
 			(uuid "d68650b0-802a-4253-908c-8aba6c268227")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "#PWR0147")
 					(unit 1)
@@ -2159,7 +2175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/tvs-diodes-smf-datasheet?assetguid=7eb8a5b6-bdd0-4561-8f19-0c3cc6f9b2af"
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
 			(at 116.84 82.55 0)
 			(effects
 				(font
@@ -2168,7 +2184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200W unidirectional TVS diode, Vr=24V, Vbreakdown=29.5V"
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 11Vrwm, SMF"
 			(at 116.84 83.82 0)
 			(effects
 				(font
@@ -2211,7 +2227,7 @@
 			(uuid "5841b8a5-8702-4b57-b3db-002aab885b63")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "D7")
 					(unit 1)
@@ -2317,7 +2333,7 @@
 			(uuid "438ba8af-3a82-43a4-8872-48426965aa1e")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "C55")
 					(unit 1)
@@ -2359,7 +2375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6239/D1FCP%20Series%20TFT-DMS-404-1.pdf"
+		(property "Datasheet" "~"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -2368,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current Sense Resistor 2.5mohm 1% 1W 0612"
+		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -2417,7 +2433,7 @@
 			(uuid "e490501b-39e3-4e74-aeca-bbdc92eb61e9")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "R43")
 					(unit 1)
@@ -2427,7 +2443,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 111.76 73.66 0)
+		(at 154.94 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2436,7 +2452,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f6a5d15-5161-472d-ae9e-1fbe0ef3f217")
 		(property "Reference" "#FLG04"
-			(at 111.76 71.755 0)
+			(at 154.94 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2461,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 111.76 68.58 0)
+			(at 154.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 73.66 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 73.66 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2487,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 111.76 73.66 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2499,7 @@
 			(uuid "82306b3c-3231-4a32-98aa-1dd773d0326f")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "#FLG04")
 					(unit 1)
@@ -2580,7 +2596,7 @@
 			(uuid "284adb06-3b79-4bd3-a415-10475dd7a2a2")
 		)
 		(instances
-			(project ""
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "J15")
 					(unit 1)
@@ -2634,7 +2650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 10 ohm 1% 0.1W 0603"
+		(property "Description" "Resistor, small US symbol"
 			(at 137.16 88.9 0)
 			(effects
 				(font
@@ -2677,7 +2693,7 @@
 			(uuid "ba8cf834-5212-44dc-b727-b850cfa06d94")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "R44")
 					(unit 1)
@@ -2720,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.cuidevices.com/product/resource/pj-063ah.pdf"
+		(property "Datasheet" "~"
 			(at 96.52 86.106 0)
 			(effects
 				(font
@@ -2729,7 +2745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Barrel Jack, 8A, 2.1mm ID, 5.5mm OD, 8.85mm Depth"
+		(property "Description" "DC Barrel Jack"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -2763,7 +2779,7 @@
 			(uuid "7ee56248-e0d5-4e05-843a-231e23b619f9")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "J14")
 					(unit 1)
@@ -2828,7 +2844,7 @@
 			(uuid "dde592e0-da60-4dbe-ad16-8d5b01e05bc9")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "#PWR0146")
 					(unit 1)
@@ -2922,9 +2938,74 @@
 			(uuid "7d224ed3-e6a7-45b3-b4cc-783a8cdd11f5")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 111.76 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f594401b-a25d-4f19-8813-1194f33d83dc")
+		(property "Reference" "#FLG05"
+			(at 111.76 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.284 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "430f61e3-543f-45fe-832b-3b0e1868979d")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -3008,7 +3089,7 @@
 			(uuid "76d6efdb-a503-4ffe-8ba6-ba6eae4a140f")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9eb93347-9bc7-4661-8139-b1f7e57aefa1"
 					(reference "C56")
 					(unit 1)

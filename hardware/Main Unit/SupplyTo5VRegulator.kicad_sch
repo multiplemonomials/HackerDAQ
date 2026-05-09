@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ca88ffe4-ed9b-4f97-97c2-24ba95e1a7f7")
+	(uuid "caedca36-f89e-43dd-bdd6-40340e1574a2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A3"
@@ -1526,32 +1526,21 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Designed using TI Webench:\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=C666EE00B2365BB4"
+	(text "Designed using TI Webench:\nhttps://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=7F157B1220B5F138"
 		(exclude_from_sim no)
-		(at 28.956 40.64 0)
+		(at 25.146 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
-			(href "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=C666EE00B2365BB4")
+			(href "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=7F157B1220B5F138")
 		)
-		(uuid "32c8af25-707e-447d-9958-69306ca7370d")
+		(uuid "1941a439-0ff6-4789-84d5-bd7511a36971")
 	)
-	(text "Current sense output:\nScaling Factor: 0.25V/A (8A = 2V)\nCutoff Frequency: 800Hz\nGain Error: about +-2% \n    (+-1% due to shunt resistor tolerance, \n    +-1% due to INA180 input filter)\nOffset Error: about +-25mA"
+	(text "9-24V to 5V 8A Regulator"
 		(exclude_from_sim no)
-		(at 240.284 126.746 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d846a85-479d-47b8-a9f8-5990849c262f")
-	)
-	(text "9-24V to 3.3V 8A Regulator"
-		(exclude_from_sim no)
-		(at 29.464 35.052 0)
+		(at 25.654 27.432 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1560,31 +1549,22 @@
 			)
 			(justify left)
 		)
-		(uuid "b6936f54-60a8-4676-a7b7-52b6d0dd2123")
+		(uuid "51697191-bc9c-479c-b7fe-67901edf0527")
 	)
-	(text_box "PG is pulled low when the regulator has VIN power but the output is off or not at the desired voltage yet, and is high impedance the rest of the time. It can be used to drive a downstream reset."
+	(text "Current sense output:\nScaling Factor: 0.25V/A (8A = 2V)\nCutoff Frequency: 800Hz\nGain Error: about +-2% \n    (+-1% due to shunt resistor tolerance, \n    +-1% due to INA180 input filter)\nOffset Error: about +-25mA"
 		(exclude_from_sim no)
-		(at 138.43 107.95 0)
-		(size 45.72 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
+		(at 236.474 119.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left)
 		)
-		(uuid "8dfc1274-aaa9-4c2d-bc3a-026bc620cc23")
+		(uuid "53d49cfd-d87a-4fe7-9183-2e68ca225224")
 	)
 	(text_box "EN voltage threshold is set for 8.9V to enable from off, 7.5V to disable from on. (this is partially the result of me monkeying with the values in webench to get the resistors into the 10k range so they don't melt)"
 		(exclude_from_sim no)
-		(at 64.77 71.12 0)
+		(at 60.96 63.5 0)
 		(size 29.21 19.05)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1600,11 +1580,11 @@
 			)
 			(justify left top)
 		)
-		(uuid "c91d3428-2816-45f7-9243-e3d3da33a1bc")
+		(uuid "059b2227-0c04-4114-9a8f-96adf5364913")
 	)
 	(text_box "Input filter. Note that due to DC derating, these 10uF 50V caps only have about 3uF of capacitance each at 24V."
 		(exclude_from_sim no)
-		(at 22.86 74.93 0)
+		(at 19.05 67.31 0)
 		(size 38.1 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1620,1018 +1600,1038 @@
 			)
 			(justify left top)
 		)
-		(uuid "fc0486dd-8bfb-4906-b25c-309e3c0d1ec3")
+		(uuid "78701560-cb6f-474f-b128-fefb3d7a9382")
+	)
+	(text_box "PG is pulled low when the regulator has VIN power but the output is off or not at the desired voltage yet, and is high impedance the rest of the time. It can be used to drive a downstream reset."
+		(exclude_from_sim no)
+		(at 134.62 100.33 0)
+		(size 45.72 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "adcba535-b75a-4b89-a072-12467734886f")
 	)
 	(junction
-		(at 195.58 68.58)
+		(at 254 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f2527b0-0526-479e-9d30-16c0de773005")
+		(uuid "2eeba481-0018-44e1-b032-2c3143f6ce72")
 	)
 	(junction
-		(at 100.33 69.85)
+		(at 96.52 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15365027-076d-445b-b7dd-d672f9fbc1ae")
+		(uuid "4ab634a2-2a69-44d7-afd4-353b30793753")
 	)
 	(junction
-		(at 190.5 68.58)
+		(at 166.37 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1591690a-83b5-4aea-ba9e-aae5f572294a")
+		(uuid "4b33c50e-acd8-42e9-b596-d0d670d5ac9d")
 	)
 	(junction
-		(at 49.53 60.96)
+		(at 233.68 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "16d9e5bd-8b52-4cf3-90a4-f61d50245071")
+		(uuid "53ec41c0-104e-4da1-af02-cfa17923f5c9")
 	)
 	(junction
-		(at 59.69 60.96)
+		(at 186.69 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29bf7a22-5be9-4221-82e1-8eec840a1aba")
+		(uuid "5a756619-b387-46c3-8e6f-ea29a3f96b29")
 	)
 	(junction
-		(at 237.49 97.79)
+		(at 55.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b23564b-dc8b-4c2d-8a7f-cb2d13f00ddc")
+		(uuid "692e2260-8012-4cb1-bc6e-37e4f64e5580")
 	)
 	(junction
-		(at 147.32 88.9)
+		(at 162.56 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d2b18c3-de46-451e-8e42-a9b83281f999")
+		(uuid "6a4e370e-1148-47ce-9169-43c32acc88fb")
 	)
 	(junction
-		(at 49.53 68.58)
+		(at 166.37 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5366122d-5f33-426e-bcc2-4604d0759388")
+		(uuid "6cc555e6-8f7e-4fd8-9861-bdc60c7b4c45")
 	)
 	(junction
-		(at 213.36 102.87)
+		(at 151.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cf56370-ef27-4769-a5ed-c1802227b874")
+		(uuid "7159300a-2541-4768-8d51-394aa7d82d12")
 	)
 	(junction
-		(at 170.18 71.12)
+		(at 45.72 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "632221b4-82cb-40c7-afc7-894ae56b13d6")
+		(uuid "7a64d4dd-8877-4b05-ae35-ff72cbd0ae43")
 	)
 	(junction
-		(at 100.33 60.96)
+		(at 233.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63f24f8d-2228-45d0-8d81-335109a92c29")
+		(uuid "84cfada7-1e67-42f8-a179-d7078e62fb79")
 	)
 	(junction
-		(at 59.69 68.58)
+		(at 209.55 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f373c84-96b8-4d67-9c51-b27b0caba170")
+		(uuid "94acd86b-b4a7-4d31-bf67-c553828e9726")
 	)
 	(junction
-		(at 154.94 68.58)
+		(at 186.69 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8016aba3-e413-4bad-b9e1-cf36973a4970")
+		(uuid "9b1ac3a7-5fee-4bc8-bf00-1f08db9c0cfd")
 	)
 	(junction
-		(at 223.52 102.87)
+		(at 45.72 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9c2431d0-79b9-4fc1-8f5f-e1e60fd9c638")
+		(uuid "b1812a9a-0e71-4a1b-a32e-bfb6020f8a54")
 	)
 	(junction
-		(at 71.12 60.96)
+		(at 228.6 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e3c8552-2f2f-40ca-acfa-f678c3406dd8")
+		(uuid "b46576bd-1d28-4dc0-852f-5e1b48bac14d")
 	)
 	(junction
-		(at 237.49 68.58)
+		(at 96.52 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab3c0f4a-cdaf-4142-bad4-de72c2c3fe97")
+		(uuid "b785e839-aadb-4cf8-abff-3d58149f9172")
 	)
 	(junction
-		(at 170.18 68.58)
+		(at 219.71 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c32e8649-42ee-4b15-81fe-bcc72d98162d")
+		(uuid "b7a213ad-5aa3-4cbf-85d1-25bec4242c87")
 	)
 	(junction
-		(at 170.18 81.28)
+		(at 143.51 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7b125fc-f76c-4869-9084-a9fc5e2d48bd")
+		(uuid "b8b44358-d56e-48d7-9edf-fe5392cb991b")
 	)
 	(junction
-		(at 257.81 68.58)
+		(at 166.37 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb961e0a-7f7d-41aa-ab1e-2efb0b78f879")
+		(uuid "d849ab55-6d84-4cf4-85ac-b75b10f826d5")
 	)
 	(junction
-		(at 166.37 81.28)
+		(at 55.88 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4fd06b8-222b-42c3-a90d-7badf889e289")
+		(uuid "e7b44bc1-fe98-4ff9-a743-3404e5717195")
 	)
 	(junction
-		(at 241.3 68.58)
+		(at 67.31 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc66cf32-65db-4039-9b71-14cda92bff70")
+		(uuid "e8315f00-5d2c-499a-8531-afa083d77238")
 	)
 	(junction
-		(at 190.5 78.74)
+		(at 191.77 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ffb5bc1f-190f-4669-b9bc-1a810da376be")
+		(uuid "f446ad8d-9948-410d-a859-8cdc7126468c")
 	)
 	(no_connect
-		(at 107.95 80.01)
-		(uuid "a3d55039-69f0-4054-bfe4-0dd776833446")
+		(at 104.14 72.39)
+		(uuid "ed1c5f7e-e17f-4d87-ab92-611825b52868")
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 88.9)
+			(xy 184.15 71.12) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00bd738f-58b4-47ea-930a-490e58892a96")
+		(uuid "05135114-47c5-40f9-9b38-74f81b9607a4")
 	)
 	(wire
 		(pts
-			(xy 105.41 88.9) (xy 105.41 93.98)
+			(xy 191.77 63.5) (xy 191.77 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01de9b17-999f-41a9-885f-34279dccfcfd")
+		(uuid "05d815f1-7543-4bef-b895-086b11b33db1")
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 143.51 68.58)
+			(xy 186.69 68.58) (xy 186.69 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "043c2042-d0e2-4ee9-bdac-1dbb70a097aa")
+		(uuid "07b070bb-be36-46aa-88c4-6d02bc485bca")
 	)
 	(wire
 		(pts
-			(xy 170.18 68.58) (xy 170.18 71.12)
+			(xy 96.52 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b4aa82f-f6b2-4452-b25f-91a4b76f81b6")
+		(uuid "0b13b1a9-5925-4872-a726-821ded8d5fa4")
 	)
 	(wire
 		(pts
-			(xy 213.36 82.55) (xy 215.9 82.55)
+			(xy 67.31 53.34) (xy 96.52 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0decd8da-dacd-419c-b936-ec20cc6f932e")
+		(uuid "0f927a3d-bbc2-4669-a1d0-1a6b5464c4af")
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 187.96 78.74)
+			(xy 148.59 97.79) (xy 161.29 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e657c3a-31ab-4617-bae0-697b625cd76a")
+		(uuid "13001a85-868d-4e01-a6e6-c77599c56f87")
 	)
 	(wire
 		(pts
-			(xy 241.3 116.84) (xy 250.19 116.84)
+			(xy 96.52 62.23) (xy 104.14 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f0a9d6c-ee84-484b-a159-df805835c66b")
+		(uuid "189abd8c-d8bc-4264-b538-e94f2b473b07")
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 107.95 60.96)
+			(xy 101.6 81.28) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11991c4b-b2fe-4e82-ad67-f35282de766f")
+		(uuid "199f453c-a50c-4f22-b2d8-1bceb01aaeb9")
 	)
 	(wire
 		(pts
-			(xy 223.52 68.58) (xy 237.49 68.58)
+			(xy 228.6 60.96) (xy 233.68 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12cad8fe-7889-4a2e-9540-c0de21dd2ca6")
+		(uuid "19cbd5f2-ba87-496e-90fe-7bfb70afaf6a")
 	)
 	(wire
 		(pts
-			(xy 39.37 60.96) (xy 49.53 60.96)
+			(xy 151.13 60.96) (xy 156.21 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1525aff7-a99d-41b1-b0d9-18c29f005f53")
+		(uuid "1e4579eb-6a06-46d5-b05c-b056c0f5d7b9")
 	)
 	(wire
 		(pts
-			(xy 166.37 81.28) (xy 170.18 81.28)
+			(xy 55.88 59.69) (xy 55.88 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "172560e4-5357-4414-9641-24f528176e41")
+		(uuid "1e8fdbb5-a9a2-4c91-a47a-b2aeda0950ae")
 	)
 	(wire
 		(pts
-			(xy 220.98 82.55) (xy 220.98 71.12)
+			(xy 163.83 60.96) (xy 166.37 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ccb1391-d415-4a7a-8733-8be590d94037")
+		(uuid "1ef53615-4eaf-47c2-a513-82425e2d69b8")
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 187.96 81.28)
+			(xy 45.72 53.34) (xy 45.72 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1decb8b0-d985-408b-8418-59777d5c377b")
+		(uuid "2060cbba-5ae1-4f13-a46b-165b9fa4abbd")
 	)
 	(wire
 		(pts
-			(xy 173.99 81.28) (xy 170.18 81.28)
+			(xy 139.7 53.34) (xy 146.05 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dfca524-8b3a-4929-a2b1-17ba0d4c9f3a")
+		(uuid "224d2d30-45aa-46e2-8ff3-b0f6076eb27d")
 	)
 	(wire
 		(pts
-			(xy 59.69 60.96) (xy 71.12 60.96)
+			(xy 219.71 74.93) (xy 217.17 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ecde860-da3e-4bc1-b254-f9ed6ea55792")
+		(uuid "23b7c7fc-25a2-4f78-bab7-a4ca146801ac")
 	)
 	(wire
 		(pts
-			(xy 215.9 82.55) (xy 215.9 71.12)
+			(xy 217.17 74.93) (xy 217.17 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f335b4b-eba3-4620-a0de-4c9897683938")
+		(uuid "24ce7fb1-b685-4a84-9da2-82ee3d4a9e72")
 	)
 	(wire
 		(pts
-			(xy 45.72 69.85) (xy 45.72 68.58)
+			(xy 217.17 95.25) (xy 219.71 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f8bd6e8-c723-4825-ac48-9d4f2d43bb3c")
+		(uuid "2f8c38de-af0f-4360-8f9c-2b9df98a1dea")
 	)
 	(wire
 		(pts
-			(xy 237.49 68.58) (xy 241.3 68.58)
+			(xy 67.31 53.34) (xy 67.31 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f9ed1e3-f32a-4ac3-bc1c-81c869070bda")
+		(uuid "30426695-28e4-4c17-9c16-8642b4ba4a7b")
 	)
 	(wire
 		(pts
-			(xy 173.99 78.74) (xy 173.99 81.28)
+			(xy 170.18 66.04) (xy 170.18 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23e4d3d3-b4a8-4510-8ab4-eb971a2960e4")
+		(uuid "33514050-24ae-4de6-8e8d-4369d7c987ba")
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 170.18 83.82)
+			(xy 219.71 111.76) (xy 222.25 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23f7aa0b-5679-422e-939c-0018587d7327")
+		(uuid "33e6fad8-4e17-4996-a9d1-65161de7e675")
 	)
 	(wire
 		(pts
-			(xy 190.5 68.58) (xy 170.18 68.58)
+			(xy 96.52 59.69) (xy 96.52 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "278703ff-bff6-43e4-b1fb-18e6f2d2a98d")
+		(uuid "3443c8cc-4b26-406f-8e10-3067e90b0399")
 	)
 	(wire
 		(pts
-			(xy 195.58 71.12) (xy 195.58 68.58)
+			(xy 45.72 59.69) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b7fde71-a738-4cf1-8628-46d74dacd2d3")
+		(uuid "38dbe443-8cb9-43fd-9014-6fe3577f6fd7")
 	)
 	(wire
 		(pts
-			(xy 231.14 124.46) (xy 231.14 128.27)
+			(xy 166.37 73.66) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dc7043c-64bf-4641-bd11-0609d91db3c9")
+		(uuid "38f78f7d-f920-4aa7-ae44-cc971bc0dd7b")
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 195.58 78.74)
+			(xy 219.71 85.09) (xy 219.71 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3112bc32-287e-4203-863e-c2ce0963a874")
+		(uuid "3935630b-6254-439c-ae1a-d1e5a602f5ef")
 	)
 	(wire
 		(pts
-			(xy 190.5 76.2) (xy 190.5 78.74)
+			(xy 237.49 109.22) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39864c4f-dc00-4c7f-a49c-296a80713a2f")
+		(uuid "3a706d4f-ab47-43fc-9c1f-1446c7bb00fe")
 	)
 	(wire
 		(pts
-			(xy 143.51 60.96) (xy 149.86 60.96)
+			(xy 101.6 91.44) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4031042c-61b3-4ee4-930a-78432c16906d")
+		(uuid "3e6faa6d-0c87-4f95-a296-b294d88de6d4")
 	)
 	(wire
 		(pts
-			(xy 195.58 68.58) (xy 213.36 68.58)
+			(xy 166.37 60.96) (xy 166.37 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43283aa5-b5f6-4fac-96b6-8fa729dc0786")
+		(uuid "45896c4b-334e-482d-840f-1410013b1c00")
 	)
 	(wire
 		(pts
-			(xy 166.37 71.12) (xy 166.37 73.66)
+			(xy 45.72 53.34) (xy 55.88 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47c27156-8f1a-4609-89a7-a959a911f691")
+		(uuid "45c4bed1-6d19-4786-bfed-9d43235a9ae8")
 	)
 	(wire
 		(pts
-			(xy 220.98 102.87) (xy 223.52 102.87)
+			(xy 233.68 60.96) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d5ad10f-f7fa-4207-8e9f-d38427d8255a")
+		(uuid "45d129fd-2c6e-4fd7-bc09-54ca00ade284")
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 223.52 119.38)
+			(xy 143.51 73.66) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d6535fe-0595-4de4-aa89-f6eaf54e3d85")
+		(uuid "47a3f054-6d2d-4853-b2b3-ba8230f24e81")
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 220.98 82.55)
+			(xy 166.37 81.28) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50ae9741-feac-4cde-941e-b2cbb6bd5e1a")
+		(uuid "5ab3cf9a-51a8-46cc-a71c-e3d0d243e8fc")
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 59.69 60.96)
+			(xy 55.88 53.34) (xy 55.88 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5379a35d-585f-4a76-9ff5-5477ebf491f3")
+		(uuid "5befa436-28af-4fe4-88e5-42da6e1065fd")
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 49.53 62.23)
+			(xy 254 60.96) (xy 254 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "550fb58e-d63c-408b-a434-b74f4bbc8067")
+		(uuid "6161fc0d-ced3-4c2c-a4b2-18ebec1bfc4b")
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 213.36 102.87)
+			(xy 104.14 81.28) (xy 101.6 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "563d1576-153b-4104-a217-2f0d32b449c0")
+		(uuid "63a824f9-7e16-42ab-88fb-86e6f3183590")
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 147.32 88.9)
+			(xy 139.7 81.28) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "620902da-58ec-43f1-907b-1732ade8605d")
+		(uuid "63e5f3b9-24b3-4869-b2f3-837eba5c2e68")
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 213.36 92.71)
+			(xy 219.71 80.01) (xy 219.71 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66517878-8f72-4554-8555-7b03fc992e07")
+		(uuid "646fa667-e8b0-4c4e-9604-8b694ce4c12a")
 	)
 	(wire
 		(pts
-			(xy 143.51 83.82) (xy 147.32 83.82)
+			(xy 143.51 71.12) (xy 143.51 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69dba2b9-388f-438b-ad19-7e2bc126ff50")
+		(uuid "6a27d618-b43c-454e-9c7f-7d3f0188fd19")
 	)
 	(wire
 		(pts
-			(xy 59.69 60.96) (xy 59.69 62.23)
+			(xy 212.09 74.93) (xy 212.09 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bfe6f56-4a7c-43d0-8758-8a5606715562")
+		(uuid "6bf6da5f-12a1-4384-8c28-7717cab14d5d")
 	)
 	(wire
 		(pts
-			(xy 143.51 78.74) (xy 147.32 78.74)
+			(xy 35.56 53.34) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "703d5da9-eb43-44a9-b9a3-8c89004d04ac")
+		(uuid "6d9f2afb-50f0-4a75-ac09-5f1a9b30cc76")
 	)
 	(wire
 		(pts
-			(xy 170.18 88.9) (xy 170.18 92.71)
+			(xy 209.55 95.25) (xy 209.55 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "784e9c70-4a92-4efb-8803-d2aafacf2b81")
+		(uuid "6fdca9fa-31ea-4d09-aa6d-3f272f687a51")
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 170.18 68.58)
+			(xy 139.7 71.12) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a26b9dd-1f60-46c9-8aae-6c81b31b13c1")
+		(uuid "71e19e53-397a-47cc-9db2-4104ceeb3b59")
 	)
 	(wire
 		(pts
-			(xy 195.58 76.2) (xy 195.58 78.74)
+			(xy 233.68 60.96) (xy 254 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bc54f2a-5449-4b27-a9e3-e2c0f7e7b8f3")
+		(uuid "7488ecf3-a822-4e25-b7ed-f2fe8ab696fb")
 	)
 	(wire
 		(pts
-			(xy 173.99 73.66) (xy 173.99 71.12)
+			(xy 170.18 71.12) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bc93684-6a03-40b2-b9dc-d56f8d6bbf27")
+		(uuid "75044414-9ba6-493a-8e24-910e03c98bd1")
 	)
 	(wire
 		(pts
-			(xy 237.49 105.41) (xy 237.49 106.68)
+			(xy 254 69.85) (xy 254 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e80c0a1-0fa6-4f64-abd3-59128fa43ca1")
+		(uuid "75c0e68d-1b46-40cc-afae-5c0c0cd62e75")
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 166.37 81.28)
+			(xy 186.69 71.12) (xy 184.15 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8014ca16-2959-4669-92f3-a3277fd4aab9")
+		(uuid "76fd2a61-a430-40b8-ba4c-176f40ab479c")
 	)
 	(wire
 		(pts
-			(xy 59.69 67.31) (xy 59.69 68.58)
+			(xy 227.33 116.84) (xy 227.33 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8258884f-6ca6-4284-947c-fa5e9214edbc")
+		(uuid "7d82c64e-c2fa-4e41-a1ae-fb60d54ceb77")
 	)
 	(wire
 		(pts
-			(xy 166.37 78.74) (xy 166.37 81.28)
+			(xy 209.55 106.68) (xy 222.25 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8266fbe1-c999-497b-ad92-8a53882b4452")
+		(uuid "827237fb-13d7-446d-bc55-779e817e4c17")
 	)
 	(wire
 		(pts
-			(xy 223.52 87.63) (xy 223.52 82.55)
+			(xy 55.88 60.96) (xy 67.31 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82da77e0-d57a-4c43-953c-673c5773ef8a")
+		(uuid "8835f384-3dad-454d-8a67-d46d1caf0cad")
 	)
 	(wire
 		(pts
-			(xy 237.49 97.79) (xy 237.49 100.33)
+			(xy 143.51 76.2) (xy 143.51 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f9c57cf-2d6a-4f64-819d-5d6a0607911d")
+		(uuid "887f8be4-bda5-4b43-b118-7880fc8bb9b1")
 	)
 	(wire
 		(pts
-			(xy 100.33 67.31) (xy 100.33 69.85)
+			(xy 151.13 60.96) (xy 139.7 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91cb4673-1f0c-4840-a9bf-56422174972d")
+		(uuid "8a8faf3c-1d3d-4975-988d-a8372a012f3d")
 	)
 	(wire
 		(pts
-			(xy 100.33 77.47) (xy 100.33 80.01)
+			(xy 186.69 60.96) (xy 186.69 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94a540bd-b86c-4e16-917b-6ef3c3d2f851")
+		(uuid "8cc1ce65-cdc0-40a0-b1f8-006285a2e429")
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 107.95 69.85)
+			(xy 219.71 95.25) (xy 219.71 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96f17f67-ce3b-404c-ad6b-4b66e4798533")
+		(uuid "8f02e032-cbec-4df9-a3f0-d6ea5ac41e40")
 	)
 	(wire
 		(pts
-			(xy 223.52 92.71) (xy 223.52 102.87)
+			(xy 256.54 60.96) (xy 254 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a1b5064-f35d-4799-b983-0e428762397b")
+		(uuid "92001356-7485-4c38-b52c-4731edefc460")
 	)
 	(wire
 		(pts
-			(xy 257.81 77.47) (xy 257.81 81.28)
+			(xy 45.72 60.96) (xy 55.88 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a2694f6-179e-4ecc-a3b4-ed3ef1c4c1a1")
+		(uuid "920ca2b6-9676-496f-8ced-62d5a147736b")
 	)
 	(wire
 		(pts
-			(xy 154.94 68.58) (xy 160.02 68.58)
+			(xy 148.59 66.04) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aea146c-1ded-45ff-b4bd-b827cbcd5e60")
+		(uuid "9428c6fb-dbff-4d81-bd62-53473a36293c")
 	)
 	(wire
 		(pts
-			(xy 257.81 88.9) (xy 257.81 92.71)
+			(xy 227.33 90.17) (xy 233.68 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9beb647f-7bb4-415a-a91a-f9dc919818f9")
+		(uuid "a11db817-e4b7-4b5f-81cd-e5b8ae446b14")
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 100.33 60.96)
+			(xy 209.55 106.68) (xy 209.55 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a595922c-23bf-4063-b971-9a8abebd1ec2")
+		(uuid "a2e70fe6-9022-4207-8b09-89b9df79f43b")
 	)
 	(wire
 		(pts
-			(xy 223.52 119.38) (xy 226.06 119.38)
+			(xy 170.18 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a824b6bc-1d0e-4346-b464-fc8078b2f923")
+		(uuid "a34780f6-905b-481d-a296-6c730fbfe71e")
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 100.33 62.23)
+			(xy 209.55 95.25) (xy 212.09 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9a73204-1130-4383-868c-c752ac1fe535")
+		(uuid "aababc4a-2b5c-4f26-b799-bf7a056b1eaa")
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 231.14 97.79)
+			(xy 209.55 80.01) (xy 209.55 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9ca03bc-bb86-441f-b783-194203a05d4a")
+		(uuid "abbfc07f-3e1b-4893-af35-93d5d9375a2c")
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 147.32 81.28)
+			(xy 186.69 71.12) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b285ffad-a9c2-4dc5-816a-237e95628e63")
+		(uuid "adb88922-ad54-49f5-9cf9-151090d7b4ef")
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 147.32 92.71)
+			(xy 191.77 60.96) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b45e0d53-c737-4296-8660-299e393e9fb2")
+		(uuid "adc8a1d1-fabd-4520-ad3b-f7edd6390248")
 	)
 	(wire
 		(pts
-			(xy 195.58 68.58) (xy 190.5 68.58)
+			(xy 96.52 62.23) (xy 96.52 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9102a9e-444d-423d-8251-03f5c797c1d5")
+		(uuid "af5a7dad-96e4-4aa4-94fa-54ed48bce1d7")
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 49.53 68.58)
+			(xy 162.56 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc9db174-3fde-4169-8903-1a4c894583f2")
+		(uuid "b089ca85-b5da-4ae0-9792-ac2e50ca2db0")
 	)
 	(wire
 		(pts
-			(xy 190.5 68.58) (xy 190.5 71.12)
+			(xy 139.7 76.2) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c25fb6bb-09d9-440a-89f1-804f0fc1f40b")
+		(uuid "b646ecc8-4871-4c9d-93fe-019f10839c2e")
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 71.12 68.58)
+			(xy 41.91 62.23) (xy 41.91 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7a46776-ec16-4f0c-9e50-e62eb182a674")
+		(uuid "baaf705d-68ff-4ff1-ac3c-a19333d2dca1")
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 165.1 105.41)
+			(xy 151.13 53.34) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f7b3dc-5e4a-4199-826b-91e9bde67c6b")
+		(uuid "bc6bdbc5-4a96-4a6a-8154-dcac88282ec7")
 	)
 	(wire
 		(pts
-			(xy 257.81 68.58) (xy 257.81 72.39)
+			(xy 41.91 60.96) (xy 45.72 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca43b90b-0c59-4fde-abda-6b188c7fad6a")
+		(uuid "beb3b862-96bd-45dd-a16b-6daad9adbcd5")
 	)
 	(wire
 		(pts
-			(xy 71.12 68.58) (xy 71.12 67.31)
+			(xy 162.56 63.5) (xy 166.37 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d100d8ed-9508-4a7b-991e-f4048badf9df")
+		(uuid "c05dc424-766b-4e3b-a512-3cd1bb1f2512")
 	)
 	(wire
 		(pts
-			(xy 166.37 71.12) (xy 170.18 71.12)
+			(xy 186.69 60.96) (xy 166.37 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1617b9d-b151-495b-adcb-aec333eafc72")
+		(uuid "c8570b77-7868-4766-b1b3-9c771ad0ca29")
 	)
 	(wire
 		(pts
-			(xy 143.51 73.66) (xy 152.4 73.66)
+			(xy 191.77 60.96) (xy 186.69 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db0da738-5313-41de-bd7a-ac4827ea86c0")
+		(uuid "cf6096fe-d2ef-4a10-9e02-780c3a6b11a7")
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 237.49 97.79)
+			(xy 227.33 101.6) (xy 227.33 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "de45ce02-aa58-43cf-b707-1920016d8d8d")
+		(uuid "d385a3ba-dd73-4ae2-8af5-df1e179485d8")
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 71.12 62.23)
+			(xy 209.55 74.93) (xy 212.09 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e077b883-b099-42cf-b17c-417c33ca4a5f")
+		(uuid "d46a3448-4f2d-43c8-ab6c-cf68b7e5c08d")
 	)
 	(wire
 		(pts
-			(xy 241.3 68.58) (xy 257.81 68.58)
+			(xy 139.7 66.04) (xy 148.59 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0d80aaf-6e4a-4335-a4e0-142be5d4855c")
+		(uuid "d530a9d2-f5b7-477e-bf14-b2f0c42f0744")
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 49.53 68.58)
+			(xy 55.88 53.34) (xy 67.31 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e129b40e-ac72-484d-9a14-d428202aa0aa")
+		(uuid "d8079a01-fd50-4b7d-8628-43ddadc1e577")
 	)
 	(wire
 		(pts
-			(xy 213.36 102.87) (xy 215.9 102.87)
+			(xy 96.52 53.34) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4177df3-f8c6-4b38-b2a1-6bdec26327b0")
+		(uuid "d82260e5-1978-47de-9e65-85eb058000f0")
 	)
 	(wire
 		(pts
-			(xy 100.33 69.85) (xy 100.33 72.39)
+			(xy 254 81.28) (xy 254 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb579184-7d11-42a3-95f0-31e18d2fdce9")
+		(uuid "dbaa766d-d88f-4edc-8d2a-3a635e6d04ca")
 	)
 	(wire
 		(pts
-			(xy 260.35 68.58) (xy 257.81 68.58)
+			(xy 233.68 97.79) (xy 233.68 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed2e2c60-7baa-4c94-a38e-73115ff0492e")
+		(uuid "dca27c8b-79aa-457b-905d-18776d4c8cc1")
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 105.41 88.9)
+			(xy 162.56 71.12) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee7f7d7d-1b10-4c42-a46b-ae751624cd08")
+		(uuid "ddc98795-332b-480e-a1d9-c8052602fed3")
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 152.4 105.41)
+			(xy 191.77 68.58) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efa6a378-8bfd-4781-b3c0-f40220accd11")
+		(uuid "e33d63ad-bb35-4301-8dde-ecb9bb5bc4bb")
 	)
 	(wire
 		(pts
-			(xy 49.53 68.58) (xy 59.69 68.58)
+			(xy 143.51 81.28) (xy 143.51 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f55f4414-0211-488e-ac40-adabbc28bf80")
+		(uuid "ea7b1e42-2bc5-41b6-bfc6-9cf5b43d64fa")
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 226.06 114.3)
+			(xy 67.31 60.96) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6386ade-6449-40fd-8f9a-78e0af0f030c")
+		(uuid "ebbf56a0-d062-4b55-b92a-a702589417a1")
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 154.94 68.58)
+			(xy 162.56 63.5) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f68a2cc8-fcaa-443d-a970-adafad8143be")
+		(uuid "edcfe2fc-e51b-48e2-bde9-058a98ce6c66")
 	)
 	(wire
 		(pts
-			(xy 173.99 71.12) (xy 170.18 71.12)
+			(xy 96.52 69.85) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f97989d8-6c3b-4489-baeb-3fb8021734ca")
+		(uuid "ee1d3b0a-692a-473c-a857-e025de204633")
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 105.41 101.6)
+			(xy 233.68 90.17) (xy 233.68 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb0f2556-93a4-4c5c-b5e3-1505a2837b93")
+		(uuid "f800db09-e35d-4cca-aadc-4adb60d36f23")
 	)
 	(wire
 		(pts
-			(xy 213.36 87.63) (xy 213.36 82.55)
+			(xy 170.18 63.5) (xy 166.37 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe7aab02-15e8-48b7-bbf6-35c93abe4268")
+		(uuid "fc66eeab-82d7-4a3a-87d0-eb8fc102afa3")
 	)
 	(wire
 		(pts
-			(xy 237.49 68.58) (xy 237.49 97.79)
+			(xy 219.71 60.96) (xy 228.6 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff94bba6-6821-47ae-8b4b-cc994a82f37c")
+		(uuid "ff9a1fc1-c8cf-43ae-827e-11cafb1d518c")
 	)
 	(image
-		(at 76.2 151.13)
+		(at 72.39 143.51)
 		(scale 0.773834)
-		(uuid "d3f068c4-1ea6-4ed5-93d9-af2be26ade08")
+		(uuid "70c1cb5f-f194-42a3-9f42-1cf035350cc8")
 		(data "iVBORw0KGgoAAAANSUhEUgAABSsAAATXCAYAAAAGFSDzAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xd8VFX+//HXpBB6R0DpoIiAiOJXxAUXUFmwoK6ushY67Np777piWRs2VOwFXd2fIiqiYsNF"
 			"2UURLHRpgiC9Q9r8/rgwySQBkjDJDMnr+XjMY+69595zPzOJ32/2zbnnhMLhcBhJkiRJkiRJirOk"
@@ -5269,112 +5269,2706 @@
 			"AAAAAHbh/wHqSU1eu5w0NgAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "BOOT"
-		(at 143.51 60.96 0)
+	(label "+5V_PRE_SENSE"
+		(at 170.18 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8273786b-990d-4622-9577-0bf0bf15f37b")
-	)
-	(label "+3.3V_PRE_SENSE"
-		(at 173.99 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "942905bf-8043-44a0-bd11-7373ab953432")
-	)
-	(label "SW"
-		(at 146.05 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bffbac3e-9404-467b-92b6-24872f2a05d0")
-	)
-	(label "EN"
-		(at 102.87 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da72981c-8ad0-4ae8-8c58-c03fdfcc9e29")
+		(uuid "1a3e53af-3ee5-42de-8c7b-776d18d47414")
 	)
 	(label "FB"
-		(at 156.21 81.28 0)
+		(at 152.4 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ff982031-7e71-47b9-83cf-cda8e1d0ba55")
+		(uuid "35eb9d19-1300-49c7-8d85-d4b16c95960f")
 	)
-	(hierarchical_label "+3.3V_CUR_SENSE"
+	(label "EN"
+		(at 99.06 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "750a0ccb-60f5-4276-812c-4c6b585242dd")
+	)
+	(label "BOOT"
+		(at 139.7 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1ee286d-7063-40d3-935d-4f62e94f126a")
+	)
+	(label "SW"
+		(at 142.24 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea13ecf5-413c-439e-b5b1-d570dafb8009")
+	)
+	(hierarchical_label "+5V"
 		(shape output)
-		(at 250.19 116.84 0)
+		(at 256.54 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "359c8169-0475-4054-b99a-6601e17d3967")
+		(uuid "0c32d77e-a05c-416d-b87f-5e07e930a3fb")
 	)
-	(hierarchical_label "PG"
+	(hierarchical_label "+5V_CUR_SENSE"
 		(shape output)
-		(at 165.1 105.41 0)
+		(at 246.38 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c6359066-1579-4311-8884-3cdb0c5230b5")
+		(uuid "96b5cebe-3a10-4b3d-bfa3-b44fe7d6a30e")
 	)
 	(hierarchical_label "V_{SUPPLY}"
 		(shape input)
-		(at 39.37 60.96 180)
+		(at 35.56 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d5517f78-f48e-4e02-8146-9b020e429949")
+		(uuid "a3c3a8fc-0ebe-4204-b8f5-752b941ad00d")
 	)
-	(hierarchical_label "+3.3V"
+	(hierarchical_label "PG"
 		(shape output)
-		(at 260.35 68.58 0)
+		(at 161.29 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f634dd3f-3754-42cd-8699-d23e857cdcb7")
+		(uuid "d52f615e-9c41-4adf-9821-1d5f7461916e")
 	)
 	(symbol
-		(lib_id "Project Library:TPS56A37RPAR")
-		(at 107.95 60.96 0)
+		(lib_id "Device:R_Small_US")
+		(at 170.18 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07615339-4cfc-4e52-b8d3-2e0a5192bffa")
+		(property "Reference" "R50"
+			(at 176.276 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "73.2k"
+			(at 177.8 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "2019-RK73H1JTTD7322FCT-ND"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RK73H1JTTD7322F"
+			(at 170.18 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cdc85057-dc0e-45ef-b5bc-13323f1773be")
+		)
+		(pin "1"
+			(uuid "ed2a3d1b-1d93-4317-9274-fa18fb32d5ea")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 96.52 57.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e25f7e3-7bf0-46b1-831f-20a6ea8ede2f")
+		(property "Reference" "R46"
+			(at 90.424 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18.2k"
+			(at 90.424 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-18.2KHRCT-ND"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0718K2L"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f22393ed-4cbc-46e3-bf88-a20dc3e6c832")
+		)
+		(pin "1"
+			(uuid "5c717760-d558-489e-9b7c-2888b6397b58")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ca8cb3f-f17b-411e-8f83-42d350567722")
-		(property "Reference" "U11"
-			(at 125.73 52.07 0)
+		(uuid "0ed26070-bea4-4957-aae3-6b7a85279040")
+		(property "Reference" "C57"
+			(at 48.26 55.8736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10µF"
+			(at 48.26 58.4136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "CL32B106KBJNNNE"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "1276-3387-1-ND"
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "086be6e3-06ab-4671-975a-65f8101a9d96")
+		)
+		(pin "2"
+			(uuid "af60afda-6a64-4a57-bdfe-9f08cfc6d9ea")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 68.58 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1017430b-0c55-4803-9816-217729bce820")
+		(property "Reference" "C61"
+			(at 160.02 67.3035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150pF"
+			(at 160.02 69.8435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "478-KGM15ACG2A151FTCT-ND"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "KGM15ACG2A151FT"
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a52fe666-bb88-4afc-aa4c-0e358f23fd4a")
+		)
+		(pin "2"
+			(uuid "ea947926-a313-487c-b9a0-b5cc6284b5b3")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13fa85f2-80e5-403b-9480-c9308a172420")
+		(property "Reference" "#PWR0157"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 257.556 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49350d3c-d7fa-4bd7-a1dc-03f0c252119e")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1417e319-88f5-41b8-9b59-81c7f2efb03b")
+		(property "Reference" "#PWR0152"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.446 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9823107-8edc-4194-8828-4379666ee2ac")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e4c977f-838b-485a-971d-1eba4b159d7f")
+		(property "Reference" "#PWR0153"
+			(at 166.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.306 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cfabf1c-3768-415a-b7a1-6f23b31ba14d")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e72647e-fbfd-4865-a38c-ed78c71da68d")
+		(property "Reference" "#PWR0150"
+			(at 96.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.456 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fe6df1-6ba4-40de-a2f2-ed2d4da22772")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Shunt_US")
+		(at 214.63 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fdb4152-09c1-4b12-99cd-2a4ccc2b29c0")
+		(property "Reference" "R52"
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".0025"
+			(at 214.63 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project Library:D1FCP0612"
+			(at 214.63 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "D1FCP0612D2M50FF-T5"
+			(at 214.63 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 214.63 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "4463-D1FCP0612D2M50FF-T5CT-ND"
+			(at 214.63 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f0baedbd-2b06-44f2-aaed-97625732116d")
+		)
+		(pin "2"
+			(uuid "835127e9-1e29-4832-ac51-f581b3753610")
+		)
+		(pin "1"
+			(uuid "b83bdf13-c4de-4dc1-8ee9-ca098329fe29")
+		)
+		(pin "4"
+			(uuid "a19903b3-56be-4c95-82b2-2afebed017d3")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "391da663-6cec-4226-94c0-1e2f926d6aa4")
+		(property "Reference" "C58"
+			(at 58.42 55.8736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10µF"
+			(at 58.42 58.4136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "CL32B106KBJNNNE"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "1276-3387-1-ND"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "858fbf96-3ede-4a31-a01d-ab2f33b306eb")
+		)
+		(pin "2"
+			(uuid "d662ee25-ea21-4522-80f4-aefe62c583ce")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 67.31 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470b8823-e273-4a18-957b-01d7247b467f")
+		(property "Reference" "C59"
+			(at 69.85 55.8862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 69.85 58.4262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "399-C0603C104K5RACTUCT-ND"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "ESD35C104K4T2A-24"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18ab93d5-e547-4cae-91fa-db1c49603653")
+		)
+		(pin "2"
+			(uuid "6ff40b3e-6329-41c3-9212-56247648ddb8")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c4767b-87ca-43e3-9241-2f27c10b5328")
+		(property "Reference" "#PWR0156"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.236 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "903d7bcd-9eb7-42a5-8151-7dc31eb74797")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57a796d7-a90f-42a8-be4e-a24a7f975992")
+		(property "Reference" "#PWR0151"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.536 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6defcc6-336e-456d-9399-274d27f59aca")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dddfc07-0bb1-4fd5-934d-a5da5b6e3f18")
+		(property "Reference" "#PWR0155"
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 230.886 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9665b121-d63d-4e6a-8f28-5d58a3f16827")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 214.63 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6076fdcd-b397-4c90-9cf6-1d516a60a792")
+		(property "Reference" "C64"
+			(at 214.6236 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10µF"
+			(at 214.6236 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "CL31B106KLHNNNE"
+			(at 214.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbda67d8-0ece-40d6-ba84-05d5f99ae4f5")
+		)
+		(pin "2"
+			(uuid "1c416e11-d7e8-46ff-a1a8-27d8447b2c72")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 254 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65d722f8-5a79-4888-a20b-076a5d9d530b")
+		(property "Reference" "R54"
+			(at 255.778 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 255.778 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-270HRCT-ND"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-07270RL"
+			(at 254 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5ed172a-b408-4b40-bf52-dab82baa9fef")
+		)
+		(pin "1"
+			(uuid "eaed9a1f-1a30-4660-a7d3-c8bd16972541")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 228.6 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6952dddb-d8c1-4301-a8c7-be095336f3b9")
+		(property "Reference" "#FLG06"
+			(at 228.6 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 228.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a844e3f-e0ed-4534-aa94-65715fa8ce68")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fce57b8-e9c5-4b4a-9952-6e337145cd31")
+		(property "Reference" "#PWR0154"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.086 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df57c937-b44e-455e-937d-667056e7ed39")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 186.69 66.04 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8041f95a-2881-4145-8168-a2de696c03dd")
+		(property "Reference" "C62"
+			(at 184.15 64.7636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 184.15 67.3036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "CL32B226MOJNNNE"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "1276-3395-1-ND"
+			(at 186.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2e7b179-d8fd-4c7e-8d54-a010b9757123")
+		)
+		(pin "2"
+			(uuid "7ed743da-a541-4fd1-890d-7ee806a6bd1a")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 191.77 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "957dc29c-4cf2-42aa-85c1-34699e1fc612")
+		(property "Reference" "C63"
+			(at 194.31 64.7636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 194.31 67.3036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "CL32B226MOJNNNE"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "1276-3395-1-ND"
+			(at 191.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfda71d8-1489-47f7-9537-f23e86a8b82b")
+		)
+		(pin "2"
+			(uuid "84704a75-5e81-4076-ade5-52ea0d347e2f")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 101.6 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f243b05-c0e5-41d5-b4b8-cd97fe1709ad")
+		(property "Reference" "R48"
+			(at 95.504 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "52.3k"
+			(at 95.504 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-52.3KHRCT-ND"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0752K3L"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b015ba02-3d81-4c85-ae90-c21e3a535ee4")
+		)
+		(pin "1"
+			(uuid "06260496-0717-4608-a72a-e71bebd958f8")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 219.71 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1322dde-268f-4145-84b8-9cdaa67777de")
+		(property "Reference" "R53"
+			(at 217.932 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 217.932 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0HRCT-ND"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710RL"
+			(at 219.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0038a7a0-9a52-4d69-8aac-963e66cdea3a")
+		)
+		(pin "1"
+			(uuid "82003d76-6707-4fa1-9348-67774bf66302")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 209.55 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a74404e8-aa0a-41d4-8970-69b2d37d3d26")
+		(property "Reference" "R51"
+			(at 207.772 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 207.772 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0HRCT-ND"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710RL"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c991cc3-dcc1-41ad-b76d-0d21a4e78a07")
+		)
+		(pin "1"
+			(uuid "37e57cd7-312b-4f88-b919-eb4a76058761")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 148.59 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a79b90f6-bee8-4154-8802-ab4b892cb08e")
+		(property "Reference" "C60"
+			(at 148.5963 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 148.5963 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "399-C0603C104K5RACTUCT-ND"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "ESD35C104K4T2A-24"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a726ddd-322a-4b45-abda-7b337f0d503b")
+		)
+		(pin "2"
+			(uuid "75d73f09-1ba5-48ad-9f19-3895492b93f2")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ColorLEDs:AA3528CGSK")
+		(at 254 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8d4e42e-20bd-4239-a480-4fe61ff848f0")
+		(property "Reference" "D8"
+			(at 257.81 79.0574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AA3528CGSK"
+			(at 247.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ColorLEDs:AA3528"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528CGSK.pdf"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Green LED 100mcd 20mA Vf=2.1V"
+			(at 254 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "754-1528-1-ND"
+			(at 242.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c1aed5-a48b-4f5a-b6de-3f8d61c034d5")
+		)
+		(pin "2"
+			(uuid "13bcd43f-8f11-402a-8386-94ae367f4969")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Current:INA180A3")
+		(at 229.87 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b16c9f1b-1406-4802-a854-8216f55d81b1")
+		(property "Reference" "U17"
+			(at 230.886 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA180A3"
+			(at 236.474 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 231.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "296-47654-1-ND"
+			(at 229.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a893ad92-d19f-49b7-a494-5d0a2a7ded39")
+		)
+		(pin "5"
+			(uuid "bd7b12c4-fe90-404d-ba3c-e4f164d7d85f")
+		)
+		(pin "3"
+			(uuid "79ede6f2-678c-4e06-a442-9bfcef7783bb")
+		)
+		(pin "4"
+			(uuid "054290c4-f1a4-46fe-86fa-a23e919b0837")
+		)
+		(pin "2"
+			(uuid "f789a843-b4d2-4af2-9268-2c5b561b32b6")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 166.37 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c2a34e-68e3-466e-91cc-a63f5e646f26")
+		(property "Reference" "R49"
+			(at 164.592 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 164.592 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "311-10.0KHRCT-ND"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "RC0603FR-0710KL"
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c63ce41b-ca39-4f33-a3e5-eba0b9964f2c")
+		)
+		(pin "1"
+			(uuid "6a7ba020-1918-4d3c-bed5-c09e7b2b6d69")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 160.02 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4fab20d-d28a-4524-8bef-a4f1855edd26")
+		(property "Reference" "L3"
+			(at 160.02 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3μH"
+			(at 160.02 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-3232"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "IHLP3232DZER3R3M11"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "541-1352-1-ND"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f9f56bf-e35c-4119-9c90-c398b2a36b67")
+		)
+		(pin "1"
+			(uuid "4ff12865-2e16-463b-91fb-caf582a5dc88")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56fd02b-4345-4cc9-b345-af7578b865f3")
+		(property "Reference" "C65"
+			(at 236.22 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 236.22 96.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "399-C0603C104K5RACTUCT-ND"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mating Connector" ""
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LibRef" "ESD35C104K4T2A-24"
+			(at 233.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71c6e257-5b45-4c88-9a4b-a4e7ceb22c9d")
+		)
+		(pin "2"
+			(uuid "a241a667-e738-451c-9447-e6f4a92edbc4")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa23d9b-a072-4f2d-af1d-ffd686d6266c")
+		(property "Reference" "#PWR0149"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 37.846 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d54c0348-e86c-47d5-8867-73c721898774")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project Library:TPS56A37RPAR")
+		(at 104.14 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f79f3acc-86e4-46af-b947-76f5a50ce909")
+		(property "Reference" "U16"
+			(at 121.92 44.45 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5382,7 +7976,7 @@
 			)
 		)
 		(property "Value" "TPS56A37RPAR"
-			(at 125.73 54.61 0)
+			(at 121.92 46.99 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5390,7 +7984,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:RPA0010A-MFG"
-			(at 86.868 50.546 0)
+			(at 83.058 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +7994,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps56a37"
-			(at 90.932 39.116 0)
+			(at 87.122 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +8004,7 @@
 			)
 		)
 		(property "Description" "Buck Regulator 10A 4.5-28V Input 0.6-13V Output QFN"
-			(at 93.726 46.228 0)
+			(at 89.916 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +8013,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 77.47 53.086 0)
+			(at 73.66 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +8022,7 @@
 			)
 		)
 		(property "SKU" "296-TPS56A37RPARCT-ND"
-			(at 86.868 48.514 0)
+			(at 83.058 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,104 +8031,39 @@
 			)
 		)
 		(pin "6"
-			(uuid "f60606ec-f575-476d-9b43-ce4ada7cbe22")
+			(uuid "f3600405-e7cc-4076-a00d-e21d49680229")
 		)
 		(pin "7"
-			(uuid "7a139be9-213e-463d-8382-c5c2421e65b5")
+			(uuid "f606bb41-88d1-4e87-bd13-8b08e57ccc8e")
 		)
 		(pin "8"
-			(uuid "374ce6ed-6f20-4bc6-9269-c50e58eed40e")
+			(uuid "d408a592-21a8-4bc2-88a6-8f69127c1e88")
 		)
 		(pin "1"
-			(uuid "e33d8b16-f581-4808-88e6-6880b2c82c54")
+			(uuid "cfd2406d-8092-495b-840a-f0bc5b475e42")
 		)
 		(pin "2"
-			(uuid "30982373-4f7b-43f0-aada-605a1432f126")
+			(uuid "2e5db6f0-422f-4901-a641-2d6073e0b93b")
 		)
 		(pin "10"
-			(uuid "89577e4c-0e59-4fd1-a91e-c8c7584f2789")
+			(uuid "4ff3e791-0d41-495a-95c5-f7284d696f91")
 		)
 		(pin "4"
-			(uuid "5aba2892-92b5-44d4-acaf-64305e669a7e")
+			(uuid "3a59e112-689c-4c5e-96ae-0b20472d4b11")
 		)
 		(pin "5"
-			(uuid "659ddeb1-fa23-4974-840d-a632b6e957c1")
+			(uuid "5d6a87e9-b156-4f60-8d14-845fce6d99e0")
 		)
 		(pin "3"
-			(uuid "95f4087a-eba8-42a1-a450-d5f049383444")
+			(uuid "e3e04842-e239-46d1-8c67-80eb26547295")
 		)
 		(pin "9"
-			(uuid "f317561f-f2b5-45cf-885d-ced42a3d52b1")
+			(uuid "b18fa17e-9142-4e3c-bfca-b7c4f3345a4f")
 		)
 		(instances
 			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1004a965-e891-407f-a8d5-9e06b09acd6a")
-		(property "Reference" "#PWR0123"
-			(at 147.32 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.256 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f216cd79-f2ef-48d0-8b2f-d6eba5368fb2")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0123")
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -5542,820 +8071,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 173.99 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16b73366-c062-435a-a138-75bcf9467e6c")
-		(property "Reference" "R35"
-			(at 180.086 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "45.3k"
-			(at 181.61 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "541-5433-1-ND"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "CRCW060345K3FKEAC"
-			(at 173.99 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b66fa0d8-0a8b-4aa1-89ee-36de6f5ac35f")
-		)
-		(pin "1"
-			(uuid "0161cf80-cbd7-4538-9b40-31f2e33ab0ef")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 223.52 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1aeec47b-4f91-4681-b79e-838aadb1ebc0")
-		(property "Reference" "R40"
-			(at 221.742 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 221.742 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "311-10.0HRCT-ND"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "RC0603FR-0710RL"
-			(at 223.52 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e053130-f852-42f8-a5f5-53bece3243ed")
-		)
-		(pin "1"
-			(uuid "e0cb3caa-efd4-4efd-abff-45852b5e26a7")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Shunt_US")
-		(at 218.44 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1de460d1-9ac9-4b7f-b2a9-7bcb8de71742")
-		(property "Reference" "R38"
-			(at 218.44 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ".0025"
-			(at 218.44 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:D1FCP0612"
-			(at 218.44 66.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Shunt resistor with Kelvin connections, US symbol"
-			(at 218.44 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "D1FCP0612D2M50FF-T5"
-			(at 218.44 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 218.44 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "4463-D1FCP0612D2M50FF-T5CT-ND"
-			(at 218.44 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f4acc5cf-09fd-4ecf-b356-418d05ad4f9c")
-		)
-		(pin "2"
-			(uuid "f8722bc4-0660-45c2-ae1c-6fff995c2950")
-		)
-		(pin "1"
-			(uuid "fe7d51ad-8423-4eda-9a5a-943ead13c9ee")
-		)
-		(pin "4"
-			(uuid "0acb41ce-e740-4c8f-8dd8-aca16ebc86ae")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 170.18 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29a3f722-fa7b-4600-b7e7-f8730ae6180e")
-		(property "Reference" "R36"
-			(at 168.402 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.402 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "311-10.0KHRCT-ND"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mating Connector" ""
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "RC0603FR-0710KL"
-			(at 170.18 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "857ead42-36ea-4888-a0a5-8ff7b5617b5b")
-		)
-		(pin "1"
-			(uuid "5ffec0db-12b7-41f0-8d6c-e99040204506")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 213.36 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3736cb1b-6185-4072-a856-1d549b3ac551")
-		(property "Reference" "R39"
-			(at 211.582 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 211.582 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "311-10.0HRCT-ND"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "RC0603FR-0710RL"
-			(at 213.36 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2eb369c-3e60-4809-b426-1965ed9c793c")
-		)
-		(pin "1"
-			(uuid "83742c7f-ae9d-4936-abb3-7c5a6719d5a3")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 166.37 76.2 0)
+		(at 96.52 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "45527ebb-3137-42e6-b1fd-a26d817eccb4")
-		(property "Reference" "C49"
-			(at 163.83 74.9235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "150pF"
-			(at 163.83 77.4635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "478-KGM15ACG2A151FTCT-ND"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "KGM15ACG2A151FT"
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f0a27c8-427f-4c4c-afa0-811d2c9ce479")
-		)
-		(pin "2"
-			(uuid "c483545a-5a7d-4bce-a9d9-f1ff93ab5c25")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.12 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4758b5e8-517d-4e5f-896e-e3574948f5ae")
-		(property "Reference" "C45"
-			(at 73.66 63.5062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 73.66 66.0462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "399-C0603C104K5RACTUCT-ND"
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mating Connector" ""
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ESD35C104K4T2A-24"
-			(at 71.12 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85076c3e-d58a-4eaf-998f-3c9a062535a1")
-		)
-		(pin "2"
-			(uuid "0ffe9883-eb73-4fa5-bf99-b224561399fd")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ba7ccaf-f0fa-4a25-a9c9-bdb6c710b611")
-		(property "Reference" "C46"
-			(at 152.4063 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 152.4063 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "399-C0603C104K5RACTUCT-ND"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mating Connector" ""
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ESD35C104K4T2A-24"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d69f2a4d-263c-4e7c-b093-8b5373c7d3e6")
-		)
-		(pin "2"
-			(uuid "63bd2c3b-5556-44b7-be47-5fc93ba58a6b")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 100.33 74.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "505f9367-4ccb-4f0a-8b9f-e9cccfb2747a")
-		(property "Reference" "R33"
-			(at 94.234 74.168 0)
+		(uuid "f8af850e-66f7-4e5b-9ff8-b16c593c4029")
+		(property "Reference" "R47"
+			(at 90.424 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +8089,7 @@
 			)
 		)
 		(property "Value" "3.01k"
-			(at 94.234 76.454 0)
+			(at 90.424 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +8098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 100.33 74.93 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +8107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 74.93 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +8116,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 100.33 74.93 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +8125,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 100.33 74.93 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +8134,7 @@
 			)
 		)
 		(property "SKU" "311-3.01KHRCT-ND"
-			(at 100.33 74.93 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +8143,7 @@
 			)
 		)
 		(property "LibRef" "RC0603FR-073K01L"
-			(at 100.33 74.93 0)
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,1740 +8152,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe328896-a06c-4e99-847e-d9cba6ef0bae")
+			(uuid "a33c15a3-cc37-490c-a4d4-a04c48c8f319")
 		)
 		(pin "1"
-			(uuid "571c0204-4dc1-4662-99f4-b404a9522167")
+			(uuid "bb10c218-81d5-4810-9ff8-e141662364f8")
 		)
 		(instances
 			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 190.5 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54f56191-cc78-4c33-ad43-eb49c2a0ff67")
-		(property "Reference" "C47"
-			(at 187.96 72.3836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22µF"
-			(at 187.96 74.9236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "CL32B226MOJNNNE"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "1276-3395-1-ND"
-			(at 190.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4deecbb1-2059-4768-91d4-305f082f5d71")
-		)
-		(pin "2"
-			(uuid "652a0b64-ecd0-498d-b224-9a3c1dc345f8")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5bfe9fa5-fd63-44f3-b0f7-8f102b8095d9")
-		(property "Reference" "#PWR0126"
-			(at 170.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.116 94.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfe45b90-a6e2-4954-807f-2785ca494111")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 105.41 96.52 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "683c294b-9e03-4379-8162-e365ff4ad9a3")
-		(property "Reference" "R31"
-			(at 99.314 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "52.3k"
-			(at 99.314 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "311-52.3KHRCT-ND"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "RC0603FR-0752K3L"
-			(at 105.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8c905ef8-a210-4c9e-b19a-e860ecfce8e1")
-		)
-		(pin "1"
-			(uuid "72823d7a-0be4-470f-aeb0-c504082e4eef")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 105.41 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72692e50-1f6f-4b6a-8cc2-b14a2db8192c")
-		(property "Reference" "#PWR0124"
-			(at 105.41 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.346 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a230c457-804e-4a5c-a83f-43d7e86b04b8")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 195.58 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7394c225-689a-4288-a1b3-b8b08038165e")
-		(property "Reference" "C48"
-			(at 198.12 72.3836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22µF"
-			(at 198.12 74.9236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "CL32B226MOJNNNE"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "1276-3395-1-ND"
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db78938f-2779-452a-9e62-d53e0fdc8808")
-		)
-		(pin "2"
-			(uuid "5311f1e7-beec-4efb-b5d8-daa104c4ae33")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 231.14 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76f4fe13-0260-4602-925d-94fd5313a32f")
-		(property "Reference" "#PWR0130"
-			(at 231.14 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.696 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16e847c1-e905-4329-a214-80fe76b0c479")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ColorLEDs:AA3528CGSK")
-		(at 257.81 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8290a392-54d8-44a2-a428-e6719f65db87")
-		(property "Reference" "D5"
-			(at 261.62 86.6774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AA3528CGSK"
-			(at 251.46 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ColorLEDs:AA3528"
-			(at 254 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528CGSK.pdf"
-			(at 248.92 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green LED 100mcd 20mA Vf=2.1V"
-			(at 257.81 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "754-1528-1-ND"
-			(at 246.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc18d15-9ac1-4280-b73d-4535b3cf9848")
-		)
-		(pin "2"
-			(uuid "f3245947-1637-4fe2-bff3-41974d5f4c06")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 237.49 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83c0bc29-2aae-484e-9c8a-223659753116")
-		(property "Reference" "C50"
-			(at 240.03 101.6062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 240.03 104.1462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "399-C0603C104K5RACTUCT-ND"
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mating Connector" ""
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "ESD35C104K4T2A-24"
-			(at 237.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1680a6c2-00f0-4e69-88e9-41ba2f6a64d9")
-		)
-		(pin "2"
-			(uuid "9a3b6015-b700-42e9-834c-b245dad60cc7")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 257.81 74.93 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95a1cb15-e802-49ef-aca8-fd48307306c0")
-		(property "Reference" "R37"
-			(at 255.27 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "140"
-			(at 255.27 73.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "311-140HRCT-ND"
-			(at 257.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "RC0603FR-07140RL"
-			(at 257.81 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fd77cefa-3799-4a17-876e-f30a6c193c6e")
-		)
-		(pin "1"
-			(uuid "86e70eff-18f9-4e52-854d-e9bad0bff413")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95e6784c-3f96-4efe-847a-32243f4c5fac")
-		(property "Reference" "#PWR0122"
-			(at 45.72 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.656 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81c9afbc-e11b-49a0-9cf7-5871e6787199")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 100.33 64.77 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c8e4b4d-f155-48d3-b237-d79b14d45093")
-		(property "Reference" "R32"
-			(at 94.234 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18.2k"
-			(at 94.234 66.294 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "311-18.2KHRCT-ND"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "RC0603FR-0718K2L"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af21d967-a3bb-4996-952b-cd3b0d7fa09f")
-		)
-		(pin "1"
-			(uuid "c1d98c81-623e-44e7-aa59-118627cb70ab")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a163c6f3-248f-4e50-95e7-f7aa74158a4d")
-		(property "Reference" "#PWR0125"
-			(at 100.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.266 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3758de9a-518e-4e8d-90f7-db6b6fca5a90")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 237.49 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a38c2825-a0b1-4fd6-a715-dab3c3398bbf")
-		(property "Reference" "#PWR0129"
-			(at 237.49 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.046 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b116d5f1-ba62-4d50-8189-3c2ac3130001")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 49.53 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4947fa6-3f5a-4daa-848d-a7695c6fe19a")
-		(property "Reference" "C44"
-			(at 52.07 63.4936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10µF"
-			(at 52.07 66.0336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "CL32B106KBJNNNE"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "1276-3387-1-ND"
-			(at 49.53 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe8f141a-864f-4a81-a5f5-70d9eee00483")
-		)
-		(pin "2"
-			(uuid "3a209950-61af-4043-8228-857f51a062cb")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 59.69 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7d0893e-3669-4156-a300-1ad3c8397538")
-		(property "Reference" "C43"
-			(at 62.23 63.4936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10µF"
-			(at 62.23 66.0336 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "CL32B106KBJNNNE"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "1276-3387-1-ND"
-			(at 59.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65e61a98-9fe4-434a-a8ee-ed21cd2d58de")
-		)
-		(pin "2"
-			(uuid "1a16ba8d-21b6-427d-b540-872f72562c6c")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 163.83 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbdf6a76-2e58-464d-a8da-ed104dfa4bbc")
-		(property "Reference" "L2"
-			(at 163.83 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2μH"
-			(at 163.83 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project Library:0630CDMCDDS"
-			(at 163.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 163.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "0630CDMCCDS-2R2MC"
-			(at 163.83 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 163.83 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "308-2464-1-ND"
-			(at 163.83 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1fb796e-1cbc-44ca-93af-d97fdc85cda3")
-		)
-		(pin "1"
-			(uuid "096ded17-7f50-44eb-973f-fe5a9049cd56")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA180A3")
-		(at 233.68 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be26cec3-8f07-45ef-9552-2085d673c5aa")
-		(property "Reference" "U12"
-			(at 234.696 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA180A3"
-			(at 240.284 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 234.95 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina180.pdf"
-			(at 237.49 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5"
-			(at 233.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 233.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "296-47654-1-ND"
-			(at 233.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c3f3e18-a0ff-4738-9bf8-34984863d716")
-		)
-		(pin "5"
-			(uuid "d46dfc7c-43bf-4b01-8ae1-5e09fdfc0030")
-		)
-		(pin "3"
-			(uuid "77069ff4-ed6c-4e90-9269-b31834f838c9")
-		)
-		(pin "4"
-			(uuid "48c4bcb6-de3c-4c09-8e3d-a923e4b59453")
-		)
-		(pin "2"
-			(uuid "b21f9c7a-afca-4d4c-a283-52fe36a43820")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbda5951-01a6-49dd-ac30-8c1e14eb3e5c")
-		(property "Reference" "#PWR0127"
-			(at 187.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 183.896 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9268937-249f-4719-b030-8a19567ebc56")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 218.44 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb4c9801-84a7-4921-a5f7-2adf0fd25834")
-		(property "Reference" "C51"
-			(at 218.4336 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10µF"
-			(at 218.4336 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 218.44 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 218.44 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 218.44 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LibRef" "CL31B106KLHNNNE"
-			(at 218.44 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e6a75a0-d557-4d87-990f-d196c90d917f")
-		)
-		(pin "2"
-			(uuid "af652a40-cec6-4e99-90c7-75c2609fea55")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec3cb8b1-f1ee-48b5-85c4-120ae74d8c57")
-		(property "Reference" "#PWR0128"
-			(at 257.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 261.366 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "222d04ec-1c88-4a79-ba50-6be9b436645c")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 241.3 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff1b3d7e-49d3-4051-a55e-ae52ab44dd32")
-		(property "Reference" "#FLG07"
-			(at 241.3 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 241.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 241.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49f5eff7-1617-4931-844b-f147707aac0c")
-		)
-		(instances
-			(project "HackerDAQ Main Unit"
-				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5"
-					(reference "#FLG07")
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
+					(reference "R47")
 					(unit 1)
 				)
 			)

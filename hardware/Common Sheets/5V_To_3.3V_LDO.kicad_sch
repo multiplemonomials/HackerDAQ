@@ -672,7 +672,7 @@
 			(uuid "fdc57bad-6f37-4ac3-bbe0-0dbcbbc9434d")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/e7d4db02-ae45-49ee-8383-9be3f30124de"
 					(reference "U2")
 					(unit 1)
@@ -696,7 +696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e282407-8191-4904-bd7e-1735c928006e")
-		(property "Reference" "C14"
+		(property "Reference" "C2"
 			(at 90.17 54.6162 0)
 			(effects
 				(font
@@ -784,7 +784,7 @@
 			(uuid "2c4d47ca-a0d0-4ce4-8abb-166728447a19")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/e7d4db02-ae45-49ee-8383-9be3f30124de"
 					(reference "C2")
 					(unit 1)
@@ -808,7 +808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d456fdec-9f43-49e9-88a2-d434c2531ed8")
-		(property "Reference" "C19"
+		(property "Reference" "C1"
 			(at 59.69 58.4262 0)
 			(effects
 				(font
@@ -896,7 +896,7 @@
 			(uuid "3832654d-e76d-4541-ac83-8a7ca769a072")
 		)
 		(instances
-			(project "Main Unit"
+			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/e7d4db02-ae45-49ee-8383-9be3f30124de"
 					(reference "C1")
 					(unit 1)

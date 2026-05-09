@@ -8,7 +8,7 @@ preflight:
     - name: "version"
       command: git describe --exact-match --tags 2> /dev/null || git rev-parse --short HEAD
   update_xml: true
-  erc: false # TODO
+  erc: true
   drc: false # TODO
   check_zone_fills: true
 
