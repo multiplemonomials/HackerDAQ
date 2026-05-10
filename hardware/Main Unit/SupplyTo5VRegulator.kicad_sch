@@ -5372,7 +5372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07615339-4cfc-4e52-b8d3-2e0a5192bffa")
-		(property "Reference" "R50"
+		(property "Reference" "R32"
 			(at 176.276 67.818 0)
 			(effects
 				(font
@@ -5453,7 +5453,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R50")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -5469,7 +5469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e25f7e3-7bf0-46b1-831f-20a6ea8ede2f")
-		(property "Reference" "R46"
+		(property "Reference" "R33"
 			(at 90.424 56.388 0)
 			(effects
 				(font
@@ -5550,7 +5550,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R46")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed26070-bea4-4957-aae3-6b7a85279040")
-		(property "Reference" "C57"
+		(property "Reference" "C56"
 			(at 48.26 55.8736 0)
 			(effects
 				(font
@@ -5647,7 +5647,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C57")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -5663,7 +5663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1017430b-0c55-4803-9816-217729bce820")
-		(property "Reference" "C61"
+		(property "Reference" "C47"
 			(at 160.02 67.3035 0)
 			(effects
 				(font
@@ -5744,7 +5744,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C61")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -6020,7 +6020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fdb4152-09c1-4b12-99cd-2a4ccc2b29c0")
-		(property "Reference" "R52"
+		(property "Reference" "R35"
 			(at 214.63 54.61 90)
 			(effects
 				(font
@@ -6105,7 +6105,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R52")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -6121,7 +6121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "391da663-6cec-4226-94c0-1e2f926d6aa4")
-		(property "Reference" "C58"
+		(property "Reference" "C55"
 			(at 58.42 55.8736 0)
 			(effects
 				(font
@@ -6202,7 +6202,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C58")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6519,7 +6519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6076fdcd-b397-4c90-9cf6-1d516a60a792")
-		(property "Reference" "C64"
+		(property "Reference" "C54"
 			(at 214.6236 88.9 90)
 			(effects
 				(font
@@ -6589,7 +6589,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C64")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -6605,7 +6605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65d722f8-5a79-4888-a20b-076a5d9d530b")
-		(property "Reference" "R54"
+		(property "Reference" "R26"
 			(at 255.778 66.04 0)
 			(effects
 				(font
@@ -6686,7 +6686,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R54")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6833,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8041f95a-2881-4145-8168-a2de696c03dd")
-		(property "Reference" "C62"
+		(property "Reference" "C51"
 			(at 184.15 64.7636 0)
 			(effects
 				(font
@@ -6914,7 +6914,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C62")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -6930,7 +6930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "957dc29c-4cf2-42aa-85c1-34699e1fc612")
-		(property "Reference" "C63"
+		(property "Reference" "C46"
 			(at 194.31 64.7636 0)
 			(effects
 				(font
@@ -7011,7 +7011,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C63")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -7027,7 +7027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f243b05-c0e5-41d5-b4b8-cd97fe1709ad")
-		(property "Reference" "R48"
+		(property "Reference" "R30"
 			(at 95.504 88.138 0)
 			(effects
 				(font
@@ -7108,7 +7108,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R48")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7124,7 +7124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1322dde-268f-4145-84b8-9cdaa67777de")
-		(property "Reference" "R53"
+		(property "Reference" "R46"
 			(at 217.932 81.026 0)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R53")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -7221,7 +7221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a74404e8-aa0a-41d4-8970-69b2d37d3d26")
-		(property "Reference" "R51"
+		(property "Reference" "R47"
 			(at 207.772 81.026 0)
 			(effects
 				(font
@@ -7302,7 +7302,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R51")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -7318,7 +7318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a79b90f6-bee8-4154-8802-ab4b892cb08e")
-		(property "Reference" "C60"
+		(property "Reference" "C64"
 			(at 148.5963 46.99 90)
 			(effects
 				(font
@@ -7406,7 +7406,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C60")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -7422,7 +7422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d4e42e-20bd-4239-a480-4fe61ff848f0")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 257.81 79.0574 90)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7595,7 +7595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2c2a34e-68e3-466e-91cc-a63f5e646f26")
-		(property "Reference" "R49"
+		(property "Reference" "R38"
 			(at 164.592 77.216 0)
 			(effects
 				(font
@@ -7685,7 +7685,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R49")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -7701,7 +7701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fab20d-d28a-4524-8bef-a4f1855edd26")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 160.02 55.88 90)
 			(effects
 				(font
@@ -7780,7 +7780,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56fd02b-4345-4cc9-b345-af7578b865f3")
-		(property "Reference" "C65"
+		(property "Reference" "C63"
 			(at 236.22 93.9862 0)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "C65")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -7967,7 +7967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f79f3acc-86e4-46af-b947-76f5a50ce909")
-		(property "Reference" "U16"
+		(property "Reference" "U14"
 			(at 121.92 44.45 0)
 			(effects
 				(font
@@ -8063,7 +8063,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "U16")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8af850e-66f7-4e5b-9ff8-b16c593c4029")
-		(property "Reference" "R47"
+		(property "Reference" "R39"
 			(at 90.424 66.548 0)
 			(effects
 				(font
@@ -8160,7 +8160,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/567a7564-8dee-43d4-a4d8-4eecc94aa849"
-					(reference "R47")
+					(reference "R39")
 					(unit 1)
 				)
 			)
