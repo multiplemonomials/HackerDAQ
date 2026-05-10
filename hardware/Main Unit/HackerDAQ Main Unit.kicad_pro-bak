@@ -101,7 +101,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -189,6 +189,9 @@
       "track_widths": [
         0.0,
         0.5,
+        1.0,
+        2.0,
+        2.5,
         5.0
       ],
       "tuning_pattern_settings": {
@@ -241,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|939800|774700|722a71a7-7cee-4e71-ba9b-33fe2700168a|49f5eff7-1617-4931-844b-f147707aac0c|/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74|/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74|/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5",
+        "Incorrect pin type on PHY symbol"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -283,7 +291,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         1,
         2
@@ -361,7 +369,7 @@
       [
         0,
         2,
-        1,
+        0,
         2,
         0,
         0,
@@ -466,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Main Unit.kicad_pro",
+    "filename": "HackerDAQ Main Unit.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -737,10 +745,14 @@
     [
       "9eb93347-9bc7-4661-8139-b1f7e57aefa1",
       "V_{SUPPLY} Input"
+    ],
+    [
+      "567a7564-8dee-43d4-a4d8-4eecc94aa849",
+      "SupplyTo5VRegulator"
     ]
   ],
   "text_variables": {
-    "date": "2026-05-06",
-    "version": "ea2d205"
+    "date": "2026-05-09",
+    "version": "2463b44"
   }
 }

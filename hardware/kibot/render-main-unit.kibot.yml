@@ -9,11 +9,11 @@ outputs:
       output: '%f-top.%x'
       ray_tracing: true
       view: top
-      zoom: 7
+      zoom: 6
       rotate_x: 1
       rotate_y: 1
       auto_crop: true
       transparent_background: true
 
       height: 1200
-      width: 2560
+      width: 3000

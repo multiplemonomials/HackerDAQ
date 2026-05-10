@@ -1,0 +1,60 @@
+References,Description,Part,Value,Supplier,SKU,Footprint,LibRef,Qty
+C47 C50,"Unpolarized capacitor, small symbol",C_Small,150pF,Digi-Key,478-KGM15ACG2A151FTCT-ND,C_0603_1608Metric,KGM15ACG2A151FT,2
+C1 C2 C4 C5 C7 C8 C10 C15 C16 C17 C18 C19 C20 C21 C22 C24 C25 C27 C28 C29 C30 C33 C34 C35 C36 C38 C40 C42 C43 C52 C59 C62 C63 C64 C65,"Unpolarized capacitor, small symbol",C_Small,100nF,Digi-Key,399-C0603C104K5RACTUCT-ND,C_0603_1608Metric,ESD35C104K4T2A-24,35
+C11,"Unpolarized capacitor, small symbol",C_Small,220nF,Digi-Key,490-4935-1-ND,C_0603_1608Metric,GCM188R71E224KA55D,1
+C3 C9 C14 C23 C37 C39 C41 C45,"Unpolarized capacitor, small symbol",C_Small,1µF,Digi-Key,1276-6524-1-ND,C_0603_1608Metric,CL10B105MO8NNWC,8
+C6 C31,"Unpolarized capacitor, small symbol",C_Small,2.2µF,Digi-Key,1276-3137-1-ND,C_1206_3216Metric,CL31B225KBHNNNE,2
+C12 C13 C44 C48 C54 C57 C58,"Unpolarized capacitor, small symbol",C_Small,10µF,Digi-Key,,C_1206_3216Metric,CL31B106KLHNNNE,7
+C55 C56 C60 C61,"Unpolarized capacitor, small symbol",C_Small,10µF,Digi-Key,1276-3387-1-ND,C_1210_3225Metric,CL32B106KBJNNNE,4
+C26 C32 C46 C49 C51 C53,"Unpolarized capacitor, small symbol",C_Small,22µF,Digi-Key,1276-3395-1-ND,C_1210_3225Metric,CL32B226MOJNNNE,6
+D7 D8,Green LED 100mcd 20mA Vf=2.1V,AA3528CGSK,AA3528CGSK,,754-1528-1-ND,AA3528,,2
+D1 D10,Blue LED 150mcd 20mA Vf=3.3V,AA3528QBS,AA3528QBS,,754-1533-1-ND,AA3528,,2
+D2,Red LED 100mcd 20mA Vf=1.95V,AA3528SURSK,AA3528SURSK,,754-1537-1-ND,AA3528,,1
+D11,Yellow LED 200mcd 20mA Vf=2V,AA3528SYSK,AA3528SYSK,,754-1539-1-ND,AA3528,,1
+D3,"Tricolor Black Surface LED, 20mA, Common Anode Pin 1, PLCC-4",ASMB-MTB0-0A3A2,ASMB-MTB0-0B3A2,Digi-Key,516-ASMB-MTB0-0B3A2CT-ND,LED_Avago_PLCC4_3.2x2.8mm_CW_Fixed3DModel,,1
+D4 D5,"Schottky barrier diode, SOT-323",BAT54W,BAT54W,Digi-Key,4878-BAT54WCT-ND,SOT-323_SC-70,,2
+D6,"4-channel 1Gbps TVS Diode Array, 2.3pF, 4.5V breakdown, 30kV contact & air gap, SOT-23-5",ESDS304,ESDS304,Digi-Key,296-ESDS304DBVRCT-ND,SOT-23-5,,1
+D9,"200W unidirectional Transil Transient Voltage Suppressor, 11Vrwm, SMF",SMF11A,SMF24A,Digi-Key,F5823CT-ND,D_SMF,,1
+FB1 FB2,"Ferrite bead, small symbol",FerriteBead_Small,300@100MHz,Digi-Key,732-4654-1-ND,R_1206_3216Metric,742792121,2
+J12,"Mini-Fit 2x1 Jack, Right-Angle",MiniFit_Jr_5569_01A2,0039300020,Digi-Key,WM21351-ND,Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal,,1
+J10,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,1x8,Digi-Key,SAM8866-ND,PinSocket_1x08_P2.54mm_Vertical,HEADER_8x1_LONG_TAIL,1
+J1,"10 Pin 0.05"" Pitch IDC Ribbon Cable Connector w/ Keying Shroud",3221-10-0300-00,3221-10-0300-00,Digi-Key,,3221-10-0300-00,,1
+J2 J3 J4 J5 J6 J7 J8 J9,"15-pin D-SUB connector, socket (female) (low-density/2 columns), Mounting Hole",DA15_Socket_MountingHoles,61801525123,Digi-Key,732-61801525123-ND,Wurth_61801525123,,8
+J14,Micro SD Card Socket with card detection pins,Micro_SD_Card_Det_Hirose_DM3AT,DM3AT,Digi-Key,HR1964CT-ND,microSD_HC_Hirose_DM3AT-SF-PEJM5,,1
+J11,"Halo HFJ11, 10/100 Base-TX, two LEDs, RJ45, Shielded",RJ45_Halo_HFJ11-x2450E-LxxRL,HFJ11-2450E-L21RL,Digi-Key,5843-HFJ11-2450E-L21RL-ND,RJ45_HALO_HFJ11-x2450E-LxxRL_Horizontal-Fixed3DModel,,1
+J13,DC Barrel Jack with a mounting pin,Barrel_Jack_MountingPin,PJ-063AH,Digi-Key,CP-063AH-ND,BarrelJack_CUI_PJ-063AH_Horizontal,,1
+J15 J16,USB 2.0-only 16P Type-C Receptacle connector,USB_C_Receptacle_USB2.0_16P,USB4105-GF-A,Digi-Key,2073-USB4105-GF-ACT-ND,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal-ExtraHoleClearance,,2
+L1,Inductor,L,1.5µH,Digi-Key,495-2640-1-ND,L_1210_3225Metric,B82422H1152K000,1
+L3,Inductor,L,2.2μH,Digi-Key,308-2464-1-ND,0630CDMCDDS,0630CDMCCDS-2R2MC,1
+L2,Inductor,L,3.3μH,Digi-Key,541-1352-1-ND,L_Vishay_IHLP-3232,IHLP3232DZER3R3M11,1
+R27 R35 R41,"Shunt resistor with Kelvin connections, US symbol",R_Shunt_US,.0025,Digi-Key,4463-D1FCP0612D2M50FF-T5CT-ND,D1FCP0612,D1FCP0612D2M50FF-T5,3
+R36 R40 R46 R47 R52 R53,"Resistor, small US symbol",R_Small_US,10,Digi-Key,311-10.0HRCT-ND,R_0603_1608Metric,RC0603FR-0710RL,6
+R1 R4 R7 R58,"Resistor, small US symbol",R_Small_US,30,Digi-Key,311-30.0HRCT-ND,R_0603_1608Metric,RC0603FR-0730RL,4
+R15 R17 R19 R20 R21,"Resistor, small US symbol",R_Small_US,33,Digi-Key,P33.0HCT-ND,R_0603_1608Metric,,5
+R2 R3 R31 R57,"Resistor, small US symbol",R_Small_US,140,Digi-Key,311-140HRCT-ND,R_0603_1608Metric,RC0603FR-07140RL,4
+R26 R54 R55,"Resistor, small US symbol",R_Small_US,270,Digi-Key,311-270HRCT-ND,R_0603_1608Metric,RC0603FR-07270RL,3
+R59,"Resistor, small US symbol",R_Small_US,1k,Digi-Key,311-1.00KHRCT-ND,R_0603_1608Metric,RC0603FR-071KL,1
+R9 R16,"Resistor, small US symbol",R_Small_US,2.2k,Digi-Key,311-2.20KHRCT-ND,R_0603_1608Metric,,2
+R39 R49,"Resistor, small US symbol",R_Small_US,3.01k,Digi-Key,311-3.01KHRCT-ND,R_0603_1608Metric,RC0603FR-073K01L,2
+R34 R56,"Resistor, small US symbol",R_Small_US,4.7k,Digi-Key,311-4.70KHRCT-ND,R_0603_1608Metric,RC0603FR-074K7L,2
+R44 R45 R50 R51,"Resistor, small US symbol",R_Small_US,5.1k,Digi-Key,311-5.10KHRCT-ND,R_0603_1608Metric,RC0603FR-075K1L,4
+R22,"Resistor, small US symbol",R_Small_US,6.49k,Digi-Key,311-6.49KHRCT-ND,R_0603_1608Metric,RC0603FR-076K49L,1
+R10 R11 R12 R13 R24,"CTS 745C101 8 resistor network, star topology, bussed resistors, small US symbol",CTS 745C101,10k,DigiKey,60-745C101103JPCT-ND,CTS 745C101,745C101103JP,5
+R5 R6 R8 R14 R18 R23 R25 R28 R29 R38 R48,"Resistor, small US symbol",R_Small_US,10k,Digi-Key,311-10.0KHRCT-ND,R_0603_1608Metric,RC0603FR-0710KL,11
+R33 R43,"Resistor, small US symbol",R_Small_US,18.2k,Digi-Key,311-18.2KHRCT-ND,R_0603_1608Metric,RC0603FR-0718K2L,2
+R42,"Resistor, small US symbol",R_Small_US,45.3k,Digi-Key,541-5433-1-ND,R_0603_1608Metric,CRCW060345K3FKEAC,1
+R30 R37,"Resistor, small US symbol",R_Small_US,52.3k,Digi-Key,311-52.3KHRCT-ND,R_0603_1608Metric,RC0603FR-0752K3L,2
+R32,"Resistor, small US symbol",R_Small_US,73.2k,Digi-Key,2019-RK73H1JTTD7322FCT-ND,R_0603_1608Metric,RK73H1JTTD7322F,1
+SW1 SW2,"Push button switch, generic, two pins",SW_Push,MJTP1243,Digi-Key,679-2452-ND,SW_PUSH_1P1T_6x3.5mm_H4.3_APEM_MJTP1243,,2
+U13,Load Switch w/ Discharge Resistor,AP22913W6-7,AP22913W6-7,Digi-Key,AP22913W6-7DICT-ND,SOT-23-6,,1
+U8,"Full Speed USB to U(S)ART Bridge, 3MHz Max Speed, With GPIOs, 24-QFN",CY7C65223,CY7C65223,Digi-Key,448-CY7C65223-24LTXI-ND,QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm-LengthenedPads,,1
+U10 U15 U17,"Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 100 V/V, SOT-23-5",INA180A3,INA180A3,Digi-Key,296-47654-1-ND,SOT-23-5,,3
+U5,"10BASE-T/100BASE-TX PHY with RMII Support, 50 MHz input clock, QFN-24",KSZ8081RND,KSZ8081RND,Digi-Key,576-4177-1-ND,QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,,1
+U4,"MCU ARM Cortex-M33 Dual Core, 150MHz, 512kiB RAM, 2MiB Flash",MCXN547VKLT,MCXN547VKLT,,,LQFP-100-1EP_14x14mm_P0.5mm_EP6.9x6.9mm_Fixed3DModel,,1
+U9,"4 Channel Bidirectional Level Shifter with Selectable Direction, TSSOP-16",SN74AXC4T774,SN74AXC4T774,Digi-Key,296-SN74AXC4T774PWRCT-ND,TSSOP-16_4.4x5mm_P0.65mm,,1
+U1 U3 U6 U7,"CMOS QPDT analog multiplexer/demultiplexer, TSSOP-16",SN74CB3Q3257PWR,SN74CB3Q3257PWR,Digi-Key,296-19138-1-ND,TSSOP-16_4.4x5mm_P0.65mm,,4
+U2,"150mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5",TLV71333PDBV,TLV71333PDBV,Digi-Key,296-35591-1-ND,SOT-23-5,,1
+U14 U16,Buck Regulator 10A 4.5-28V Input 0.6-13V Output QFN,TPS56A37RPAR,TPS56A37RPAR,Digi-Key,296-TPS56A37RPARCT-ND,RPA0010A-MFG,,2
+U11 U12,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,USBLC6-2SC6,Digi-Key,497-5235-1-ND,SOT-23-6,,2
+X1,"HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD",ECS-2520MV-xxx-xx,24.0000MHz,Digi-Key,XC2257CT-ND,Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm_Fixed3DModel,ECS-TXO-2520-33-240-AN-TR,1
+X2,"HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD",ECS-2520MV-xxx-xx,8.192MHz,Digi-Key,50-ECS-2520MVLC-081.92-BN-CT-ND,Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm_Fixed3DModel,ECS-2520MVLC-081.92-BN,1

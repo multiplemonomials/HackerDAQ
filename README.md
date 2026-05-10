@@ -12,6 +12,10 @@ Meanwhile, technology has moved on, and we're now in an era where highly accurat
 
 ## Basic Overview
 
+![Main unit render](hardware/Exports/Main%20Unit%20Rev%201rc1/img/render/HackerDAQ%20Main%20Unit-top.png)
+
+![Voltage card render](hardware/Exports/Voltage%20Card%20Rev%201rc1/img/render/HackerDAQ%20Voltage%20Card-top.png)
+
 The HackerDAQ would consist of a main board with a microcontroller on it and basic circuitry such as power supplies, an Ethernet port, and a MicroSD slot. The main board would have a number of connectors for cards to plug in, each of which would carry power, GPIOs, and SPI bus signals.
 
 Cards can be designed for many different applications, including digital I/O and many different types of analog sensors. The user could select the cards they need for the application they have in mind, keeping the base cost of the system down and allowing the user to get exactly the I/O they need. The SPI bus was selected for communications with these cards as it is fast, there are a wide range of chips available that speak it, and it supports bussing together multiple chips on the card side over one set of bus lines. In a lot of ways, these cards would be similar to existing sensor interconnect systems like SparkFun Qwiic / Adafruit Stemma / Digilent Pmod, where you can buy something off the shelf and connect it to your existing HW. This would just be focused more on DAQ stuff and be more industrial-grade.
