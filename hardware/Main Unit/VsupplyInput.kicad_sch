@@ -183,9 +183,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Barrel_Jack"
+		(symbol "Connector:Barrel_Jack_MountingPin"
 			(pin_names
-				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -198,12 +198,13 @@
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack"
-				(at 0 -5.08 0)
+			(property "Value" "Barrel_Jack_MountingPin"
+				(at 1.27 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -224,7 +225,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DC Barrel Jack"
+			(property "Description" "DC Barrel Jack with a mounting pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -251,7 +252,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_0_1"
+			(symbol "Barrel_Jack_MountingPin_0_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -323,7 +324,45 @@
 					)
 				)
 			)
-			(symbol "Barrel_Jack_1_1"
+			(symbol "Barrel_Jack_MountingPin_1_1"
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -1488,6 +1527,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c73702d8-1f92-4747-9768-aeb463b84efd")
+	)
+	(no_connect
+		(at 95.25 92.71)
+		(uuid "760d26a3-ab28-4f38-9c37-441dfce2363f")
 	)
 	(wire
 		(pts
@@ -2702,7 +2745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack")
+		(lib_id "Connector:Barrel_Jack_MountingPin")
 		(at 95.25 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2745,7 +2788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Barrel Jack"
+		(property "Description" "DC Barrel Jack with a mounting pin"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -2777,6 +2820,9 @@
 		)
 		(pin "1"
 			(uuid "7ee56248-e0d5-4e05-843a-231e23b619f9")
+		)
+		(pin "MP"
+			(uuid "5d25ecee-0582-4d65-914a-94ee36185eab")
 		)
 		(instances
 			(project "HackerDAQ Main Unit"

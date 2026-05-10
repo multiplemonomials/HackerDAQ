@@ -7906,7 +7906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_HALO_HFJ11-x2450E-LxxRL_Horizontal"
+		(property "Footprint" "Project Library:RJ45_HALO_HFJ11-x2450E-LxxRL_Horizontal-Fixed3DModel"
 			(at 210.82 56.515 0)
 			(effects
 				(font

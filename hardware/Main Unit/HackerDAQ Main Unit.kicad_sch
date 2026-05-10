@@ -252,6 +252,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Oscillator:ECS-2520MV-xxx-xx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1862,6 +1969,19 @@
 		)
 		(uuid "e2b2e0f8-1b66-4cc9-814e-6fd346d123af")
 	)
+	(text "Main 5V Supply"
+		(exclude_from_sim no)
+		(at 240.792 66.802 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e3d89baa-fd03-49e7-ab89-613152b40f54")
+	)
 	(text "Power Input"
 		(exclude_from_sim no)
 		(at 175.006 30.988 0)
@@ -1902,7 +2022,7 @@
 		(uuid "0d403e8d-2b40-4dd8-b70d-cc36102c88c8")
 	)
 	(junction
-		(at 297.18 72.39)
+		(at 297.18 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4517a397-225f-4b9f-8c9f-f0221f19635e")
@@ -1926,10 +2046,10 @@
 		(uuid "6cbcb610-6c30-44c5-8ba3-fbfcbb1742b1")
 	)
 	(junction
-		(at 356.87 80.01)
+		(at 254 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74b6ad2c-ea20-4652-8fde-22dd6da0d238")
+		(uuid "7c351ee0-95b9-4554-8867-508b74f0e97b")
 	)
 	(junction
 		(at 125.73 181.61)
@@ -1950,6 +2070,12 @@
 		(uuid "aa43526f-e3f2-4991-9013-c3c59ee8eb72")
 	)
 	(junction
+		(at 356.87 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcfb4b81-c04f-4d86-961b-b0ed1e481dc6")
+	)
+	(junction
 		(at 123.19 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1962,10 +2088,22 @@
 		(uuid "ce571c30-c12b-49cf-a161-79738b57586a")
 	)
 	(junction
+		(at 259.08 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceef2ad5-8a5e-4586-9995-0b557c36f702")
+	)
+	(junction
 		(at 120.65 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d81962d3-3bc5-4fcd-936a-b54214ad109b")
+	)
+	(junction
+		(at 256.54 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dda5edde-f798-4756-9705-ae4ea882cd5e")
 	)
 	(junction
 		(at 120.65 186.69)
@@ -2061,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 73.66) (xy 218.44 40.64)
+			(xy 218.44 78.74) (xy 218.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2139,6 +2277,16 @@
 		)
 		(uuid "1445c6d2-8ef4-4b62-859f-0d4996457cf9")
 	)
+	(wire
+		(pts
+			(xy 248.92 270.51) (xy 248.92 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a1412b-2ed1-4e8c-a6d4-0f8b9fe57876")
+	)
 	(bus
 		(pts
 			(xy 316.23 160.02) (xy 347.98 160.02)
@@ -2171,13 +2319,13 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 80.01) (xy 356.87 151.13)
+			(xy 248.92 273.05) (xy 254 273.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2930ed1b-83d4-4285-841c-4ebf43dbf878")
+		(uuid "2265f382-4357-425c-9f53-6ca562d79d16")
 	)
 	(wire
 		(pts
@@ -2208,6 +2356,16 @@
 			(type default)
 		)
 		(uuid "34aca851-ebc5-4908-bdad-ff90737f8874")
+	)
+	(wire
+		(pts
+			(xy 264.16 273.05) (xy 259.08 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35425f8c-9b66-4f36-9c67-50fbeeddd232")
 	)
 	(wire
 		(pts
@@ -2251,6 +2409,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 273.05) (xy 254 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d709931-f0f8-44b8-82bb-51e7b3504634")
+	)
+	(wire
+		(pts
 			(xy 374.65 215.9) (xy 341.63 215.9)
 		)
 		(stroke
@@ -2278,16 +2446,6 @@
 			(type default)
 		)
 		(uuid "42b9c598-feff-4c18-942e-abfb372ab49b")
-	)
-	(wire
-		(pts
-			(xy 356.87 52.07) (xy 356.87 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ae01ce-e13f-4fde-93b0-730791baae18")
 	)
 	(wire
 		(pts
@@ -2321,7 +2479,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 72.39) (xy 299.72 72.39)
+			(xy 297.18 77.47) (xy 299.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 72.39) (xy 297.18 71.12)
+			(xy 297.18 77.47) (xy 297.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2458,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "6b901c54-ebf5-48c3-9075-6f8ee23576c9")
+	)
+	(wire
+		(pts
+			(xy 264.16 270.51) (xy 264.16 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c084163-cb82-4490-a393-f4c97bdad7ea")
 	)
 	(wire
 		(pts
@@ -2581,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 80.01) (xy 356.87 80.01)
+			(xy 288.29 85.09) (xy 356.87 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2761,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 73.66) (xy 218.44 73.66)
+			(xy 241.3 78.74) (xy 218.44 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2811,13 +2979,23 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 76.2) (xy 288.29 76.2)
+			(xy 337.82 81.28) (xy 288.29 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b220f582-c3b1-452e-a843-d59dcc91e341")
+	)
+	(wire
+		(pts
+			(xy 356.87 52.07) (xy 356.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cb0599-cec2-4696-9eda-404d2dfd9801")
 	)
 	(wire
 		(pts
@@ -2951,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 72.39) (xy 297.18 72.39)
+			(xy 288.29 77.47) (xy 297.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2961,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 142.24) (xy 337.82 76.2)
+			(xy 337.82 142.24) (xy 337.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3029,6 +3207,26 @@
 		)
 		(uuid "dee56997-ba9b-4ea2-951b-5af61a08d417")
 	)
+	(wire
+		(pts
+			(xy 259.08 270.51) (xy 259.08 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee76f12-1870-4c25-9b73-b1f3bb7f0e3b")
+	)
+	(wire
+		(pts
+			(xy 356.87 85.09) (xy 356.87 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2e80e89-770e-46ea-bcdb-e451b10881d6")
+	)
 	(bus
 		(pts
 			(xy 135.89 165.1) (xy 223.52 165.1)
@@ -3048,6 +3246,26 @@
 			(type default)
 		)
 		(uuid "e788c837-6343-4eda-91fe-7c5ed37d2e08")
+	)
+	(wire
+		(pts
+			(xy 259.08 273.05) (xy 256.54 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89a967e-1335-4435-8cb0-32ab875a76fe")
+	)
+	(wire
+		(pts
+			(xy 254 273.05) (xy 254 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb856335-2297-4cfa-9373-b8bfc2877817")
 	)
 	(wire
 		(pts
@@ -3108,6 +3326,16 @@
 			(type default)
 		)
 		(uuid "fba0dee8-5753-460c-8087-a4d974b1047b")
+	)
+	(wire
+		(pts
+			(xy 256.54 274.32) (xy 256.54 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca236a6-ce69-4377-bcf2-8dbf6f123042")
 	)
 	(wire
 		(pts
@@ -3404,6 +3632,73 @@
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "17223c10-ffa7-4a7f-bc92-c49a122a194a")
+		(property "Reference" "H4"
+			(at 262.89 263.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 266.7 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 264.16 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c2032df-50a1-4c83-9c84-4de0c2e2e682")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3736,7 +4031,7 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
-		(at 297.18 71.12 0)
+		(at 297.18 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3744,7 +4039,7 @@
 		(dnp no)
 		(uuid "597c1cef-ef51-4769-90c1-2904cc1a3996")
 		(property "Reference" "#PWR0158"
-			(at 297.18 74.93 0)
+			(at 297.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +4048,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 297.18 67.31 0)
+			(at 297.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +4056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 71.12 0)
+			(at 297.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +4065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 71.12 0)
+			(at 297.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +4074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 297.18 71.12 0)
+			(at 297.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,6 +4363,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90646106-f1bd-4367-9d7e-f9b23ebd4117")
+		(property "Reference" "#PWR0161"
+			(at 256.54 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.286 278.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eba2f64c-d732-4c04-8d7f-8842e74e3975")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Oscillator:ECS-2520MV-xxx-xx")
 		(at 90.17 247.65 0)
 		(unit 1)
@@ -4092,7 +4452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+		(property "Footprint" "Project Library:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm_Fixed3DModel"
 			(at 101.6 256.54 0)
 			(effects
 				(font
@@ -4162,6 +4522,73 @@
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 254 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a57e600f-9250-4855-9b9e-49656ac4f6d9")
+		(property "Reference" "H2"
+			(at 252.73 263.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 256.54 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 254 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 254 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec335540-5ec0-4e1b-bea2-b3dbf1b7b140")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4669,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 299.72 72.39 270)
+		(at 299.72 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4250,7 +4677,7 @@
 		(dnp no)
 		(uuid "ba0cde7c-7d57-4cb8-9c0e-30b159a5022c")
 		(property "Reference" "TP4"
-			(at 306.324 71.628 90)
+			(at 306.324 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4685,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 307.086 73.406 90)
+			(at 307.086 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4693,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 299.72 77.47 0)
+			(at 299.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4275,7 +4702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 299.72 77.47 0)
+			(at 299.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4711,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 299.72 72.39 0)
+			(at 299.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4720,7 @@
 			)
 		)
 		(property "Mating Connector" ""
-			(at 299.72 72.39 0)
+			(at 299.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,6 +4967,140 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 248.92 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5a93044-6efc-42ab-92f8-34997eb30995")
+		(property "Reference" "H1"
+			(at 247.65 263.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 251.46 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 248.92 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 248.92 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6045975-4119-4dc1-a674-0dbdcf22b943")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 259.08 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8643b08-7ae1-4eae-93f8-c05d0b855d14")
+		(property "Reference" "H3"
+			(at 257.81 263.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 261.62 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad"
+			(at 259.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 259.08 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d596bc8-5a13-4c6c-b377-78e91a5088de")
+		)
+		(instances
+			(project "HackerDAQ Main Unit"
+				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 280.67 113.03)
 		(size 34.29 12.7)
@@ -4655,7 +5216,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 67.31)
+		(at 241.3 72.39)
 		(size 46.99 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4671,7 +5232,7 @@
 		)
 		(uuid "567a7564-8dee-43d4-a4d8-4eecc94aa849")
 		(property "Sheetname" "SupplyTo5VRegulator"
-			(at 241.3 66.5984 0)
+			(at 241.3 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +5241,7 @@
 			)
 		)
 		(property "Sheetfile" "SupplyTo5VRegulator.kicad_sch"
-			(at 241.3 84.4046 0)
+			(at 241.3 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +5250,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 288.29 72.39 0)
+			(at 288.29 77.47 0)
 			(uuid "1c7afcd6-a467-4365-b53f-104a961555bf")
 			(effects
 				(font
@@ -4699,7 +5260,7 @@
 			)
 		)
 		(pin "+5V_CUR_SENSE" output
-			(at 288.29 76.2 0)
+			(at 288.29 81.28 0)
 			(uuid "437b0e0c-6e2f-4a6e-8cdc-276b386b9b8f")
 			(effects
 				(font
@@ -4709,7 +5270,7 @@
 			)
 		)
 		(pin "PG" output
-			(at 288.29 80.01 0)
+			(at 288.29 85.09 0)
 			(uuid "5904b2f7-7b49-4208-aa21-f1c610d7fecc")
 			(effects
 				(font
@@ -4719,7 +5280,7 @@
 			)
 		)
 		(pin "V_{SUPPLY}" input
-			(at 241.3 73.66 180)
+			(at 241.3 78.74 180)
 			(uuid "496b1ba1-8a56-4ce1-b706-e7929ab7a903")
 			(effects
 				(font

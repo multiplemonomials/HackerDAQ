@@ -18718,7 +18718,7 @@
 	(text_box "This tricolor LED specifies V_{F} = 2.1V (red) and 3.1V (green and blue) @ 20mA. Making a ballpark assumption that the forward voltage decreases by 0.1V if we reduce the forward current to 10mA."
 		(exclude_from_sim no)
 		(at 196.85 500.38 0)
-		(size 38.1 19.05)
+		(size 38.1 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -19819,16 +19819,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 511.81) (xy 349.25 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13961abe-92fb-42ea-9c73-8164c58deeff")
-	)
-	(wire
-		(pts
 			(xy 273.05 328.93) (xy 353.06 328.93)
 		)
 		(stroke
@@ -19859,13 +19849,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 519.43) (xy 349.25 519.43)
+			(xy 242.57 500.38) (xy 242.57 511.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "146e689f-18df-4a4d-83cb-fd12605c1ef4")
+		(uuid "1454c73c-5012-45bf-9695-bb7d5e0cb8a1")
 	)
 	(bus
 		(pts
@@ -20836,16 +20826,6 @@
 			(type default)
 		)
 		(uuid "552f9752-d8b9-4ef7-abe4-cc0fd785d926")
-	)
-	(wire
-		(pts
-			(xy 252.73 500.38) (xy 252.73 511.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563883b4-fb69-425d-ad22-de702da082e9")
 	)
 	(wire
 		(pts
@@ -21879,16 +21859,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 500.38) (xy 242.57 519.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90221f90-837a-47c4-ab7f-7fbc10c52545")
-	)
-	(wire
-		(pts
 			(xy 67.31 328.93) (xy 74.93 328.93)
 		)
 		(stroke
@@ -21986,6 +21956,16 @@
 			(type default)
 		)
 		(uuid "96034ff6-966f-4a89-8599-1536fbfcbda2")
+	)
+	(wire
+		(pts
+			(xy 247.65 506.73) (xy 247.65 515.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968e2934-d6f3-4235-a81f-a235d7b128f6")
 	)
 	(wire
 		(pts
@@ -22499,6 +22479,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 511.81) (xy 349.25 511.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b63ed9dd-27fd-404e-8d2b-598f77f99cb8")
+	)
+	(wire
+		(pts
 			(xy 74.93 130.81) (xy 74.93 132.08)
 		)
 		(stroke
@@ -22949,16 +22939,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 506.73) (xy 247.65 515.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db032dc2-a9d0-4b67-a851-dc08ff3f302b")
-	)
-	(wire
-		(pts
 			(xy 87.63 151.13) (xy 87.63 153.67)
 		)
 		(stroke
@@ -23239,6 +23219,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 500.38) (xy 252.73 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1232b05-51d8-4210-9585-d87597d315b7")
+	)
+	(wire
+		(pts
 			(xy 316.23 298.45) (xy 353.06 298.45)
 		)
 		(stroke
@@ -23446,6 +23436,16 @@
 			(type default)
 		)
 		(uuid "fb0809b0-c1bd-4bad-96cd-d9724edc33c0")
+	)
+	(wire
+		(pts
+			(xy 252.73 519.43) (xy 349.25 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6ac5ee-3c98-4898-84e4-3a0feb496a83")
 	)
 	(bus
 		(pts
@@ -25072,7 +25072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASMB-MTB0-0A3A2"
+		(property "Value" "ASMB-MTB0-0B3A2"
 			(at 237.49 488.9499 90)
 			(effects
 				(font
@@ -25081,7 +25081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(property "Footprint" "ColorLEDs:LED_Avago_PLCC4_3.2x2.8mm_CW_Fixed3DModel"
 			(at 234.95 487.68 0)
 			(effects
 				(font
@@ -25099,8 +25099,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tricolor Black Surface LED, Common Anode Pin 1, PLCC-4"
+		(property "Description" "Tricolor Black Surface LED, 20mA, Common Anode Pin 1, PLCC-4"
 			(at 247.65 487.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 247.65 487.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "516-ASMB-MTB0-0B3A2CT-ND"
+			(at 247.65 487.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32952,7 +32970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+		(property "Footprint" "Project Library:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm_Fixed3DModel"
 			(at 58.42 227.33 0)
 			(effects
 				(font
