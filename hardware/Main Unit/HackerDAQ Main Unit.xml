@@ -2,10 +2,10 @@
 <export version="E">
   <design>
     <source>/mnt/j/HackerDAQ/hardware/Main Unit/HackerDAQ Main Unit.kicad_sch</source>
-    <date>2026-05-09T22:32:40-0700</date>
+    <date>2026-05-10T23:58:23-0700</date>
     <tool>Eeschema 9.0.7-9.0.7~ubuntu24.04.1</tool>
     <textvar name="date">2026-05-09</textvar>
-    <textvar name="version">2463b44</textvar>
+    <textvar name="version">bac8c63</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>

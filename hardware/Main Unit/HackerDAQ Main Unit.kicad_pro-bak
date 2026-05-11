@@ -104,7 +104,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -752,7 +752,7 @@
     ]
   ],
   "text_variables": {
-    "date": "2026-05-09",
-    "version": "2463b44"
+    "date": "2026-05-06",
+    "version": "ea2d205"
   }
 }

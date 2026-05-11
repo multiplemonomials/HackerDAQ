@@ -102,6 +102,7 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
+		(solder_mask_min_width 0.22)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
@@ -1687,7 +1688,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "b26f95e0-5566-4de7-abc8-264decf977e8")
+			(uuid "638aa792-9cf1-4be1-a1b5-1963f6137a1f")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -6246,7 +6247,7 @@
 			(net 99 "V_{SUPPLY}")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "d4bd2fbf-8ccd-47cd-8623-40be2d60e4a5")
+			(uuid "02b483cc-592e-4aa3-9b61-816fd5283c0c")
 		)
 		(pad "8" smd roundrect
 			(at 1.525 -0.75 270)
@@ -6256,7 +6257,7 @@
 			(net 99 "V_{SUPPLY}")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "d4bd2fbf-8ccd-47cd-8623-40be2d60e4a5")
+			(uuid "d502406c-d1c7-4c44-b01e-8f883733b9bc")
 		)
 		(pad "8" smd roundrect
 			(at 1.525 -0.25 270)
@@ -6266,7 +6267,7 @@
 			(net 99 "V_{SUPPLY}")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "d4bd2fbf-8ccd-47cd-8623-40be2d60e4a5")
+			(uuid "336623fa-a5fc-4083-a435-52665fe767fa")
 		)
 		(pad "9" smd rect
 			(at -0.209998 -0.925 270)
@@ -7993,7 +7994,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "072bc5d3-779c-4e34-8a94-5feb55f88047")
+			(uuid "248e4098-3004-4560-90a7-a46bfa04fcf7")
 		)
 		(pad "11" smd rect
 			(at 4.325 -7.725)
@@ -8002,7 +8003,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "072bc5d3-779c-4e34-8a94-5feb55f88047")
+			(uuid "b2b7fc6d-c6e3-44a9-af8c-64ceb60ba696")
 		)
 		(pad "11" smd rect
 			(at 6.675 7.375)
@@ -8011,7 +8012,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "072bc5d3-779c-4e34-8a94-5feb55f88047")
+			(uuid "80d18c68-c01f-4a8f-af46-c022ffdb6001")
 		)
 		(zone
 			(net 0)
@@ -11517,7 +11518,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "8ef063db-6337-4d46-b41f-0ee91e95dcb2")
+			(uuid "afd52378-8920-45ed-b9c8-e994285d92e7")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -13738,7 +13739,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "15e19f6d-f9da-4ca1-bef2-3546ea87f1c7")
+			(uuid "dd19126c-354f-494e-bfea-5eedf3e8e991")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -14438,7 +14439,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "351b174e-d268-44af-9481-2a7bc09c1270")
+			(uuid "793ee77c-0139-4883-8660-8f02bca38179")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -18336,7 +18337,7 @@
 			(net 99 "V_{SUPPLY}")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "4beeb54c-017d-4fce-b59a-d7e5e56ec8e3")
+			(uuid "6d71bca0-ef7b-4924-af20-1614d37f1fa4")
 		)
 		(pad "8" smd roundrect
 			(at 1.525 -0.75 270)
@@ -18346,7 +18347,7 @@
 			(net 99 "V_{SUPPLY}")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "4beeb54c-017d-4fce-b59a-d7e5e56ec8e3")
+			(uuid "126d0eca-a5c3-4b36-817a-c83b1a4b7ac6")
 		)
 		(pad "8" smd roundrect
 			(at 1.525 -0.25 270)
@@ -18356,7 +18357,7 @@
 			(net 99 "V_{SUPPLY}")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "4beeb54c-017d-4fce-b59a-d7e5e56ec8e3")
+			(uuid "d6ba14c6-5600-46c4-bdeb-c6b0c63dacf2")
 		)
 		(pad "9" smd rect
 			(at -0.209998 -0.925 270)
@@ -18915,7 +18916,7 @@
 			(net 183 "unconnected-(J13-MountPin-PadMP)_1")
 			(pinfunction "MountPin")
 			(pintype "passive+no_connect")
-			(uuid "b48baf12-94c1-42c2-9aa0-fec5fe67548b")
+			(uuid "5d4f7db4-5cbc-4f15-940f-26f079c346e2")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal.step"
@@ -32953,7 +32954,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "77fb7a06-7029-4c90-9f46-fabfc16cb201")
+			(uuid "24e195af-acd2-471d-8efb-f70afd68a650")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -33685,7 +33686,7 @@
 			(net 191 "unconnected-(J15-SHIELD-PadS1)_1")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "ec11e605-8874-4916-8b7b-859c72377133")
+			(uuid "b97e602e-7e9c-4742-bf07-42a44f9bdfc2")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -33696,7 +33697,7 @@
 			(net 192 "unconnected-(J15-SHIELD-PadS1)_2")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "ec11e605-8874-4916-8b7b-859c72377133")
+			(uuid "56a3798a-c2f7-470c-8106-2915a1c9aac7")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -33707,7 +33708,7 @@
 			(net 193 "unconnected-(J15-SHIELD-PadS1)_3")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "ec11e605-8874-4916-8b7b-859c72377133")
+			(uuid "07a4b9ac-2bfa-40f1-82a9-2e6895ad5cba")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -36110,7 +36111,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "4d479ecf-e170-4fbd-b59e-cafbc195fe4f")
+			(uuid "41b12ee4-33a1-4c0b-81ca-76d1e1bed800")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -37556,7 +37557,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "60793600-88fe-41bd-9094-6c3ad27f39b3")
+			(uuid "13492ba4-a595-4824-b6a2-f84a306cdcb1")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -39165,7 +39166,7 @@
 			(remove_unused_layers no)
 			(net 178 "Net-(FB2-Pad1)")
 			(pintype "passive")
-			(uuid "4239bb90-671f-4e20-8f22-735ad0312c47")
+			(uuid "ea8410f8-5a5f-4c59-9eed-d696de1fe9c4")
 		)
 		(embedded_fonts no)
 		(embedded_files
@@ -40548,7 +40549,7 @@
 			(net 196 "unconnected-(J16-SHIELD-PadS1)_1")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "452778f3-7f60-4b81-9765-de727324bc11")
+			(uuid "908cea2b-31a6-47d0-ae43-c87dee0aeb32")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -40559,7 +40560,7 @@
 			(net 197 "unconnected-(J16-SHIELD-PadS1)_2")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "452778f3-7f60-4b81-9765-de727324bc11")
+			(uuid "6af206af-598f-45ec-97e1-800f302d7265")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -40570,7 +40571,7 @@
 			(net 198 "unconnected-(J16-SHIELD-PadS1)_3")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
-			(uuid "452778f3-7f60-4b81-9765-de727324bc11")
+			(uuid "c579fe48-0fdd-44e0-8d3e-2004f19be97c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -44809,7 +44810,7 @@
 			(net 2 "GND")
 			(pinfunction "PAD")
 			(pintype "passive")
-			(uuid "53b6d422-3b87-4922-ad64-4f2f4ba93e7f")
+			(uuid "5ca1a662-05b3-4836-9ae3-014a43f89bf3")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -49528,6 +49529,82 @@
 				(thickness 0.1875)
 			)
 			(justify left)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "51e6ea01-277c-48be-aa5f-0bcb9e99c324")
+		(pts
+			(xy 258 103) (xy 255.75 12)
+		)
+		(height 5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "91"
+			(at 261.85 57.5 90)
+			(layer "User.1")
+			(uuid "51e6ea01-277c-48be-aa5f-0bcb9e99c324")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "8636c009-659e-406b-a676-c21b7f6dd8a7")
+		(pts
+			(xy 12 103) (xy 256.5 103)
+		)
+		(height 10.25)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "244.5"
+			(at 134.25 112.1 0)
+			(layer "User.1")
+			(uuid "8636c009-659e-406b-a676-c21b7f6dd8a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
