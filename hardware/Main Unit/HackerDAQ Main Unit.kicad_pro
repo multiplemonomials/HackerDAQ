@@ -244,12 +244,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|939800|774700|722a71a7-7cee-4e71-ba9b-33fe2700168a|49f5eff7-1617-4931-844b-f147707aac0c|/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74|/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f20a5acb-4894-4073-8c07-952a30c65f74|/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/6442a2f9-4c7d-4126-b24b-6ddb5831f5c5",
-        "Incorrect pin type on PHY symbol"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
