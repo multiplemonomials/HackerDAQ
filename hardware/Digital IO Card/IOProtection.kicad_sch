@@ -1840,7 +1840,7 @@
 		(instances
 			(project "HackerDAQ Digital IO Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/455d3721-42aa-4f0e-b48f-29a642ac1f78"
-					(reference "U4")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/67eb63b8-4985-495d-ab9e-4c58fb498c7d"

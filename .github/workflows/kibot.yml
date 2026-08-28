@@ -22,8 +22,9 @@ jobs:
         board_name:
           - "Voltage Card"
           - "Main Unit"
+          - "Digital IO Card"
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - name: run kibot
         run: | 
           cd "hardware/${{matrix.board_name}}"

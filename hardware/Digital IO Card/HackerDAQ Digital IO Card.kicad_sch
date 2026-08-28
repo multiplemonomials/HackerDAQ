@@ -5421,7 +5421,7 @@
 		)
 		(uuid "0a0549ee-c448-44fa-99be-8bb0362d7a7e")
 	)
-	(label "IO10"
+	(label "IO5"
 		(at 58.42 147.32 0)
 		(effects
 			(font
@@ -5431,7 +5431,7 @@
 		)
 		(uuid "0cd3f441-4ab4-41aa-b90d-ba2e069647c5")
 	)
-	(label "IO8"
+	(label "IO7"
 		(at 58.42 142.24 0)
 		(effects
 			(font
@@ -5441,7 +5441,7 @@
 		)
 		(uuid "122c07d4-a281-49b9-aa4c-bb4fda958bed")
 	)
-	(label "IO6"
+	(label "IO9"
 		(at 58.42 99.06 0)
 		(effects
 			(font
@@ -5461,7 +5461,7 @@
 		)
 		(uuid "13fe33bc-5258-4304-a787-145cef17d81b")
 	)
-	(label "IO7"
+	(label "IO8"
 		(at 58.42 101.6 0)
 		(effects
 			(font
@@ -5491,7 +5491,7 @@
 		)
 		(uuid "280e9980-4ca6-4112-835d-85edcde6e795")
 	)
-	(label "IO13"
+	(label "IO2"
 		(at 58.42 198.12 0)
 		(effects
 			(font
@@ -5511,7 +5511,7 @@
 		)
 		(uuid "35d2dc9e-06e4-4456-8615-b93f47563233")
 	)
-	(label "IO5"
+	(label "IO10"
 		(at 58.42 96.52 0)
 		(effects
 			(font
@@ -5661,7 +5661,7 @@
 		)
 		(uuid "7837e46e-f232-42a0-b4ea-a5274b25c813")
 	)
-	(label "IO2"
+	(label "IO13"
 		(at 58.42 48.26 0)
 		(effects
 			(font
@@ -5681,7 +5681,7 @@
 		)
 		(uuid "812e9839-73bc-44c7-8cf5-2fb5dcb34cf0")
 	)
-	(label "IO15"
+	(label "IO0"
 		(at 58.42 203.2 0)
 		(effects
 			(font
@@ -5691,7 +5691,7 @@
 		)
 		(uuid "85ddc458-ec4a-42e2-a859-9e2601f8e21f")
 	)
-	(label "IO9"
+	(label "IO6"
 		(at 58.42 144.78 0)
 		(effects
 			(font
@@ -5771,7 +5771,7 @@
 		)
 		(uuid "b483e322-6378-4668-bd83-01c9f56134f3")
 	)
-	(label "IO4"
+	(label "IO11"
 		(at 58.42 93.98 0)
 		(effects
 			(font
@@ -5811,7 +5811,7 @@
 		)
 		(uuid "c545f20d-011e-47b6-b6d3-21cc99255ad2")
 	)
-	(label "IO14"
+	(label "IO1"
 		(at 58.42 200.66 0)
 		(effects
 			(font
@@ -5821,7 +5821,7 @@
 		)
 		(uuid "caaa28f0-2771-4352-a3b5-88a5d3796bd9")
 	)
-	(label "IO11"
+	(label "IO4"
 		(at 58.42 149.86 0)
 		(effects
 			(font
@@ -5831,7 +5831,7 @@
 		)
 		(uuid "cbe2b96b-f03f-4d3d-bd9a-b69192a16ad6")
 	)
-	(label "IO0"
+	(label "IO15"
 		(at 58.42 43.18 0)
 		(effects
 			(font
@@ -5851,7 +5851,7 @@
 		)
 		(uuid "cce4ca6b-e3ea-490d-899f-b1fc92d5cc8a")
 	)
-	(label "IO1"
+	(label "IO14"
 		(at 58.42 45.72 0)
 		(effects
 			(font
@@ -5911,7 +5911,7 @@
 		)
 		(uuid "df7f4762-0618-4662-b627-d5829fe8efd7")
 	)
-	(label "IO3"
+	(label "IO12"
 		(at 58.42 50.8 0)
 		(effects
 			(font
@@ -5941,7 +5941,7 @@
 		)
 		(uuid "ecf110d4-11a8-47d3-9c67-c4fda5b8b918")
 	)
-	(label "IO12"
+	(label "IO3"
 		(at 58.42 195.58 0)
 		(effects
 			(font

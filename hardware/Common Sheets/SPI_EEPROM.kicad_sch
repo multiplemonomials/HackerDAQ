@@ -1175,7 +1175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad4b9f61-52c8-48af-abb0-a1c22452f65a")
-		(property "Reference" "R26"
+		(property "Reference" "R33"
 			(at 111.506 79.756 90)
 			(effects
 				(font
@@ -1265,7 +1265,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc/2388c7f7-4514-41da-b315-2dcc3aa57748"
-					(reference "R26")
+					(reference "R33")
 					(unit 1)
 				)
 			)
