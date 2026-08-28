@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|114555000|139950530|c32665bc-a1f1-483d-8064-2d51de284754|9c2c3ccd-af5d-4912-a2db-a1e958460e78",
-          "DB15 connector is on the board edge"
+          "silk_edge_clearance|114555000|139950530|c32665bc-a1f1-483d-8064-2d51de284754|fc4d7c51-9f62-4cd8-b59d-1948bd0a3302",
+          "OK, silkscreen runs to board edge"
         ]
       ],
       "meta": {
@@ -247,12 +247,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|812800|812800|62fc414b-d54a-4d1c-bcea-a867b8535d59|62fc414b-d54a-4d1c-bcea-a867b8535d59|||",
-        "SPI MISO pins so they are tri-state when not selected"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
