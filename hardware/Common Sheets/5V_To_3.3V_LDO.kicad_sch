@@ -696,7 +696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e282407-8191-4904-bd7e-1735c928006e")
-		(property "Reference" "C3"
+		(property "Reference" "C14"
 			(at 90.17 54.6162 0)
 			(effects
 				(font
@@ -808,7 +808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d456fdec-9f43-49e9-88a2-d434c2531ed8")
-		(property "Reference" "C4"
+		(property "Reference" "C19"
 			(at 59.69 58.4262 0)
 			(effects
 				(font

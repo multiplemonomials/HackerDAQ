@@ -7378,7 +7378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c456b942-7cb4-49f9-bc57-812d4b345fa0")
-		(property "Reference" "J6"
+		(property "Reference" "J9"
 			(at 28.956 129.54 0)
 			(effects
 				(font
@@ -7463,7 +7463,7 @@
 		(instances
 			(project "HackerDAQ Voltage Card"
 				(path "/af2d881c-6553-449d-9093-6deb41497bdc"
-					(reference "J6")
+					(reference "J9")
 					(unit 1)
 				)
 			)

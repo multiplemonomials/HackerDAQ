@@ -60,8 +60,8 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|114555000|139950530|c32665bc-a1f1-483d-8064-2d51de284754|b9b17d16-f7be-442e-b8ce-7d2d800157e7",
-          "OK, this is part of the serial port on the edge"
+          "silk_edge_clearance|114555000|139950530|c32665bc-a1f1-483d-8064-2d51de284754|69a2d9f6-0da8-4eda-a073-6d0b333a44ee",
+          "OK, silkscreen runs to board edge"
         ]
       ],
       "meta": {
