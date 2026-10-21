@@ -706,17 +706,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Digi-Key"
-			(at 74.93 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "4"
 			(uuid "b08cf731-1c22-48d6-8025-75be0752382c")
 		)
@@ -759,7 +748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e282407-8191-4904-bd7e-1735c928006e")
-		(property "Reference" "C3"
+		(property "Reference" "C14"
 			(at 90.17 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -858,17 +847,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "Digi-Key"
-			(at 87.63 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dca3c5e2-cbd4-47cd-8acd-fc5f8fe0fdc4")
 		)
@@ -902,7 +880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d456fdec-9f43-49e9-88a2-d434c2531ed8")
-		(property "Reference" "C4"
+		(property "Reference" "C19"
 			(at 59.69 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -991,17 +969,6 @@
 			)
 		)
 		(property "LibRef" "ESD35C104K4T2A-24"
-			(at 57.15 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "Digi-Key"
 			(at 57.15 59.69 0)
 			(hide yes)
 			(show_name no)
