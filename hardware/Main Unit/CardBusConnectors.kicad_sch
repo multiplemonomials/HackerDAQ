@@ -5218,7 +5218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4425f7bc-38c3-4165-b2a7-25a424ca1de3")
-		(property "Reference" "R12"
+		(property "Reference" "R11"
 			(at 163.83 44.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5339,11 +5339,11 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/647fa122-ba55-4257-82a5-33756e3f8461"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/65abad2d-a04a-4486-8762-5ae3bd8749b5"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9f275358-f91d-4a0c-a7c6-dd286f9a4cb9"
@@ -5637,7 +5637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c570657-bddb-470a-ab37-c2aa718ab499")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 99.822 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,6 +5715,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 114.3 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "15"
 			(uuid "22ea1936-fb15-40c6-8df1-ece0797994f4")
 		)
@@ -5766,11 +5777,11 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/647fa122-ba55-4257-82a5-33756e3f8461"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/65abad2d-a04a-4486-8762-5ae3bd8749b5"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9f275358-f91d-4a0c-a7c6-dd286f9a4cb9"
@@ -6154,7 +6165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95a5f01f-732a-48ce-9127-f1252354f622")
-		(property "Reference" "C36"
+		(property "Reference" "C38"
 			(at 115.57 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6253,6 +6264,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 118.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80caf604-e7a8-497e-834c-f2ce710e9998")
 		)
@@ -6262,11 +6284,11 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/647fa122-ba55-4257-82a5-33756e3f8461"
-					(reference "C36")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/65abad2d-a04a-4486-8762-5ae3bd8749b5"
-					(reference "C28")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/9f275358-f91d-4a0c-a7c6-dd286f9a4cb9"

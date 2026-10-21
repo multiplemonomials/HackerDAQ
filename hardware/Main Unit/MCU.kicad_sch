@@ -25259,6 +25259,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 252.73 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac3fe217-c8ea-46a9-bfe1-ca37e61cb726")
 		)
@@ -25365,6 +25376,17 @@
 		)
 		(property "LibRef" "RC0603FR-0730RL"
 			(at 247.65 504.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 247.65 504.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25510,7 +25532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "112d074d-d927-4d01-90ba-efddca24553e")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 352.298 461.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25871,7 +25893,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 5)
 				)
 			)
@@ -25888,7 +25910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "144ff9b8-5fbe-40d7-b3f1-0ab06ee6164f")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 355.092 277.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26249,7 +26271,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 4)
 				)
 			)
@@ -26346,6 +26368,17 @@
 		)
 		(property "LibRef" "RC0603FR-07140RL"
 			(at 306.07 492.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 306.07 492.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26459,7 +26492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f6c81a-6660-45df-9aa0-3078e642b579")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 66.04 85.0962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26558,6 +26591,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 63.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "687611b9-b6fa-4f89-9160-f930abb551c6")
 		)
@@ -26567,7 +26611,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -26585,7 +26629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a918996-d974-4337-acfa-761468c8c4af")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 53.34 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26684,6 +26728,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 50.8 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "935ef73d-b0bc-49ea-9106-2bdff6ea96ff")
 		)
@@ -26693,7 +26748,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -26711,7 +26766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fc7f5b8-d434-46a1-b19b-37c1da5e4abe")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 50.8 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26799,6 +26854,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 48.26 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ea6bb8fd-dee0-4f81-812f-1188c26fa2e7")
 		)
@@ -26808,7 +26874,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -27079,6 +27145,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 83.82 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3cb836b8-b284-4b31-9224-ec5a66476823")
 		)
@@ -27194,6 +27271,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 242.57 497.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cad30a04-a7a6-4e35-81e5-e913667ad104")
 		)
@@ -27221,7 +27309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e0e558-de1b-4eed-8a5a-919e27ae11f5")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 66.04 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27320,6 +27408,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 63.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ab41e73-73b6-4094-b6cb-e569e06547de")
 		)
@@ -27329,7 +27428,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -27346,7 +27445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36675731-7665-495f-adf9-f8df818691d8")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 46.99 123.1962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27445,6 +27544,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 44.45 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b78f6537-3367-4b20-9991-508a6394a66b")
 		)
@@ -27454,7 +27564,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -28033,6 +28143,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 83.82 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "662edefc-ae30-4e1c-8474-8ae69d67afa6")
 		)
@@ -28290,7 +28411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51196873-b33d-4fb0-9023-8ee1385ba577")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 67.564 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28389,6 +28510,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "575b4fb4-5a84-47b3-a37b-00dd052ed0a9")
 		)
@@ -28398,7 +28530,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -28505,6 +28637,17 @@
 			)
 		)
 		(property "LibRef" "RC0603FR-0710KL"
+			(at 92.71 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
 			(at 92.71 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -28630,6 +28773,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 306.07 488.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1c95c304-5b74-424f-ae4c-8ed8071562eb")
 		)
@@ -28657,7 +28811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58055b3a-2db3-419c-ac49-ad8ce5620b33")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 40.64 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28756,6 +28910,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 38.1 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b9440046-fa04-4b5f-b5b3-7e6d7040abe2")
 		)
@@ -28765,7 +28930,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -28783,7 +28948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b798c0f-7e4a-42dc-8d61-7c1fdd998e45")
-		(property "Reference" "C24"
+		(property "Reference" "C26"
 			(at 59.69 123.1962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28882,6 +29047,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 57.15 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52550c9b-e171-49d4-8386-79cb3cabace6")
 		)
@@ -28891,7 +29067,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C24")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -28976,6 +29152,17 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
+			(at 91.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
 			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -29142,7 +29329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6423885b-2f6c-4047-acb1-73c05993bb06")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 34.29 207.0162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29230,6 +29417,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 31.75 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3752ec3a-ef9c-4dc0-ad92-3b923b32d373")
 		)
@@ -29239,7 +29437,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -29356,6 +29554,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 74.93 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "397a8bcf-711f-44d5-9c82-998c4bd40d32")
 		)
@@ -29383,7 +29592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69d45586-d1e1-4d07-bfe4-20c9a452eb38")
-		(property "Reference" "R44"
+		(property "Reference" "R43"
 			(at 59.182 327.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29471,6 +29680,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 64.77 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "605911e7-b9ba-4034-b83b-1c1d1a929908")
 		)
@@ -29480,7 +29700,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R44")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -29743,7 +29963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77f91ee8-f9ea-45e5-975d-155f49e528f5")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 351.536 191.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30104,7 +30324,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 7)
 				)
 			)
@@ -30198,7 +30418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d4942bf-466c-49ae-b4f3-033ee351aa30")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 343.662 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30559,7 +30779,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -30754,6 +30974,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 71.12 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b9d06e6-5892-492b-9eba-2a7c1ffd7d7e")
 		)
@@ -30780,7 +31011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "821d0a8b-de79-4ad8-8a35-377e3ca884c6")
-		(property "Reference" "U11"
+		(property "Reference" "U13"
 			(at 81.534 331.216 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30868,6 +31099,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 86.36 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "259a8674-c4df-42cd-bc39-337f5bf6466a")
 		)
@@ -30889,7 +31131,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U11")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -30907,7 +31149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8892b0ca-74c9-4f61-b8c7-4a14ae738fcb")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 83.82 63.4936 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30984,6 +31226,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd514561-79cf-4ca5-a6db-f5c3c83f5bd1")
 		)
@@ -30993,7 +31246,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -31100,6 +31353,17 @@
 			)
 		)
 		(property "Mating Connector" ""
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
 			(at 81.28 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -31389,6 +31653,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 31.75 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aea57fb4-bcc8-4c7f-98c4-9bbd5166a8a9")
 		)
@@ -31646,7 +31921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94a91b8f-35b4-4d8f-a71b-e6f214adc07a")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 54.356 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31745,6 +32020,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 59.69 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f2abb91-16df-45ad-b8af-a63ac4b574b5")
 		)
@@ -31754,7 +32040,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -32030,6 +32316,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 95.25 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c22369c4-b322-4beb-bcd2-41301a2a5770")
 		)
@@ -32145,6 +32442,17 @@
 			)
 		)
 		(property "LibRef" "CL31B225KBHNNNE"
+			(at 167.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
 			(at 167.64 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -32500,7 +32808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afb5f589-69c6-4d59-a922-1e7cb37e659e")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 120.015 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32859,7 +33167,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -33030,7 +33338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be88bdd3-bbd8-4f1a-84d4-651e8b270969")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 139.446 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33391,7 +33699,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -33485,7 +33793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c34ceee3-30ce-4168-8400-0d7585f0b5a3")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 117.856 322.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33846,7 +34154,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "U4")
+					(reference "U5")
 					(unit 6)
 				)
 			)
@@ -34104,6 +34412,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 158.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "969c4661-9766-4d3a-8b4e-0d5d7e3a512c")
 		)
@@ -34131,7 +34450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e00ebc-df83-49db-843c-c5a955a6b8fb")
-		(property "Reference" "C34"
+		(property "Reference" "C36"
 			(at 107.95 283.2162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34230,6 +34549,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 105.41 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62064f42-75b0-4734-8356-4788884a9703")
 		)
@@ -34239,7 +34569,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C34")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -34324,6 +34654,17 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
+			(at 101.6 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
 			(at 101.6 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -34567,6 +34908,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 307.34 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60641603-9ff0-4b1e-837c-d6fc1d22f317")
 		)
@@ -34689,7 +35041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dd360754-02c9-430c-9c85-ee007c84af92")
-		(property "Reference" "R45"
+		(property "Reference" "R44"
 			(at 59.182 332.994 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34777,6 +35129,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 64.77 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bea907c1-92e1-435c-b590-26e183ab8513")
 		)
@@ -34786,7 +35149,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -34985,7 +35348,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e22a8d70-3236-49ec-b547-c7b7188068b4")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 265.176 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35062,6 +35425,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 260.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a42af32e-4e76-402a-b666-8d4ab0837bf4")
 		)
@@ -35071,7 +35445,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -35356,6 +35730,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8cbf1fb6-ffa9-4a1c-84db-43d502ed5fe3")
 		)
@@ -35537,6 +35922,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 106.68 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c4227994-78b4-4e31-b0e9-8a765e078056")
 		)
@@ -35563,7 +35959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eff758f9-3570-4857-b78b-c76c19412fd6")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 78.486 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35662,6 +36058,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 76.2 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd25ff85-1688-420d-a430-774191dd68c0")
 		)
@@ -35671,7 +36078,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -35793,7 +36200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4523bb0-9844-4499-af54-ba0d589e851d")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 170.18 78.7336 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35870,6 +36277,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "52ca3858-b3f4-474a-a36c-2b8f420c1dbe")
 		)
@@ -35879,7 +36297,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a/f5bf0a3d-2f20-40f8-9405-be203042c89d"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -35986,6 +36404,17 @@
 			)
 		)
 		(property "LibRef" "ESD35C104K4T2A-24"
+			(at 40.64 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "Digi-Key"
 			(at 40.64 100.33 0)
 			(hide yes)
 			(show_name no)

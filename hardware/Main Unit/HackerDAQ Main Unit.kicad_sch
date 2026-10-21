@@ -4275,6 +4275,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 264.16 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7c2032df-50a1-4c83-9c84-4de0c2e2e682")
 		)
@@ -4376,7 +4387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20ee750d-412a-46d2-abd3-af65200e29df")
-		(property "Reference" "U19"
+		(property "Reference" "U6"
 			(at 108.204 245.364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4480,7 +4491,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
-					(reference "U19")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f4b1996-b70b-4417-a4a3-a74923b9e280")
-		(property "Reference" "U18"
+		(property "Reference" "U4"
 			(at 97.79 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5141,7 +5152,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
-					(reference "U18")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5804,6 +5815,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 254 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec335540-5ec0-4e1b-bea2-b3dbf1b7b140")
 		)
@@ -6155,7 +6177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cffa4ae8-7e89-4661-ab03-edb5cb9ee8db")
-		(property "Reference" "C67"
+		(property "Reference" "C25"
 			(at 107.95 227.076 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,7 +6296,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
-					(reference "C67")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6292,7 +6314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d302d2d5-354b-4e21-841f-e63e054210ad")
-		(property "Reference" "C66"
+		(property "Reference" "C12"
 			(at 128.27 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6433,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
-					(reference "C66")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6506,7 +6528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ae87a1-848a-4268-89f8-afd5c8a1a91b")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 72.39 265.4362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6594,6 +6616,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "Digi-Key"
+			(at 69.85 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cddab558-1607-401a-905c-37c8026406f8")
 		)
@@ -6603,7 +6636,7 @@
 		(instances
 			(project "HackerDAQ Main Unit"
 				(path "/7d91f165-331a-4c48-9d02-ee2a0aa7e94a"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -6830,6 +6863,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 248.92 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6045975-4119-4dc1-a674-0dbdcf22b943")
 		)
@@ -6899,6 +6943,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 259.08 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
 			(at 259.08 267.97 0)
 			(hide yes)
 			(show_name no)
